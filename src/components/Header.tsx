@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import { AppBar, Box, Menu, Container, Toolbar, Button, IconButton, MenuItem, Typography } from '@mui/material';
@@ -12,16 +12,16 @@ function MenuIcon() {
 }
 
 function Header() {
-  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
-  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
+  const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
+  const [anchorElUser, setAnchorElUser] = useState<null | HTMLElement>(null);
   const {t, i18n}: ITranslateI18n = useTranslation();
   const pages: string[] = [
-    `${t('menu1')}`,
-    `${t('menu2')}`,
-    `${t('menu3')}`,
-    `${t('menu4')}`,
-    `${t('menu5')}`,
-    `${t('menu6')}`
+    `${t('header:menu1')}`,
+    `${t('header:menu2')}`,
+    `${t('header:menu3')}`,
+    `${t('header:menu4')}`,
+    `${t('header:menu5')}`,
+    `${t('header:menu6')}`
   ];
   const navigation: string[] = ['choose', 'lists', 'iptv', 'media', 'faq', 'about'];
   const locales: ILocales = {
@@ -193,7 +193,7 @@ function Header() {
                 },
               }}
             >
-              {t('lang')}
+              {t('header:lang')}
             </Button>
             <Menu
               sx={{mt: '45px'}}
