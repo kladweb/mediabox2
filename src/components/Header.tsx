@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import { AppBar, Box, Menu, Container, Toolbar, Button, IconButton, MenuItem, Typography } from '@mui/material';
@@ -28,6 +28,8 @@ function Header() {
     en: {title: 'English'},
     ru: {title: "Русский"},
   }
+
+  const lang = i18n.language;
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>): void => {
     setAnchorElNav(event.currentTarget);
@@ -118,7 +120,7 @@ function Header() {
             >
               {pages.map((page: string, index: number) => (
                 <NavLink
-                  to={`/${navigation[index]}`}
+                  to={`/ru/${navigation[index]}`}
                   key={index}
                   className={`navPages-links navPages-links-${navigation[index]}`}
                 >
@@ -159,7 +161,8 @@ function Header() {
           <Box sx={{flexGrow: 1, display: {xs: 'none', md: 'flex'}}}>
             {pages.map((page: string, index: number) => (
               <NavLink
-                to={`/${navigation[index]}`}
+                // to={`/ru/${navigation[index]}`}
+                to={`/${lang}/${navigation[index]}`}
                 key={index}
                 className={`navPages-links navPages-links-${navigation[index]}`}
               >

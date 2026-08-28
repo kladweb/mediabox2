@@ -14,8 +14,8 @@ function App() {
       <Suspense>
         <Header/>
         <Box sx={{minHeight: '100vh', backgroundColor: appColors.mid1,}}>
-          <Counter/>
           <PagesRouter/>
+          <Counter/>
         </Box>
       </Suspense>
     </BrowserRouter>
