@@ -1,4 +1,5 @@
-import { Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import Counter from "../components/Counter.tsx";
 // import PageDevices from '../pages/PageDevices';
 // import PageOperators from '../pages/PageOperators';
 // import PageChoosingOperator from "../pages/PageChoosingOperator";
@@ -15,6 +16,12 @@ export const PagesRouter = () => {
 
   return (
     <Routes>
+      <Route path='/ru'>
+        <Route path='counter' element={<Counter/>}/>
+      </Route>
+      <Route path='/en'>
+        <Route path='counter' element={<Counter/>}/>
+      </Route>
       {/*<Route path='/' element={<PageMain/>}/>*/}
       {/*<Route path='/choose' element={<PageChoosingOperator/>}/>*/}
       {/*<Route path='/lists' element={<PageChannels/>}>*/}
