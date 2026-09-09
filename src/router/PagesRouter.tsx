@@ -16,10 +16,7 @@ export const PagesRouter = () => {
 
   return (
     <Routes>
-      <Route path='/ru'>
-        <Route path='counter' element={<Counter/>}/>
-      </Route>
-      <Route path='/en'>
+      <Route path='/:language'>
         <Route path='counter' element={<Counter/>}/>
       </Route>
       {/*<Route path='/' element={<PageMain/>}/>*/}

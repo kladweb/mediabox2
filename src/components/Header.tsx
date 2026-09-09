@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import { AppBar, Box, Menu, Container, Toolbar, Button, IconButton, MenuItem, Typography } from '@mui/material';
 import { nameApp } from "../data/dataIPTV";
@@ -12,6 +12,9 @@ function MenuIcon() {
 }
 
 function Header() {
+  const {language} = useParams();
+  console.log(language);
+
   const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
   const [anchorElUser, setAnchorElUser] = useState<null | HTMLElement>(null);
   const {t, i18n}: ITranslateI18n = useTranslation();
