@@ -1,4 +1,4 @@
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 export type PropsStep = {
   step: number;
@@ -68,9 +68,11 @@ export interface ILinks {
 }
 
 export interface ILocales {
-  en: { title: 'English' },
-  ru: { title: 'Русский' }
+  en: { title: string },
+  ru: { title: string }
 }
+
+export type ILocale = 'en' | 'ru';
 
 export interface Idevices {
   boxes: string[],
