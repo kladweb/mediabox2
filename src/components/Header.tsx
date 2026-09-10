@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import { AppBar, Box, Menu, Container, Toolbar, Button, IconButton, MenuItem, Typography } from '@mui/material';
 import { nameApp } from "../data/dataIPTV";
-import type { ILocales, ITranslateI18n } from "../types/typesBox";
+import type { ILocale, ILocales, ITranslateI18n } from "../types/typesBox";
 import { appColors } from "../styles/appColors.ts";
 import './header.css';
 
@@ -12,9 +12,12 @@ function MenuIcon() {
 }
 
 function Header() {
+  const navigate = useNavigate();
+  const currentLang = useParams();
+  const lang = currentLang.language;
   const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
   const [anchorElUser, setAnchorElUser] = useState<null | HTMLElement>(null);
-  const {t, i18n}: ITranslateI18n = useTranslation();
+  const {t}: ITranslateI18n = useTranslation();
   const pages: string[] = [
     `${t('header:menu1')}`,
     `${t('header:menu2')}`,
@@ -29,7 +32,7 @@ function Header() {
     ru: {title: "Русский"},
   }
 
-  const lang = i18n.language;
+  // const lang = i18n.language;
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>): void => {
     setAnchorElNav(event.currentTarget);
@@ -46,11 +49,24 @@ function Header() {
     setAnchorElUser(null);
   };
 
-  const changeLanguage = (locale: string): void => {
+  // const changeLanguage = (locale: string): void => {
+  //   setAnchorElUser(null);
+  //   if (locale && locale !== i18n.language) {
+  //     i18n.changeLanguage(locale);
+  //   }
+  // };
+
+
+  const changeLanguage = (newLanguage: ILocale) => {
+    console.log(lang);
+    console.log(newLanguage);
+    const newPath = location.pathname.replace(
+      `/${lang}`,
+      `/${newLanguage}`
+    );
+
+    navigate(newPath);
     setAnchorElUser(null);
-    if (locale && locale !== i18n.language) {
-      i18n.changeLanguage(locale);
-    }
   };
 
   return (
@@ -208,11 +224,11 @@ function Header() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              {Object.keys(locales).map((locale: string) => (
-                <MenuItem key={locale} onClick={() => {
-                  changeLanguage(locale);
-                }}>
-                  <Typography align="center">{locales[locale as keyof (typeof locales)].title}</Typography>
+              {(Object.keys(locales) as ILocale[]).map((locale) => (
+                <MenuItem key={locale} onClick={() => changeLanguage(locale)}>
+                  <Typography align="center">
+                    {locales[locale].title}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
