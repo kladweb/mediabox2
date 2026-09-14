@@ -13,7 +13,7 @@ const Service = ({textInfo, pageNavigation, nameService, descriptionService}: Pr
       <CardActionArea
         sx={sxMainCards}
         onClick={() => {
-          navigate(`/${pageNavigation}`);
+          navigate(`${pageNavigation}`);
         }}
       >
         <Typography gutterBottom variant="h5" component="div" sx={{fontSize: '3em', p: 0, m: 0}}>
@@ -31,18 +31,18 @@ const MainInfo = () => {
   const {t}: ITranslate = useTranslation();
 
   return (
-    <Box sx={{mt: 7}}>
+    <Box sx={{mt: 7, width: '100%'}}>
       <Service
-        textInfo={t('mainText1')}
+        textInfo={t('main:mainText1')}
         pageNavigation='iptv'
         nameService='IPTV'
-        descriptionService={t('mainButton1')}
+        descriptionService={t('main:mainButton1')}
       />
       <Service
-        textInfo={t('mainText2')}
+        textInfo={t('main:mainText2')}
         pageNavigation='media'
-        nameService={t('mainButton21')}
-        descriptionService={t('mainButton23')}
+        nameService={t('main:mainButton21')}
+        descriptionService={t('main:mainButton23')}
       />
     </Box>
   )
