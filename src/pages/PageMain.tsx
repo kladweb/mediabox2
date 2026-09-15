@@ -4,7 +4,7 @@ import MainInfo from "../components/MainInfo";
 export const PageMain = () => {
   return (
     <Container maxWidth="xl">
-      <Toolbar disableGutters sx={{flexWrap: 'wrap'}}>
+      <Toolbar disableGutters sx={{width: '100%'}}>
         <MainInfo/>
       </Toolbar>
     </Container>

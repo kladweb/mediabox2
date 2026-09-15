@@ -94,7 +94,7 @@ function Header() {
               cursor: 'default',
             }}
           >
-            <NavLink id="RouterNavLink" to={'/'} key={0} className='navPages-links navPages-links-first'>
+            <NavLink id="RouterNavLink" to={`/${lang}`} key={0} className='navPages-links navPages-links-first'>
               {nameApp}
             </NavLink>
           </Typography>
