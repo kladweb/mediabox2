@@ -15,7 +15,7 @@ const ChoosingOperator = () => {
   }
 
   return (
-    <Box component='div' sx={{display: 'flex', flexDirection: 'column'}}>
+    <Box component='div' sx={{display: 'flex', flexDirection: 'column', width: '100%'}}>
       <Box
         component='h3'
         sx={{
@@ -27,7 +27,7 @@ const ChoosingOperator = () => {
           textAlign: 'center',
         }}
       >
-        {t('operators')}
+        {t('operators:operators')}
       </Box>
       <Box
         component='div'
@@ -42,10 +42,10 @@ const ChoosingOperator = () => {
         }}
       >
         <Box component='p'>
-          {t('operatorsIntro1')}
+          {t('operators:operatorsIntro1')}
         </Box>
         <Box component='p'>
-          {t('operatorsIntro2')}
+          {t('operators:operatorsIntro2')}
         </Box>
       </Box>
       <Box component='div' sx={{margin: '0 auto 2em', display: 'block', width: {xs: '100%', md: '70%'}}}>
@@ -74,7 +74,7 @@ const ChoosingOperator = () => {
              }
            }}
       >
-        {t('back')}
+        {t('operators:back')}
       </Box>
     </Box>
   );

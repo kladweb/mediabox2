@@ -6,8 +6,8 @@ import type { ITranslate, PropsOperator } from "../types/typesBox";
 
 export const CardChoosing = ({operator}: PropsOperator) => {
   const {t}: ITranslate = useTranslation();
-  const prices: string[] = `${t(`price-${operator}`)}`.split('-');
-  const descriptions: string[] = `${t(`description-${operator}`)}`.split('-');
+  const prices: string[] = `${t(`operators:price-${operator}`)}`.split('-');
+  const descriptions: string[] = `${t(`operators:description-${operator}`)}`.split('-');
   const links: string[] = operators[operator as keyof (typeof operators)]['links'];
   const mirrors: string[] = links.slice(1);
 
@@ -30,7 +30,7 @@ export const CardChoosing = ({operator}: PropsOperator) => {
       <CardMedia
         component="img"
         height="100"
-        image={`/img/operators/${operator.toLowerCase()}.png`}
+        image={`/img/operators/${operator.toLowerCase()}.webp`}
         alt={operator}
         sx={{margin: "1em 0 -1em", objectFit: "contain"}}
       />
@@ -38,7 +38,7 @@ export const CardChoosing = ({operator}: PropsOperator) => {
         <Typography gutterBottom component="h6"
                     sx={{fontSize: {xs: '1rem', md: '1.25rem'}}}
         >
-          {t('price')}
+          {t('operators:price')}
         </Typography>
         <Typography gutterBottom component="div"
                     sx={{
@@ -61,7 +61,7 @@ export const CardChoosing = ({operator}: PropsOperator) => {
         <Typography gutterBottom component="h6"
                     sx={{mt: '1em', fontSize: {xs: '1rem', md: '1.25rem'}}}
         >
-          {t('description')}
+          {t('operators:description')}
         </Typography>
         <Typography gutterBottom
                     component="div"
@@ -72,7 +72,7 @@ export const CardChoosing = ({operator}: PropsOperator) => {
                     }}
         >
           {
-            <ul style={{margin: 0, listStyleImage: "url('/img/icons/arrow.png')", whiteSpace: 'pre-wrap'}}>
+            <ul style={{margin: 0, listStyleImage: "url('/img/icons/arrow.webp')", whiteSpace: 'pre-wrap'}}>
               {
                 descriptions.map((description, i) => (
                   <li key={i}>{description}</li>
@@ -105,7 +105,7 @@ export const CardChoosing = ({operator}: PropsOperator) => {
             }
           }}
         >
-          {t('link')}
+          {t('operators:link')}
         </Box>
         {
           (mirrors.length > 0) ?
@@ -137,7 +137,7 @@ export const CardChoosing = ({operator}: PropsOperator) => {
                       }
                     }}
                   >
-                    {`${t('mirror')}${i + 1}`}
+                    {`${t('operators:mirror')}${i + 1}`}
                   </Box>
                 )
               }
