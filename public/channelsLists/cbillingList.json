@@ -1,0 +1,3519 @@
+{
+  "cbilling": [
+    {
+      "name": "Первый канал",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/pervyj.png"
+    },
+    {
+      "name": "Первый HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/pervyj-hd.png"
+    },
+    {
+      "name": "Россия 1",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/rossija1.png"
+    },
+    {
+      "name": "Россия 1 HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/rossija-hd.png"
+    },
+    {
+      "name": "НТВ",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/ntv.png"
+    },
+    {
+      "name": "НТВ HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/ntv-hd.png"
+    },
+    {
+      "name": "НТВ Мир",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/ntv-mir.png"
+    },
+    {
+      "name": "ТНТ",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/TNT.png"
+    },
+    {
+      "name": "ТНТ HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/tnt-hd.png"
+    },
+    {
+      "name": "ТНТ4",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/tnt-4.png"
+    },
+    {
+      "name": "ТНТ4 HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/tnt4-hd.png"
+    },
+    {
+      "name": "СТС",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/CTC.png"
+    },
+    {
+      "name": "СТС HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/ctc-hd.png"
+    },
+    {
+      "name": "СТС Love",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/sts-love.png"
+    },
+    {
+      "name": "Домашний",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/domashnij.png"
+    },
+    {
+      "name": "Домашний HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/domashnij-hd.png"
+    },
+    {
+      "name": "Перец",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/perec.png"
+    },
+    {
+      "name": "РЕН ТВ",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/ren-tv.png"
+    },
+    {
+      "name": "РЕН ТВ HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/ren-tv-hd.png"
+    },
+    {
+      "name": "ТВ3",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/tv-3.png"
+    },
+    {
+      "name": "ТВ3 HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/tv3-hd.png"
+    },
+    {
+      "name": "Че",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/4e.png"
+    },
+    {
+      "name": "Звезда",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/zvezda.png"
+    },
+    {
+      "name": "Звезда HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/zvezda-hd.png"
+    },
+    {
+      "name": "Звезда Плюс",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/zvezda-plus.png"
+    },
+    {
+      "name": "Звезда Плюс HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/zvezda-plus-hd.png"
+    },
+    {
+      "name": "ТВЦ",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/tvc.png"
+    },
+    {
+      "name": "ТВЦ HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/tvc-hd.png"
+    },
+    {
+      "name": "Санкт-Петербург HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/sankt-peterburg-hd.png"
+    },
+    {
+      "name": "Центральное телевидение",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/centralnoe-tv.png"
+    },
+    {
+      "name": "5 канал",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/5kanal.png"
+    },
+    {
+      "name": "Россия Культура",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/rossija-k.png"
+    },
+    {
+      "name": "Россия Культура HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/rossija-k-hd.png"
+    },
+    {
+      "name": "Москва Доверие",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/moskva-doverie.png"
+    },
+    {
+      "name": "Союз",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/souz.png"
+    },
+    {
+      "name": "Спас",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/spas.png"
+    },
+    {
+      "name": "Красная линия",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/krasnaja-linija.png"
+    },
+    {
+      "name": "8 канал",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/8-kanal.png"
+    },
+    {
+      "name": "9 Канал",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/9-kanal.png"
+    },
+    {
+      "name": "ОТР",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/otp.png"
+    },
+    {
+      "name": "ОТР HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/otr-hd.png"
+    },
+    {
+      "name": "Мир",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/mir.png"
+    },
+    {
+      "name": "Мир HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/mir-hd.png"
+    },
+    {
+      "name": "Мир 24",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/mir-24.png"
+    },
+    {
+      "name": "Мир 24 HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/mir-24-hd.png"
+    },
+    {
+      "name": "Сарафан",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/sarafan.png"
+    },
+    {
+      "name": "Gagsnetwork",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/gagsnetwork.png"
+    },
+    {
+      "name": "Gagsnetwork HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/gagsnetwork-hd.png"
+    },
+    {
+      "name": "КВН ТВ",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/kvn-tv.png"
+    },
+    {
+      "name": "Пятница",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/piatnica.png"
+    },
+    {
+      "name": "Пятница HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/piatnica-hd.png"
+    },
+    {
+      "name": "Суббота",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/super.png"
+    },
+    {
+      "name": "Суббота HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/super-hd.png"
+    },
+    {
+      "name": "Телеканал 360",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/podmoskovje.png"
+    },
+    {
+      "name": "Телеканал 360 HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/telekanal-360-hd.png"
+    },
+    {
+      "name": "Ю ТВ",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/yu-tv.png"
+    },
+    {
+      "name": "Время",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/vremya.png"
+    },
+    {
+      "name": "RT Док",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/rt-doc.png"
+    },
+    {
+      "name": "RT Док HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/russia-today-doc-hd.png"
+    },
+    {
+      "name": "RTVi",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/rtvi.png"
+    },
+    {
+      "name": "Дождь",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/dozhd.png"
+    },
+    {
+      "name": "Дождь HD",
+      "group": "Общероссийские",
+      "src": "http://static.g-cdn.app/streams/dozhd-hd.png"
+    },
+    {
+      "name": "Россия 24",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/rossija24.png"
+    },
+    {
+      "name": "EuroNews",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/evronews.png"
+    },
+    {
+      "name": "Известия",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/izvestija.png"
+    },
+    {
+      "name": "Известия HD",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/izvestija-hd.png"
+    },
+    {
+      "name": "360 Новости HD",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/360-novosti-hd.png"
+    },
+    {
+      "name": "Москва 24",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/moskva-24.png"
+    },
+    {
+      "name": "РБК",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/rbk.png"
+    },
+    {
+      "name": "РБК HD",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/rbk-hd.png"
+    },
+    {
+      "name": "RT",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/rt-english.png"
+    },
+    {
+      "name": "RT HD",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/russia-today-hd.png"
+    },
+    {
+      "name": "Sky News",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/sky-news-uk.png"
+    },
+    {
+      "name": "Sky News HD",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/sky-news-uk-hd.png"
+    },
+    {
+      "name": "FOX News HD",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/fox-news-hd.png"
+    },
+    {
+      "name": "BBC World",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/bbc-world-news.png"
+    },
+    {
+      "name": "BBC World HD",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/bbc-world-news-hd.png"
+    },
+    {
+      "name": "CNN",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/cnn.png"
+    },
+    {
+      "name": "CNN HD",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/cnn-hd.png"
+    },
+    {
+      "name": "Bloomberg TV HD",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/bloomberg-hd.png"
+    },
+    {
+      "name": "Al Jazeera HD",
+      "group": "Новости",
+      "src": "http://static.g-cdn.app/streams/al-jazeera-hd.png"
+    },
+    {
+      "name": "Кинопремьера HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinopremiera-hd.png"
+    },
+    {
+      "name": "Премиальное HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kino-premium-hd.png"
+    },
+    {
+      "name": "Остросюжетное HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/ostrosujetnoe-hd.png"
+    },
+    {
+      "name": "Хит HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/hit-hd.png"
+    },
+    {
+      "name": "Кинохит",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinohit.png"
+    },
+    {
+      "name": "Кинохит HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinohit-hd.png"
+    },
+    {
+      "name": "Киномикс",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinomix.png"
+    },
+    {
+      "name": "Киномикс HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinomix-hd.png"
+    },
+    {
+      "name": "Киносемья",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinosemja.png"
+    },
+    {
+      "name": "Киносемья HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinosemja-hd.png"
+    },
+    {
+      "name": "Киносвидание",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinosvidanije.png"
+    },
+    {
+      "name": "Киносвидание HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinosvidanije-hd.png"
+    },
+    {
+      "name": "Киносерия",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/mnogo-tv.png"
+    },
+    {
+      "name": "Киносерия HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/mnogo-tv-hd.png"
+    },
+    {
+      "name": "Кинопоказ",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinopokaz.png"
+    },
+    {
+      "name": "Кинопоказ HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinopokaz-hd.png"
+    },
+    {
+      "name": "Блокбастер HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/blokbaster-hd.png"
+    },
+    {
+      "name": "Наш Кинопоказ HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/nash-kinopokaz-hd.png"
+    },
+    {
+      "name": "Душевное HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/nash-kinoroman-hd.png"
+    },
+    {
+      "name": "Наше HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/nash-detektiv-hd.png"
+    },
+    {
+      "name": "Любимое HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/nashe-lubimoe-hd.png"
+    },
+    {
+      "name": "Viju+ premiere",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000-premium-hd.png"
+    },
+    {
+      "name": "Viju+ megahit",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000-megahit-hd.png"
+    },
+    {
+      "name": "Viju+ comedy",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000-comedy-hd.png"
+    },
+    {
+      "name": "Viju+ serial HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/vip-serial-hd.png"
+    },
+    {
+      "name": "Viju TV1000",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000.png"
+    },
+    {
+      "name": "Viju TV1000 HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000-hd.png"
+    },
+    {
+      "name": "Viju TV1000 action",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000-action.png"
+    },
+    {
+      "name": "Viju TV1000 action HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000-action-hd.png"
+    },
+    {
+      "name": "Viju TV1000 русское",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000-ru-kino.png"
+    },
+    {
+      "name": "Viju TV1000 русское HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000-russkoje-hd.png"
+    },
+    {
+      "name": "Viasat Kino World",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000-world-kino.png"
+    },
+    {
+      "name": "Viasat Kino World HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv1000-world-kino-hd.png"
+    },
+    {
+      "name": "Hollywood HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/mgm-hd.png"
+    },
+    {
+      "name": "Cinema",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/cinema.png"
+    },
+    {
+      "name": "Cinema HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/cinema-hd.png"
+    },
+    {
+      "name": "Кино ТВ",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kino-tv.png"
+    },
+    {
+      "name": "Кино ТВ HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kino-tv-hd.png"
+    },
+    {
+      "name": "Kinojam 1 HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinojam1-hd.png"
+    },
+    {
+      "name": "Kinojam 2 HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinojam2-hd.png"
+    },
+    {
+      "name": "Family Jam HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/family-jam-hd.png"
+    },
+    {
+      "name": "Detective Jam HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/detective-jam-hd.png"
+    },
+    {
+      "name": "KinoLiving HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinoliving-hd.png"
+    },
+    {
+      "name": "KION Хит HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kion-hit-hd.png"
+    },
+    {
+      "name": "Start World",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/start-world.png"
+    },
+    {
+      "name": "Start World HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/start-world-hd.png"
+    },
+    {
+      "name": "Start Air",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/start-air.png"
+    },
+    {
+      "name": "Start Air HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/start-air-hd.png"
+    },
+    {
+      "name": "Plan B",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/plan-b.png"
+    },
+    {
+      "name": "Plan B HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/plan-b-hd.png"
+    },
+    {
+      "name": "4ever Cinema HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/4ever-cinema-ua-hd.png"
+    },
+    {
+      "name": "Кинеко HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kineko-hd.png"
+    },
+    {
+      "name": "Еврокино",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/evrokino.png"
+    },
+    {
+      "name": "Еврокино HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/evrokino-hd.png"
+    },
+    {
+      "name": "Кино Без Границ HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kino-bez-granic-hd.png"
+    },
+    {
+      "name": "Flix Snip",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/flix-snip.png"
+    },
+    {
+      "name": "Flix Snip HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/flix-snip-hd.png"
+    },
+    {
+      "name": "SHOT TV",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/egoist-tv.png"
+    },
+    {
+      "name": "SHOT TV HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/egoist-tv-hd.png"
+    },
+    {
+      "name": "VHS-ка HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/vhska-hd.png"
+    },
+    {
+      "name": "Мужское кино",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/muzhskoe-kino.png"
+    },
+    {
+      "name": "Мужское кино HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/muzhskoe-kino-hd.png"
+    },
+    {
+      "name": "Наше Мужское HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/nashe-muzshkoe-hd.png"
+    },
+    {
+      "name": "Trash HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/trash-hd.png"
+    },
+    {
+      "name": "Страшное HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/strashnoe-hd.png"
+    },
+    {
+      "name": "Шокирующее HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinopokaz-hd1.png"
+    },
+    {
+      "name": "Киноужас HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinouzhas-hd.png"
+    },
+    {
+      "name": "Scream",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/Scream.png"
+    },
+    {
+      "name": "Scream HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/scream-hd.png"
+    },
+    {
+      "name": "НСТ",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/hct.png"
+    },
+    {
+      "name": "Комедия",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/russkaja-comedija.png"
+    },
+    {
+      "name": "Кинокомедия",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinokomedia.png"
+    },
+    {
+      "name": "Кинокомедия HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinokomedia-hd.png"
+    },
+    {
+      "name": "Комедийное HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/kinopokaz-hd2.png"
+    },
+    {
+      "name": "Камеди HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/comedy-hd.png"
+    },
+    {
+      "name": "Amedia Premium",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/amedia-premium.png"
+    },
+    {
+      "name": "AMEDIA Premium HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/amedia-premium-hd.png"
+    },
+    {
+      "name": "Amedia Hit",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/amedia-hit.png"
+    },
+    {
+      "name": "AMEDIA HIT HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/amedia-hit-hd.png"
+    },
+    {
+      "name": "A1",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/amedia-1.png"
+    },
+    {
+      "name": "A1 HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/amedia1-hd.png"
+    },
+    {
+      "name": "A2",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/amedia-2.png"
+    },
+    {
+      "name": "A2 HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/amedia-2-hd.png"
+    },
+    {
+      "name": "FX",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/fox.png"
+    },
+    {
+      "name": "FX HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/fox-hd.png"
+    },
+    {
+      "name": "FX Life",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/fox-life.png"
+    },
+    {
+      "name": "FX Life HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/fox-life-hd.png"
+    },
+    {
+      "name": "Red",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/set.png"
+    },
+    {
+      "name": "Red HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/set-hd.png"
+    },
+    {
+      "name": "Sci-Fi",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/sony-sci-fi.png"
+    },
+    {
+      "name": "Sci-Fi HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/sci-fi-hd.png"
+    },
+    {
+      "name": "Suspense HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/suspense-hd.png"
+    },
+    {
+      "name": "Black",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/sony-turbo.png"
+    },
+    {
+      "name": "Black HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/black-hd.png"
+    },
+    {
+      "name": "ТВ21",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/tv-xxi.png"
+    },
+    {
+      "name": "Мосфильм",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/mosfilm.png"
+    },
+    {
+      "name": "Мосфильм HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/mosfilm-hd.png"
+    },
+    {
+      "name": "Любимое Кино",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/lubimoe-kino.png"
+    },
+    {
+      "name": "Любимое Кино HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/lubimoe-kino-hd.png"
+    },
+    {
+      "name": "Советская Киноклассика HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/sovetskaya-kinoclassica-hd.png"
+    },
+    {
+      "name": "Родное кино",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/rodnoje_kino.png"
+    },
+    {
+      "name": "Победа",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/pobeda.png"
+    },
+    {
+      "name": "День Победы HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/den-pobedy-hd.png"
+    },
+    {
+      "name": "Наше новое кино",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/nashe-novoe-kino.png"
+    },
+    {
+      "name": "Наше новое кино HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/nashe-novoe-kino-hd.png"
+    },
+    {
+      "name": "Русский Бестселлер",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/russkij-bestseller.png"
+    },
+    {
+      "name": "Телекафе",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/telekafe.png"
+    },
+    {
+      "name": "Дом Кино",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/dom-kino.png"
+    },
+    {
+      "name": "Дом Кино Премиум HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/dom-kino-premium-hd.png"
+    },
+    {
+      "name": "Русский Роман",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/russkij-roman.png"
+    },
+    {
+      "name": "Русский Роман HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/russkij-roman-hd.png"
+    },
+    {
+      "name": "Русский Детектив",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/russkij-detektiv.png"
+    },
+    {
+      "name": "Русский Иллюзион",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/russkij-iluzion.png"
+    },
+    {
+      "name": "Русский Иллюзион HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/russkij-iluzion-hd.png"
+    },
+    {
+      "name": "Иллюзион +",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/iluzion-plus.png"
+    },
+    {
+      "name": "Иллюзион + HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/iluzion-plus-hd.png"
+    },
+    {
+      "name": "Феникс+Кино",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/feniks-plus-kino.png"
+    },
+    {
+      "name": "Феникс+Кино HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/feniks-plus-kino-hd.png"
+    },
+    {
+      "name": "Мир Сериала",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/mir-seriala.png"
+    },
+    {
+      "name": "Мир Сериала HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/mir-seriala-hd.png"
+    },
+    {
+      "name": "Романтичное HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/romantichnoe-hd.png"
+    },
+    {
+      "name": "Про Любовь HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/pro-lubov-hd.png"
+    },
+    {
+      "name": "Лавстори HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/love-story-hd.png"
+    },
+    {
+      "name": "Romance HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/romance-hd.png"
+    },
+    {
+      "name": "НТВ Хит",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/ntv-hit.png"
+    },
+    {
+      "name": "НТВ Хит HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/ntv-hit-hd.png"
+    },
+    {
+      "name": "НТВ Сериал",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/ntv-serial.png"
+    },
+    {
+      "name": "НТВ Сериал HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/ntv-serial-hd.png"
+    },
+    {
+      "name": "Ностальгия",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/nostalgia.png"
+    },
+    {
+      "name": "Ретро ТВ",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/retro.png"
+    },
+    {
+      "name": "Сапфир HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/sapfir-hd.png"
+    },
+    {
+      "name": "Дорама HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/dorama-hd.png"
+    },
+    {
+      "name": "Bollywood HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/bollywood.png"
+    },
+    {
+      "name": "Индийское Кино",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/indija-tv.png"
+    },
+    {
+      "name": "Индия ТВ",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/zee-tv.png"
+    },
+    {
+      "name": "Индия ТВ HD",
+      "group": "Кино",
+      "src": "http://static.g-cdn.app/streams/zee-tv-hd.png"
+    },
+    {
+      "name": "Матч Премьер",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/nash-futbol.png"
+    },
+    {
+      "name": "Матч Премьер HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/nash-futbol-hd.png"
+    },
+    {
+      "name": "Футбол",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/futbol.png"
+    },
+    {
+      "name": "Футбол HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/futbol-hd.png"
+    },
+    {
+      "name": "МАТЧ! Футбол 1",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-futbol-1.png"
+    },
+    {
+      "name": "МАТЧ! Футбол 1 HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-futbol1-hd.png"
+    },
+    {
+      "name": "МАТЧ! Футбол 2",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-futbol-2.png"
+    },
+    {
+      "name": "МАТЧ! Футбол 2 HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-futbol2-hd.png"
+    },
+    {
+      "name": "МАТЧ! Футбол 3",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-futbol-3.png"
+    },
+    {
+      "name": "МАТЧ! Футбол 3 HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-futbol3-hd.png"
+    },
+    {
+      "name": "Матч ТВ",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match.png"
+    },
+    {
+      "name": "Матч ТВ HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-tv-hd.png"
+    },
+    {
+      "name": "Матч! Игра",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-igra.png"
+    },
+    {
+      "name": "Матч! Игра HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-igra-hd.png"
+    },
+    {
+      "name": "Матч! Арена",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-arena.png"
+    },
+    {
+      "name": "Матч! Арена HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-arena-hd.png"
+    },
+    {
+      "name": "Матч! Страна",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-nash-sport.png"
+    },
+    {
+      "name": "Матч! Страна HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-strana-hd.png"
+    },
+    {
+      "name": "Старт HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/start-hd.png"
+    },
+    {
+      "name": "KHL",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/khl-tv.png"
+    },
+    {
+      "name": "KHL HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/khl-tv-hd.png"
+    },
+    {
+      "name": "KHL Prime HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/khl-prime-hd.png"
+    },
+    {
+      "name": "Хоккейный HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/hokkejnyj-hd.png"
+    },
+    {
+      "name": "Футбольный HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/futbolnyj-hd.png"
+    },
+    {
+      "name": "Спортивный HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/sportivnyj-hd.png"
+    },
+    {
+      "name": "Super Tennis HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/super-tennis-hd.png"
+    },
+    {
+      "name": "Viju+ sport",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/viasat-sport.png"
+    },
+    {
+      "name": "Viju+ sport HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/viasat-sport-hd.png"
+    },
+    {
+      "name": "Eurosport 1",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/evrosport.png"
+    },
+    {
+      "name": "Eurosport 1 HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/eurosport-hd.png"
+    },
+    {
+      "name": "Eurosport 2",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/evrosport-2.png"
+    },
+    {
+      "name": "Eurosport 2 HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/eurosport2-hd.png"
+    },
+    {
+      "name": "Setanta Sports 1 HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/setanta-eurasia.png"
+    },
+    {
+      "name": "Setanta Sports 2 HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/setanta-eurasia-plus.png"
+    },
+    {
+      "name": "Setanta Sports UA HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/setanta-sport-hd-ua.png"
+    },
+    {
+      "name": "Setanta Sports + UA HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/setanta-sport-plus-ua-hd.png"
+    },
+    {
+      "name": "UPL 1 HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/upl1-ua-hd.png"
+    },
+    {
+      "name": "Setanta Qazaqstan HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/setanta-qazaqstan-hd.png"
+    },
+    {
+      "name": "QSport HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/qsport-hd.png"
+    },
+    {
+      "name": "Спорт 1",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/sport1-ua.png"
+    },
+    {
+      "name": "MMA-TV",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/m1-global-tv.png"
+    },
+    {
+      "name": "Спорт 2",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/sport2-ua.png"
+    },
+    {
+      "name": "MMA-TV HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/m1-global-hd.png"
+    },
+    {
+      "name": "UDAR HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/ufc-hd.png"
+    },
+    {
+      "name": "МАТЧ! Боец",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-boec.png"
+    },
+    {
+      "name": "Матч! Боец HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/match-boec-hd.png"
+    },
+    {
+      "name": "Точка Отрыва",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/tochka-otryva.png"
+    },
+    {
+      "name": "Русский Экстрим HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/russkij-extrim-hd.png"
+    },
+    {
+      "name": "Extreme Sports",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/extreme-sports.png"
+    },
+    {
+      "name": "Конный Мир HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/konnyj-mir-hd.png"
+    },
+    {
+      "name": "Авто Плюс",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/avto-plus.png"
+    },
+    {
+      "name": "Авто Плюс HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/auto-plus-hd.png"
+    },
+    {
+      "name": "Авто 24 HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/avto-24-hd.png"
+    },
+    {
+      "name": "Драйв",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/drive.png"
+    },
+    {
+      "name": "Первый Автомобильный HD",
+      "group": "Спорт",
+      "src": "http://static.g-cdn.app/streams/pervyj-avto-hd-ua.png"
+    },
+    {
+      "name": "Детский мир",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/detskij-mir.png"
+    },
+    {
+      "name": "Детский Мир HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/detskij-mir-hd.png"
+    },
+    {
+      "name": "Карусель",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/karusel.png"
+    },
+    {
+      "name": "Карусель HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/karusel-hd.png"
+    },
+    {
+      "name": "В гостях у сказки",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/gosti-skazka.png"
+    },
+    {
+      "name": "В гостях у сказки HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/gosti-skazka-hd.webp"
+    },
+    {
+      "name": "Чижик HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/chizik-hd.png"
+    },
+    {
+      "name": "Мульт",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/mult.png"
+    },
+    {
+      "name": "Мульт HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/tlum-hd.png"
+    },
+    {
+      "name": "КиноМульт",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/kinomult.png"
+    },
+    {
+      "name": "Мультиландия",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/multimania.png"
+    },
+    {
+      "name": "Мультиландия HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/multimania-hd.png"
+    },
+    {
+      "name": "Мультимузыка",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/strana.png"
+    },
+    {
+      "name": "СТС Kids",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/ctc-kids.png"
+    },
+    {
+      "name": "СТС Kids HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/ctc-kids-hd.png"
+    },
+    {
+      "name": "Капитан Фантастика HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/ginger-hd.png"
+    },
+    {
+      "name": "СуперГерои HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/super-geroi-hd.png"
+    },
+    {
+      "name": "Рыжий",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/ryzhij.png"
+    },
+    {
+      "name": "Уникум",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/detksij.png"
+    },
+    {
+      "name": "Уникум HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/detskij-hd.png"
+    },
+    {
+      "name": "Ducktv HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/ducktv-hd.png"
+    },
+    {
+      "name": "Лёва HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/ljova-hd.png"
+    },
+    {
+      "name": "Солнце",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/solnce.png"
+    },
+    {
+      "name": "О!",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/kanal-o.png"
+    },
+    {
+      "name": "Nickelodeon",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/nickelodeon.png"
+    },
+    {
+      "name": "Cartoon Network",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/cartoon-network.png"
+    },
+    {
+      "name": "Cartoon Classics",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/cartoon-classics.png"
+    },
+    {
+      "name": "ТипТоп HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/tip-top-hd.png"
+    },
+    {
+      "name": "Cartoonito HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/cartoonito-hd.png"
+    },
+    {
+      "name": "Nick Jr",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/nickjr.png"
+    },
+    {
+      "name": "TiJi",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/tiji.png"
+    },
+    {
+      "name": "JimJam",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/jimjam.png"
+    },
+    {
+      "name": "Gulli Girl",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/gulli.png"
+    },
+    {
+      "name": "Ani",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/ani.png"
+    },
+    {
+      "name": "2x2",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/2x2.png"
+    },
+    {
+      "name": "FAN HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/fan-hd.png"
+    },
+    {
+      "name": "ПлюсПлюс HD",
+      "group": "Мультфильмы",
+      "src": "http://static.g-cdn.app/streams/plus-plus-ua-hd.png"
+    },
+    {
+      "name": "National Geographic",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/national-geographic.png"
+    },
+    {
+      "name": "National Geographic HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/nat-geo-hd.png"
+    },
+    {
+      "name": "Discovery Channel",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/discovery.png"
+    },
+    {
+      "name": "Discovery Channel HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/discovery-hd.png"
+    },
+    {
+      "name": "Investigation Discovery",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/id-xtra.png"
+    },
+    {
+      "name": "Investigation Discovery HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/id-xtra-hd.png"
+    },
+    {
+      "name": "TLC",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/tlc.png"
+    },
+    {
+      "name": "TLC HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/tlc-hd.png"
+    },
+    {
+      "name": "Womens Magazine HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/womens-magazine-hd.png"
+    },
+    {
+      "name": "Animal planet",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/animal-planet.png"
+    },
+    {
+      "name": "Animal Planet HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/animal-planet-hd.png"
+    },
+    {
+      "name": "Nat Geo Wild",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/nat-geo-wild.png"
+    },
+    {
+      "name": "Nat Geo Wild HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/nat-geo-wild-hd.png"
+    },
+    {
+      "name": "Love Nature HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/love-nature-hd.png"
+    },
+    {
+      "name": "В мире животных HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/animal-family-hd.png"
+    },
+    {
+      "name": "Viju nature",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/viasat-nature.png"
+    },
+    {
+      "name": "Viju nature HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/viasat-nature-hd.png"
+    },
+    {
+      "name": "Viju+ planet HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/viasat-history-hd-test.png"
+    },
+    {
+      "name": "Viju explore",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/viasat-explorer.png"
+    },
+    {
+      "name": "Viju explore HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/viasat-explore-hd.png"
+    },
+    {
+      "name": "Моя планета",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/moya-planeta.png"
+    },
+    {
+      "name": "Моя планета HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/planeta-hd.png"
+    },
+    {
+      "name": "Живая Планета",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/zhivaya-planeta.png"
+    },
+    {
+      "name": "Живая природа HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/zhivaja-priroda-hd.png"
+    },
+    {
+      "name": "Big Planet HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/big-planet-hd.png"
+    },
+    {
+      "name": "Terra HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/terra-hd.png"
+    },
+    {
+      "name": "Travel Channel",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/travel-channel.png"
+    },
+    {
+      "name": "Travel Channel HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/travel-channel-hd.png"
+    },
+    {
+      "name": "Travel+Adventure",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/travel-adventure.png"
+    },
+    {
+      "name": "Travel+Adventure HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/travel-adventure-hd.png"
+    },
+    {
+      "name": "Приключения HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/teletravel-hd.png"
+    },
+    {
+      "name": "Телепутешествия",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/teleputeshestvija.png"
+    },
+    {
+      "name": "Глазами Туриста HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/glazami-turista-hd.png"
+    },
+    {
+      "name": "Наша Тема",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/nasha-tema.png"
+    },
+    {
+      "name": "Наша Тема HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/nasha-tema-ua-hd.png"
+    },
+    {
+      "name": "Поехали HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/poehali-hd.png"
+    },
+    {
+      "name": "Неизвестная Россия HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/neizvestnaya-rossia-hd.png"
+    },
+    {
+      "name": "Большая Азия HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/big-asia-hd.png"
+    },
+    {
+      "name": "RTG",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/rtg-tv.png"
+    },
+    {
+      "name": "RTG HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/rtg-hd.png"
+    },
+    {
+      "name": "HDL",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/hd-life.png"
+    },
+    {
+      "name": "Ocean-TV",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/ocean-tv.png"
+    },
+    {
+      "name": "Моя Стихия HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/morskoj-hd.png"
+    },
+    {
+      "name": "Zooпарк",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/zoopark.png"
+    },
+    {
+      "name": "Рыболов",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/ohotnik-rybolov.png"
+    },
+    {
+      "name": "Охотник и рыболов HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/ohotnik-rybolov-hd.png"
+    },
+    {
+      "name": "Дикая Охота HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/dikaya-ohota-hd.png"
+    },
+    {
+      "name": "Дикая Рыбалка HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/dikaya-rybalka-hd.png"
+    },
+    {
+      "name": "Охота и рыбалка",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/oxota-rybalka.png"
+    },
+    {
+      "name": "Диалоги о Рыбалке",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/dialogi-rybalka.png"
+    },
+    {
+      "name": "Диалоги о Рыбалке HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/dialogi-rybalka-hd.png"
+    },
+    {
+      "name": "Оружие",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/oruzhie.png"
+    },
+    {
+      "name": "Арсенал HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/arsenal-hd.png"
+    },
+    {
+      "name": "Мужской",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/muzhskoj.png"
+    },
+    {
+      "name": "Техно 24",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/t24.png"
+    },
+    {
+      "name": "Наука",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/nauka-20.png"
+    },
+    {
+      "name": "Наука HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/nauka-hd.png"
+    },
+    {
+      "name": "Galaxy HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/galaxy-hd.png"
+    },
+    {
+      "name": "Первый космический HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/eureka-hd.png"
+    },
+    {
+      "name": "Da Vinci",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/da-vinci-learning.png"
+    },
+    {
+      "name": "Curiosity Stream HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/curiosity-stream-hd.png"
+    },
+    {
+      "name": "History",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/history.png"
+    },
+    {
+      "name": "History HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/history-hd.png"
+    },
+    {
+      "name": "History 2 HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/h2-hd.png"
+    },
+    {
+      "name": "Viju history",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/viasat-history.png"
+    },
+    {
+      "name": "Viju history HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/viasat-history-hd.png"
+    },
+    {
+      "name": "История",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/istorija.png"
+    },
+    {
+      "name": "365 Дней",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/365-dnej.png"
+    },
+    {
+      "name": "Top Secret",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/sovershenno-sekretno.png"
+    },
+    {
+      "name": "Кто есть кто",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/kto-est-kto.png"
+    },
+    {
+      "name": "Криминальное HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/kriminalnoe-hd.png"
+    },
+    {
+      "name": "НТВ Право",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/ntv-pravo.png"
+    },
+    {
+      "name": "Зал Суда HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/zal-suda-hd.png"
+    },
+    {
+      "name": "Доктор",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/zdorovoe-tv.png"
+    },
+    {
+      "name": "Доктор HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/zdorovoe-tv-hd.png"
+    },
+    {
+      "name": "Вопросы и ответы",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/voprosy-otvety.png"
+    },
+    {
+      "name": "Живи",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/zhivi.png"
+    },
+    {
+      "name": "Живи HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/zhivi-hd.png"
+    },
+    {
+      "name": "Усадьба",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/usadba.png"
+    },
+    {
+      "name": "Домашние животные",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/domashnije-zhivotnye.png"
+    },
+    {
+      "name": "Загородный int HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/zagorodnyy-int-hd.png"
+    },
+    {
+      "name": "Загородная Жизнь HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/zagorodnaya-zhizn.png"
+    },
+    {
+      "name": "НТВ Стиль",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/ntv-style.png"
+    },
+    {
+      "name": "НТВ Стиль HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/ntv-style-hd.png"
+    },
+    {
+      "name": "Бобер",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/bober.png"
+    },
+    {
+      "name": "HGTV HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/hgtv-hd.png"
+    },
+    {
+      "name": "E HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/kanal-e-hd.png"
+    },
+    {
+      "name": "Fashion and LifeStyle HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/fashion-tv.png"
+    },
+    {
+      "name": "Еда",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/eda.png"
+    },
+    {
+      "name": "Food Time HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/eda-hd.png"
+    },
+    {
+      "name": "Food Network HD",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/food-network-hd.png"
+    },
+    {
+      "name": "Кухня ТВ",
+      "group": "Познавательные",
+      "src": "http://static.g-cdn.app/streams/kuxnya-tv.png"
+    },
+    {
+      "name": "1HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/1hd.png"
+    },
+    {
+      "name": "Муз-ТВ",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/muz-tv.png"
+    },
+    {
+      "name": "Муз-ТВ HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/muz-tv-hd.png"
+    },
+    {
+      "name": "Музыка Первого",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/muzyka-pervogo.png"
+    },
+    {
+      "name": "Europa Plus TV",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/evropa-plus-tv.png"
+    },
+    {
+      "name": "Europa Plus TV HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/evropa-plus-tv-hd.png"
+    },
+    {
+      "name": "Music Box Gold",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/music-box-gold.png"
+    },
+    {
+      "name": "Russian MusicBox",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/music-box-russian.png"
+    },
+    {
+      "name": "Russian MusicBox HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/russian-musicbox-hd.png"
+    },
+    {
+      "name": "ТНТ Music",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/tnt-music.png"
+    },
+    {
+      "name": "O!2 HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/o2tv-hd.png"
+    },
+    {
+      "name": "Жара",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/zhara.png"
+    },
+    {
+      "name": "Жара HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/zhara.png"
+    },
+    {
+      "name": "RU TV",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/ru-tv.png"
+    },
+    {
+      "name": "RU TV HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/ru-tv-hd.png"
+    },
+    {
+      "name": "AIVA HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/aiva-hd.png"
+    },
+    {
+      "name": "Kronehit HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/kronehit-hd.png"
+    },
+    {
+      "name": "One BY HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/one-by-hd.png"
+    },
+    {
+      "name": "One by Russia HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/one-by-russia-hd.png"
+    },
+    {
+      "name": "Clubbing HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/clubbing-hd.png"
+    },
+    {
+      "name": "Mooz Dance HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/mooz-dance-hd.png"
+    },
+    {
+      "name": "Bridge TV Deluxe HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/bridge-tv-hd.png"
+    },
+    {
+      "name": "Bridge TV Fresh HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/bridge-tv-fresh.png"
+    },
+    {
+      "name": "Bridge TV",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/bridge-tv.png"
+    },
+    {
+      "name": "Bridge TV Hits",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/bridge-tv-hits.png"
+    },
+    {
+      "name": "Bridge TV Hits HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/bridge-tv-hits-hd.png"
+    },
+    {
+      "name": "Bridge TV Русский Хит",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/rusong-tv.png"
+    },
+    {
+      "name": "Bridge TV Classic",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/bridge-classic.png"
+    },
+    {
+      "name": "Bridge TV Шлягер",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/bridge-tv-shlager.png"
+    },
+    {
+      "name": "Bridge TV Rock",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/bridge-tv-rock.png"
+    },
+    {
+      "name": "Bridge TV Rock HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/bridge-tv-rock-hd.png"
+    },
+    {
+      "name": "M1 HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/m1-ua-hd.png"
+    },
+    {
+      "name": "M2 HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/m2-ua-hd.png"
+    },
+    {
+      "name": "Ля-минор",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/la-minor.png"
+    },
+    {
+      "name": "Шансон ТВ",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/shanson-tv.png"
+    },
+    {
+      "name": "Stingray Cmusic",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/c-music-hd.png"
+    },
+    {
+      "name": "iConcerts",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/iconcerts-hd.png"
+    },
+    {
+      "name": "Classic Music HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/classic-music.png"
+    },
+    {
+      "name": "Mezzo Live HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/mezzo-hd.png"
+    },
+    {
+      "name": "MTV Live HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/mtv-live-hd.png"
+    },
+    {
+      "name": "MTV Europe",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/mtv-europe.png"
+    },
+    {
+      "name": "MTV Hits",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/mtv-hits.png"
+    },
+    {
+      "name": "Club MTV",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/club-mtv.png"
+    },
+    {
+      "name": "MTV 00s",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/vh1-europe.png"
+    },
+    {
+      "name": "MTV 90s",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/mtv-rocks.png"
+    },
+    {
+      "name": "MTV 80s",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/mtv-80s.png"
+    },
+    {
+      "name": "MCM TOP",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/mcm.png"
+    },
+    {
+      "name": "MCM TOP HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/mcm-top-hd.png"
+    },
+    {
+      "name": "4ever Music HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/4ever-music-hd.png"
+    },
+    {
+      "name": "EU Music HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/eu-music-hd.png"
+    },
+    {
+      "name": "UA Music HD",
+      "group": "Музыкальные",
+      "src": "http://static.g-cdn.app/streams/ua-music-hd.png"
+    },
+    {
+      "name": "24 Канал",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/24ch-ua.png"
+    },
+    {
+      "name": "24 Канал HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/24tv-ua.png"
+    },
+    {
+      "name": "OBOZ TV",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/oboz-ua.png"
+    },
+    {
+      "name": "OBOZ TV HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/oboz-tv-ua-hd.png"
+    },
+    {
+      "name": "НТН",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/ntn.png"
+    },
+    {
+      "name": "НТН HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/ntn-ua-hd.png"
+    },
+    {
+      "name": "ТЕТ",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/tet.png"
+    },
+    {
+      "name": "ТЕТ HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/tet-ua-hd.png"
+    },
+    {
+      "name": "Eспресо TV",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/plus-plus.png"
+    },
+    {
+      "name": "Eспресо TV HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/espresso-ua-hd.png"
+    },
+    {
+      "name": "K1",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/k1-ua.png"
+    },
+    {
+      "name": "K1 HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/k1-ua-hd.png"
+    },
+    {
+      "name": "Квартал ТВ",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/kvartal-tv-ua.png"
+    },
+    {
+      "name": "Квартал ТВ HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/kvartal-tv-ua-hd.png"
+    },
+    {
+      "name": "5 канал UA",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/5kanal-ukraina.png"
+    },
+    {
+      "name": "5 канал HD UA",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/5kanal-ukraina-hd.png"
+    },
+    {
+      "name": "Comedy Central HD UA",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/comedy-central-ua-hd.png"
+    },
+    {
+      "name": "Star Cinema HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/star-cinema-ua-hd.png"
+    },
+    {
+      "name": "Star Family HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/star-family-ua-hd.png"
+    },
+    {
+      "name": "Болт HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/bolt-ua-hd.png"
+    },
+    {
+      "name": "Enter-фільм",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/enter-film-ua.png"
+    },
+    {
+      "name": "Enter-фільм HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/enter-film-ua-hd.png"
+    },
+    {
+      "name": "ICTV",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/ictv.png"
+    },
+    {
+      "name": "ICTV HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/ictv-ua-hd.png"
+    },
+    {
+      "name": "ICTV2 HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/ictv2-ua-hd.png"
+    },
+    {
+      "name": "СТБ",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/stb.png"
+    },
+    {
+      "name": "СТБ HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/stb-ua-hd.png"
+    },
+    {
+      "name": "Перший Національний",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/pervyj-national-ua.png"
+    },
+    {
+      "name": "Перший Національний HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/pervyj-ua-hd.png"
+    },
+    {
+      "name": "Интер",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/inter.png"
+    },
+    {
+      "name": "Интер HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/inter-ua-hd.png"
+    },
+    {
+      "name": "Интер+",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/inter-plus-ua.png"
+    },
+    {
+      "name": "Интер+ HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/inter-plus-ua-hd.png"
+    },
+    {
+      "name": "1+1 Украина",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/1-plus-1.png"
+    },
+    {
+      "name": "1+1 Украина HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/1-plus-1-hd.png"
+    },
+    {
+      "name": "2+2",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/2-plus-2-ua.png"
+    },
+    {
+      "name": "2+2 HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/2-plus-2-ua-hd.png"
+    },
+    {
+      "name": "Бигуди",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/bigudi.png"
+    },
+    {
+      "name": "Бигуди HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/bigudi-ua-hd.png"
+    },
+    {
+      "name": "Новый Канал",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/novij-kanal.png"
+    },
+    {
+      "name": "Новый Канал HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/novyj-kanal-ua-hd.png"
+    },
+    {
+      "name": "УНИАН HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/unian-ua-hd.png"
+    },
+    {
+      "name": "Кус-Кус",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/kus-kus-ua.png"
+    },
+    {
+      "name": "Кус-Кус HD",
+      "group": "Украина",
+      "src": "http://static.g-cdn.app/streams/kus-kus-ua-hd.png"
+    },
+    {
+      "name": "Беларусь 1",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/belarus1-by.png"
+    },
+    {
+      "name": "Беларусь 1 HD",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/belarus1-by-hd.png"
+    },
+    {
+      "name": "Беларусь 2",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/belarus2.png"
+    },
+    {
+      "name": "Беларусь 2 HD",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/belarus2-by-hd.png"
+    },
+    {
+      "name": "Беларусь 3",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/belarus3-by.png"
+    },
+    {
+      "name": "Беларусь 3 HD",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/belarus3-by-hd.png"
+    },
+    {
+      "name": "Беларусь 5",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/belarus5.png"
+    },
+    {
+      "name": "Беларусь 5 HD",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/belarus5-by-hd.png"
+    },
+    {
+      "name": "Беларусь 24",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/belarus-24.png"
+    },
+    {
+      "name": "Беларусь 24 HD",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/belarus-24-hd.png"
+    },
+    {
+      "name": "ОНТ",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/ont-by.png"
+    },
+    {
+      "name": "ОНТ HD",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/ont-by-hd.png"
+    },
+    {
+      "name": "СТВ Беларусь HD",
+      "group": "Беларусь",
+      "src": "http://static.g-cdn.app/streams/stv-by-hd.png"
+    },
+    {
+      "name": "Первый канал (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/pervyj-plus-2.png"
+    },
+    {
+      "name": "Россия 1 (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/rossija1-plus-2.png"
+    },
+    {
+      "name": "НТВ (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/ntv-plus-2.png"
+    },
+    {
+      "name": "ТНТ (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/tnt-plus-2.png"
+    },
+    {
+      "name": "РЕН ТВ (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/rentv-plus-2.png"
+    },
+    {
+      "name": "СТС (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/sts-plus-2.png"
+    },
+    {
+      "name": "СТС Love (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/sts-love-plus-2.png"
+    },
+    {
+      "name": "Домашний (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/domashnij-plus-2.png"
+    },
+    {
+      "name": "Пятница (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/piatnica-plus-2.png"
+    },
+    {
+      "name": "ТВ3 (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/tv3-plus-2.png"
+    },
+    {
+      "name": "Че (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/4e-plus-2.png"
+    },
+    {
+      "name": "ТВЦ (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/tvc-plus-2.png"
+    },
+    {
+      "name": "Звезда (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/zvezda-plus-2.png"
+    },
+    {
+      "name": "5 канал (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/5kanal-plus-2.png"
+    },
+    {
+      "name": "Мир (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/mir-plus-2.png"
+    },
+    {
+      "name": "ОТР (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/otp-plus-2.png"
+    },
+    {
+      "name": "Россия-Культура (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/rossija-k-plus-2.png"
+    },
+    {
+      "name": "Матч ТВ (+2)",
+      "group": "Россия +2ч",
+      "src": "http://static.g-cdn.app/streams/match-plus-2.png"
+    },
+    {
+      "name": "Первый канал (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/pervyj-plus-4.png"
+    },
+    {
+      "name": "Первый канал HD (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/pervyj-hd-plus-4.png"
+    },
+    {
+      "name": "Россия 1 (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/rossija1-plus-4.png"
+    },
+    {
+      "name": "НТВ (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/ntv-plus-4.png"
+    },
+    {
+      "name": "ТНТ (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/tnt-plus-4.png"
+    },
+    {
+      "name": "СТС (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/sts-plus-4.png"
+    },
+    {
+      "name": "РЕН ТВ (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/rentv-plus-4.png"
+    },
+    {
+      "name": "ТВ3 (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/tv3-plus-4.png"
+    },
+    {
+      "name": "Пятница (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/piatnica-plus-4.png"
+    },
+    {
+      "name": "Домашний (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/domashnij-plus-4.png"
+    },
+    {
+      "name": "Звезда (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/zvezda-plus-4.png"
+    },
+    {
+      "name": "ТВЦ (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/tvc-plus-4.png"
+    },
+    {
+      "name": "5 канал (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/5kanal-plus-4.png"
+    },
+    {
+      "name": "Мир (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/mir-plus-4.png"
+    },
+    {
+      "name": "Матч ТВ (+4)",
+      "group": "Россия +4ч",
+      "src": "http://static.g-cdn.app/streams/match-plus-4.png"
+    },
+    {
+      "name": "Первый канал (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/pervyj-plus-7.png"
+    },
+    {
+      "name": "Россия 1 (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/rossija1-plus-7.png"
+    },
+    {
+      "name": "НТВ (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/ntv-plus-7.png"
+    },
+    {
+      "name": "ТНТ (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/tnt-plus-7.png"
+    },
+    {
+      "name": "РЕН ТВ (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/rentv-plus-7.png"
+    },
+    {
+      "name": "СТС (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/sts-plus-7.png"
+    },
+    {
+      "name": "Домашний (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/domashnij-plus-7.png"
+    },
+    {
+      "name": "Пятница (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/piatnica-plus-7.png"
+    },
+    {
+      "name": "ТВ3 (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/tv3-plus-7.png"
+    },
+    {
+      "name": "ТВЦ (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/tvc-plus-7.png"
+    },
+    {
+      "name": "Звезда (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/zvezda-plus-7.png"
+    },
+    {
+      "name": "5 канал (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/5kanal-plus-7.png"
+    },
+    {
+      "name": "Мир (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/mir-plus-7.png"
+    },
+    {
+      "name": "ОТР (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/otp-plus-7.png"
+    },
+    {
+      "name": "Россия-Культура (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/rossija-k-plus-7.png"
+    },
+    {
+      "name": "Матч ТВ (+7)",
+      "group": "Россия +7ч",
+      "src": "http://static.g-cdn.app/streams/match-plus-7.png"
+    },
+    {
+      "name": "ATV AZ",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/azad-tv-az.png"
+    },
+    {
+      "name": "ATV HD AZ",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/azad-tv-az.png"
+    },
+    {
+      "name": "Baku HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/baku-az-hd.png"
+    },
+    {
+      "name": "Xazar TV HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/xazar-tv-az.png"
+    },
+    {
+      "name": "Space TV HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/space-tv-az.png"
+    },
+    {
+      "name": "Start TV HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/start-tv-az-hd.png"
+    },
+    {
+      "name": "ARB HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/arb-az-hd.png"
+    },
+    {
+      "name": "ARB24 HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/arb24-hd-az.png"
+    },
+    {
+      "name": "ARB Gunes HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/arb-gunes-az-hd.png"
+    },
+    {
+      "name": "Ictimai TV HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/ictimai-tv-az.png"
+    },
+    {
+      "name": "CBC HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/cbc-az.png"
+    },
+    {
+      "name": "CBC Sport HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/cbc-sport-az.png"
+    },
+    {
+      "name": "Real TV HD AZ",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/real-tv-az.png"
+    },
+    {
+      "name": "AzTV HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/aztv-az.png"
+    },
+    {
+      "name": "MTV Azerbaycan",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/muz-tv-az.png"
+    },
+    {
+      "name": "TMB HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/tmb-az-hd.png"
+    },
+    {
+      "name": "Dunya TV",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/dunya-tv-az.png"
+    },
+    {
+      "name": "Medeniyyet TV HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/medeniyyet-az-hd.png"
+    },
+    {
+      "name": "Idman Azerbaycan HD",
+      "group": "Azerbaijan",
+      "src": "http://static.g-cdn.app/streams/idman-az-hd.png"
+    },
+    {
+      "name": "TV8 HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/tv8-hd-tr.png"
+    },
+    {
+      "name": "Kanal 7 HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/kanal7-hd-tr.png"
+    },
+    {
+      "name": "Kanal D HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/kanald-hd-tr.png"
+    },
+    {
+      "name": "ATV HD TR",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/atv-hd-tr.png"
+    },
+    {
+      "name": "Star HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/star-hd-tr.png"
+    },
+    {
+      "name": "Show HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/show-hd-tr.png"
+    },
+    {
+      "name": "Fox HD TR",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/fox-tr.png"
+    },
+    {
+      "name": "Sinema TV HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/sinema-tv-hd-tr.png"
+    },
+    {
+      "name": "Sinema 2 HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/sinema2-hd-tr.png"
+    },
+    {
+      "name": "Sinema 1001 HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/sinema-1001-hd-tr.png"
+    },
+    {
+      "name": "Sinema 1002 HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/sinema-1002-hd-tr.png"
+    },
+    {
+      "name": "Sinema Aksiyon HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/sinema-aksiyon-hd-tr.png"
+    },
+    {
+      "name": "Sinema Aksiyon 2 HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/sinema-aksiyon2-hd-tr.png"
+    },
+    {
+      "name": "Sinema Aile HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/sinema-aile-hd-tr.png"
+    },
+    {
+      "name": "Sinema Aile 2 HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/sinema-aile2-hd-tr.png"
+    },
+    {
+      "name": "Sinema Komedi HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/sinema-komedi-hd-tr.png"
+    },
+    {
+      "name": "Sinema Komedi 2 HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/sinema-komedi2-hd-tr.png"
+    },
+    {
+      "name": "Dizismart Premium HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/dizismart-premium-hd-tr.png"
+    },
+    {
+      "name": "Dizismart Max HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/dizismart-max-hd-tr.png"
+    },
+    {
+      "name": "Moviesmart Türk HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/moviesmart-türk-hd-tr.png"
+    },
+    {
+      "name": "Eurosport 1 HD TR",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/eurosport1-hd-tr.png"
+    },
+    {
+      "name": "Eurosport 2 HD TR",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/eurosport2-hd-tr.png"
+    },
+    {
+      "name": "Spor Smart HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/spor-smart-hd-tr.png"
+    },
+    {
+      "name": "Spor Smart 2 HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/spor-smart2-hd-tr.png"
+    },
+    {
+      "name": "TRT Spor HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/trt-spor-hd-tr.png"
+    },
+    {
+      "name": "TRT Spor Yıldız HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/trt-spor2-hd-tr.png"
+    },
+    {
+      "name": "A Spor HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/a-spor-hd-tr.png"
+    },
+    {
+      "name": "Discovery Channel Türkiye HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/discovery-channel-türkiye-hd-tr.png"
+    },
+    {
+      "name": "Investigation Discovery HD TR",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/investigation-discovery-tr-hd.png"
+    },
+    {
+      "name": "History Türkiye HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/history-türkiye-hd-tr.png"
+    },
+    {
+      "name": "Viasat History Türkiye HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/viasat-history-hd-tr.png"
+    },
+    {
+      "name": "National Geographic Türkiye HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/national-geographic-türkiye-hd-tr.png"
+    },
+    {
+      "name": "Nat Geo Wild Türkiye HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/nat-geo-wild-türkiye-hd-tr.png"
+    },
+    {
+      "name": "Love Nature HD TR",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/love-nature-hd-tr.png"
+    },
+    {
+      "name": "TLC HD TR",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/tlc-hd-tr.png"
+    },
+    {
+      "name": "Disney Junior HD TR",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/disney-junior-hd-tr.png"
+    },
+    {
+      "name": "Baby TV HD TR",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/baby-tv-hd-tr.png"
+    },
+    {
+      "name": "Cartoonito HD TR",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/boomerang-hd-tr.png"
+    },
+    {
+      "name": "TRT Cocuk HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/trt-cocuk-hd-tr.png"
+    },
+    {
+      "name": "Dream Turk HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/dream-turk-tr-hd.png"
+    },
+    {
+      "name": "TRT 1 HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/trt1-tr.png"
+    },
+    {
+      "name": "CNN Turk HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/cnn-hd-tr.png"
+    },
+    {
+      "name": "HaberTurk HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/haberturk-hd-tr.png"
+    },
+    {
+      "name": "NBA TV HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/nba-tv-hd-r.png"
+    },
+    {
+      "name": "A HABER HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/a-haber-tr-hd.png"
+    },
+    {
+      "name": "TRT HABER HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/trt-haber-tr.png"
+    },
+    {
+      "name": "24 TV HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/tv-tr.png"
+    },
+    {
+      "name": "NTV HD",
+      "group": "Türkiye",
+      "src": "http://static.g-cdn.app/streams/ntv-hd-tr.png"
+    },
+    {
+      "name": "9 Канал HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/9-kanal-hd-il.png"
+    },
+    {
+      "name": "Kan 11 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/11-kanal-il.png"
+    },
+    {
+      "name": "Keshet 12 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/12-kanal-il.png"
+    },
+    {
+      "name": "Reshet 13 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/13-kanal-il.png"
+    },
+    {
+      "name": "Ch 14 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/14-kanal-il.png"
+    },
+    {
+      "name": "i24 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/i24-il.png"
+    },
+    {
+      "name": "Yes Movies Action HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-movies-action-hd-il.png"
+    },
+    {
+      "name": "Yes Movies Comedy HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-movies-comedy-il.png"
+    },
+    {
+      "name": "Yes Movies Drama HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-movies-drama-il-hd.png"
+    },
+    {
+      "name": "Yes Movies KIDS HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-movies-kids-hd-il.png"
+    },
+    {
+      "name": "Yes TV Action HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-action-hd-il.png"
+    },
+    {
+      "name": "Yes TV Comedy HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-comedy-hd-il.png"
+    },
+    {
+      "name": "Yes TV Drama HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-drama-hd-il.png"
+    },
+    {
+      "name": "HOT Cinema 1 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-cinema1-il.png"
+    },
+    {
+      "name": "HOT Cinema 2 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-cinema2-il.png"
+    },
+    {
+      "name": "HOT Cinema 3 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-cinema3-il.png"
+    },
+    {
+      "name": "HOT Cinema 4 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-cinema4-il.png"
+    },
+    {
+      "name": "HBO HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-hbo-il.png"
+    },
+    {
+      "name": "Zone HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-zone-hd-il.png"
+    },
+    {
+      "name": "Viva IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/viva-il.png"
+    },
+    {
+      "name": "Viva Premium HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/viva-premium-il-hd.png"
+    },
+    {
+      "name": "Viva+",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/viva-plus-il.png"
+    },
+    {
+      "name": "Viva Vintage",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/viva-vintage-il.png"
+    },
+    {
+      "name": "HOT 3 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot3-hd-il.png"
+    },
+    {
+      "name": "HOT 8 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-8-il-hd.png"
+    },
+    {
+      "name": "Yes Israeli HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-israel-il.png"
+    },
+    {
+      "name": "Channel 24 HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/channel24-il-hd.png"
+    },
+    {
+      "name": "Turkish Dramas Plus HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/turkish-dramas-plus-il.png"
+    },
+    {
+      "name": "Turkish Dramas 2 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/turkish-dramas2-il-hd.png"
+    },
+    {
+      "name": "Turkish Dramas 3 HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/turkish-dramas3-il-hd.png"
+    },
+    {
+      "name": "Yam Tichoni HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yamtihoni-il.png"
+    },
+    {
+      "name": "Yam Tichoni+ HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yam-tichoni-plus-hd.png"
+    },
+    {
+      "name": "Bollywood HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-bollywood-il.png"
+    },
+    {
+      "name": "BollyShow HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-bolyshow-il-hd.png"
+    },
+    {
+      "name": "Animal Planet HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/animal-planet-il-hd.png"
+    },
+    {
+      "name": "Nat Geo Wild HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-natgeo-wild-il-hd.png"
+    },
+    {
+      "name": "National Geographic HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-natgeo-il-hd.png"
+    },
+    {
+      "name": "Discovery HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/discovery-hd-il.png"
+    },
+    {
+      "name": "History HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/history-il.png"
+    },
+    {
+      "name": "Travel Channel HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/travel-channel-il.png"
+    },
+    {
+      "name": "Docu HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-docu-il-hd.png"
+    },
+    {
+      "name": "Home Plus IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/home-plus-il.png"
+    },
+    {
+      "name": "Design Channel HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/the-design-channel-il-hd.png"
+    },
+    {
+      "name": "Entertainment HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/entertainment-il.png"
+    },
+    {
+      "name": "E! IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/e-il.png"
+    },
+    {
+      "name": "Food Network HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/food-network-il.png"
+    },
+    {
+      "name": "Foody HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/foody-il-hd.png"
+    },
+    {
+      "name": "Health HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/health-il.png"
+    },
+    {
+      "name": "Good Life",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/good-life-il.png"
+    },
+    {
+      "name": "CBS Reality IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/cbs-reality-il.png"
+    },
+    {
+      "name": "HOT Real HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-real-il-hd.png"
+    },
+    {
+      "name": "Sport 1 HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/sport1-hd-il.png"
+    },
+    {
+      "name": "Sport 2 HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/sport2-hd-il.png"
+    },
+    {
+      "name": "Sport 3 HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/sport3-hd-il.png"
+    },
+    {
+      "name": "Sport 4 HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/sport4-hd-il.png"
+    },
+    {
+      "name": "Sport 5 HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/sport5-hd-il.png"
+    },
+    {
+      "name": "Sport 5+ HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-sport5-plus-il-hd.png"
+    },
+    {
+      "name": "Sport 5 Live HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/sport5-plus-live-hd-il.png"
+    },
+    {
+      "name": "Sport 5 Stars HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/sport5-stars-il-hd.png"
+    },
+    {
+      "name": "Sport 5 Gold",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/sport5-gold-il.png"
+    },
+    {
+      "name": "One HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/one-hd-il.png"
+    },
+    {
+      "name": "One 2 HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/nat-geo-il.png"
+    },
+    {
+      "name": "Ego Total",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/ego-total-il.png"
+    },
+    {
+      "name": "Humor Channel HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/humor-channel-il-hd.png"
+    },
+    {
+      "name": "HOT Comedy HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hot-comedy-central-il-hd.png"
+    },
+    {
+      "name": "Cinema Family HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/cinema-family-il-hd.png"
+    },
+    {
+      "name": "Disney HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-disney-il-hd.png"
+    },
+    {
+      "name": "Disney Jr HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/disney-jr-il.png"
+    },
+    {
+      "name": "Nickelodeon HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/yes-nickelodeon-il.png"
+    },
+    {
+      "name": "Nick Jr HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/nick-jr-il.png"
+    },
+    {
+      "name": "TeenNick HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/teennick-il.png"
+    },
+    {
+      "name": "HOP",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/hop-childhood-il.png"
+    },
+    {
+      "name": "Luli",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/luli-il.png"
+    },
+    {
+      "name": "Baby HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/baby-il.png"
+    },
+    {
+      "name": "Zoom HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/zoom-il.png"
+    },
+    {
+      "name": "KAN23 HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/kan23-il.png"
+    },
+    {
+      "name": "Junior HD IL",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/junior-il.png"
+    },
+    {
+      "name": "Music HD",
+      "group": "Israel",
+      "src": "http://static.g-cdn.app/streams/music-il-hd.png"
+    }
+  ]
+}

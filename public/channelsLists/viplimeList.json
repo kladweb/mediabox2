@@ -1,0 +1,5534 @@
+{
+  "viplime": [
+    {
+      "name": "Первый канал",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/146.png"
+    },
+    {
+      "name": "Россия 1",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/711.png"
+    },
+    {
+      "name": "Матч! ТВ",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/2051.png"
+    },
+    {
+      "name": "НТВ",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/162.png"
+    },
+    {
+      "name": "Пятый канал",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/427.png"
+    },
+    {
+      "name": "Россия К",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/187.png"
+    },
+    {
+      "name": "Россия 24",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/1683.png"
+    },
+    {
+      "name": "Карусель",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/740.png"
+    },
+    {
+      "name": "ОТР",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/1000.png"
+    },
+    {
+      "name": "ТВ Центр",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/649.png"
+    },
+    {
+      "name": "Рен ТВ",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/18.png"
+    },
+    {
+      "name": "Спас",
+      "group": "Религиозные",
+      "src": "https://cdn.epg.one/img2/2141.png"
+    },
+    {
+      "name": "СТС",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/79.png"
+    },
+    {
+      "name": "Домашний",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/304.png"
+    },
+    {
+      "name": "ТВ3",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/698.png"
+    },
+    {
+      "name": "Пятница!",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/1003.png"
+    },
+    {
+      "name": "Звезда",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/405.png"
+    },
+    {
+      "name": "Мир",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/726.png"
+    },
+    {
+      "name": "ТНТ",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/353.png"
+    },
+    {
+      "name": "Муз ТВ",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/897.png"
+    },
+    {
+      "name": "Че",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/1598.png"
+    },
+    {
+      "name": "Домашний (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3011.png"
+    },
+    {
+      "name": "Звезда (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3035.png"
+    },
+    {
+      "name": "Мир (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3020.png"
+    },
+    {
+      "name": "НТВ (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/2964.png"
+    },
+    {
+      "name": "Пятница! (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3016.png"
+    },
+    {
+      "name": "Первый канал (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3025.png"
+    },
+    {
+      "name": "ТНТ4 HD",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/1649.png"
+    },
+    {
+      "name": "Первый канал HD",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/983.png"
+    },
+    {
+      "name": "Пятый канал (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3030.png"
+    },
+    {
+      "name": "Рен ТВ (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3033.png"
+    },
+    {
+      "name": "Россия 1 (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3001.png"
+    },
+    {
+      "name": "Россия 1 HD",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/984.png"
+    },
+    {
+      "name": "Россия К (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/187.png"
+    },
+    {
+      "name": "Пятница! HD",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/2765.png"
+    },
+    {
+      "name": "ТВ Центр (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3037.png"
+    },
+    {
+      "name": "Eurosport 1",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2052.png"
+    },
+    {
+      "name": "Eurosport 1 HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2052.png"
+    },
+    {
+      "name": "Eurosport 2",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/4313.png"
+    },
+    {
+      "name": "Eurosport 2 HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/4313.png"
+    },
+    {
+      "name": "Extreme sports",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2053.png"
+    },
+    {
+      "name": "7D7 TV",
+      "group": "Развлекательные",
+      "src": "http://epg.cdntv.online/img/42.png"
+    },
+    {
+      "name": "Viju Sport HD",
+      "group": "Спортивные",
+      "src": "http://epg.cdntv.online/img/43.png"
+    },
+    {
+      "name": "Бокс ТВ",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2285.png"
+    },
+    {
+      "name": "КХЛ",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/1038.png"
+    },
+    {
+      "name": "КХЛ Prime",
+      "group": "Спортивные",
+      "src": "http://epg.cdntv.online/img/46.png"
+    },
+    {
+      "name": "МАТЧ! Арена HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2003.png"
+    },
+    {
+      "name": "Матч! HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2051.png"
+    },
+    {
+      "name": "Матч! Арена",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2003.png"
+    },
+    {
+      "name": "Матч! Боец",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2054.png"
+    },
+    {
+      "name": "Матч! Игра",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2050.png"
+    },
+    {
+      "name": "Матч! Премьер",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2250.png"
+    },
+    {
+      "name": "Матч! Премьер HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2250.png"
+    },
+    {
+      "name": "Матч! Страна",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2042.png"
+    },
+    {
+      "name": "Матч! Футбол 1 HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2044.png"
+    },
+    {
+      "name": "Матч! Футбол 2 HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/1042.png"
+    },
+    {
+      "name": "Матч! Футбол 3 HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2005.png"
+    },
+    {
+      "name": "Старт",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2530.png"
+    },
+    {
+      "name": "Футбол",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2782.png"
+    },
+    {
+      "name": "Bridge TV Classic",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/151.png"
+    },
+    {
+      "name": "Bridge TV hits",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/2024.png"
+    },
+    {
+      "name": "Bridge TV Русский хит",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/591.png"
+    },
+    {
+      "name": "Bridge TV",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/151.png"
+    },
+    {
+      "name": "Europa Plus",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/681.png"
+    },
+    {
+      "name": "RETRO MUSIC TV",
+      "group": "Другие (тест)",
+      "src": "http://epg.cdntv.online/img/74.png"
+    },
+    {
+      "name": "RU.TV",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/2277.png"
+    },
+    {
+      "name": "Russian MusicBox",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/2409.png"
+    },
+    {
+      "name": "Song TV Армения",
+      "group": "Музыкальные",
+      "src": "http://epg.cdntv.online/img/77.png"
+    },
+    {
+      "name": "Song TV Россия",
+      "group": "Музыкальные",
+      "src": "http://epg.cdntv.online/img/78.png"
+    },
+    {
+      "name": "MTV 80s",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/156.png"
+    },
+    {
+      "name": "Ля Минор",
+      "group": "Музыкальные",
+      "src": "http://epg.cdntv.online/img/81.png"
+    },
+    {
+      "name": "Матур ТВ HD",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/5765.png"
+    },
+    {
+      "name": "HOT ROCK TV",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/3244.png"
+    },
+    {
+      "name": "О2ТВ",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/2412.png"
+    },
+    {
+      "name": "ТНТ Music",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/680.png"
+    },
+    {
+      "name": "Шансон-TB",
+      "group": "Музыкальные",
+      "src": "http://epg.cdntv.online/img/86.png"
+    },
+    {
+      "name": "AMEDIA HIT HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2007.png"
+    },
+    {
+      "name": "Amedia Premium HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1372.png"
+    },
+    {
+      "name": "CINEMA",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2754.png"
+    },
+    {
+      "name": "FilmBox",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2181.png"
+    },
+    {
+      "name": "Filmbox Arthouse",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2182.png"
+    },
+    {
+      "name": "Fox",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1031.png"
+    },
+    {
+      "name": "Fox HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1031.png"
+    },
+    {
+      "name": "Fox life",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/615.png"
+    },
+    {
+      "name": "Fox life HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/615.png"
+    },
+    {
+      "name": ".Red",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/311.png"
+    },
+    {
+      "name": ".Red HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/311.png"
+    },
+    {
+      "name": "Sony Sci-Fi",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/516.png"
+    },
+    {
+      "name": "TV XXI",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/309.png"
+    },
+    {
+      "name": "Viju TV1000 Action",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/125.png"
+    },
+    {
+      "name": "Viju TV1000 Русское",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/267.png"
+    },
+    {
+      "name": "Viju TV1000",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/127.png"
+    },
+    {
+      "name": "Viju+ comedy HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1011.png"
+    },
+    {
+      "name": "Viju+ megahit HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1012.png"
+    },
+    {
+      "name": "Viju+ premiere HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1013.png"
+    },
+    {
+      "name": "Viju+ serial HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2838.png"
+    },
+    {
+      "name": "ZEE TV",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2233.png"
+    },
+    {
+      "name": "A1",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1371.png"
+    },
+    {
+      "name": "Дом Кино",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/834.png"
+    },
+    {
+      "name": "Дом кино Премиум HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2020.png"
+    },
+    {
+      "name": "Еврокино",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/352.png"
+    },
+    {
+      "name": "Иллюзион+",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2403.png"
+    },
+    {
+      "name": "Индийское кино",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/798.png"
+    },
+    {
+      "name": "Калейдоскоп ТВ",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2761.png"
+    },
+    {
+      "name": "Кино ТВ HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1037.png"
+    },
+    {
+      "name": "КиноХит",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/542.png"
+    },
+    {
+      "name": "Кинокомедия",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/821.png"
+    },
+    {
+      "name": "Киномикс",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/644.png"
+    },
+    {
+      "name": "Кинопремьера HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/566.png"
+    },
+    {
+      "name": "Киносвидание",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/462.png"
+    },
+    {
+      "name": "Киносемья",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/987.png"
+    },
+    {
+      "name": "Классика Кино HD",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/124.png"
+    },
+    {
+      "name": "Мир сериала",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2275.png"
+    },
+    {
+      "name": "Мужское Кино",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1584.png"
+    },
+    {
+      "name": "НТВ сериал",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1754.png"
+    },
+    {
+      "name": "НТВ хит",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2041.png"
+    },
+    {
+      "name": "Настоящее страшное ТВ",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/131.png"
+    },
+    {
+      "name": "Наше новое кино",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/485.png"
+    },
+    {
+      "name": "Русский Бестселлер",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/994.png"
+    },
+    {
+      "name": "Русский Роман",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/401.png"
+    },
+    {
+      "name": "Русский детектив",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1570.png"
+    },
+    {
+      "name": "Русский иллюзион",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/53.png"
+    },
+    {
+      "name": "Советское кино",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/139.png"
+    },
+    {
+      "name": "Суббота! (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7977.png"
+    },
+    {
+      "name": "Cartoon Network",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/601.png"
+    },
+    {
+      "name": "Солнце (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7985.png"
+    },
+    {
+      "name": "Солнце",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/7669.png"
+    },
+    {
+      "name": "Nick Jr",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/917.png"
+    },
+    {
+      "name": "Nickelodeon",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/567.png"
+    },
+    {
+      "name": "Детский мир",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/923.png"
+    },
+    {
+      "name": "Карусель (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7984.png"
+    },
+    {
+      "name": "МУЛЬТ",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/1332.png"
+    },
+    {
+      "name": "Мама",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/618.png"
+    },
+    {
+      "name": "Мультиландия HD",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/2757.png"
+    },
+    {
+      "name": "Мультимания",
+      "group": "Детские",
+      "src": "http://epg.cdntv.online/img/157.png"
+    },
+    {
+      "name": "Мультимузыка",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/284.png"
+    },
+    {
+      "name": "О!",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/1757.png"
+    },
+    {
+      "name": "Рыжий",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/2437.png"
+    },
+    {
+      "name": "СТС Kids",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/79.png"
+    },
+    {
+      "name": "Сказки зайки",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/1112.png"
+    },
+    {
+      "name": "Смайлик ТВ",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/2442.png"
+    },
+    {
+      "name": "Советские мультфильмы",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/1111.png"
+    },
+    {
+      "name": "2x2 (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7975.png"
+    },
+    {
+      "name": "ACB TV",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/2307.png"
+    },
+    {
+      "name": "TLC",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/2345.png"
+    },
+    {
+      "name": "TLC HD",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/425.png"
+    },
+    {
+      "name": "ЛДПР ТВ",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2465.png"
+    },
+    {
+      "name": "Ностальгия",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/783.png"
+    },
+    {
+      "name": "Пятница! (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3017.png"
+    },
+    {
+      "name": "Русский Экстрим",
+      "group": "Спортивные",
+      "src": "http://epg.cdntv.online/img/175.png"
+    },
+    {
+      "name": "СТС (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3008.png"
+    },
+    {
+      "name": "СТС love",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/1322.png"
+    },
+    {
+      "name": "Сарафан",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/663.png"
+    },
+    {
+      "name": "ТВ3 (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3014.png"
+    },
+    {
+      "name": "ТНТ (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3023.png"
+    },
+    {
+      "name": "ТНТ4 (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7979.png"
+    },
+    {
+      "name": "Театр",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/2827.png"
+    },
+    {
+      "name": "Че (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/1598.png"
+    },
+    {
+      "name": "Ю",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/898.png"
+    },
+    {
+      "name": "12 канал (Омск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5841.png"
+    },
+    {
+      "name": "47 Канал",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/188.png"
+    },
+    {
+      "name": "49 канал (Новосибирск)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/189.png"
+    },
+    {
+      "name": "8 канал (Красноярск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/4659.png"
+    },
+    {
+      "name": "8 канал ( Новосибирск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/4659.png"
+    },
+    {
+      "name": "Atameken Business Channel",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/193.png"
+    },
+    {
+      "name": "Аист (Иркутск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5816.png"
+    },
+    {
+      "name": "Алмазный край",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/196.png"
+    },
+    {
+      "name": "Архыз 24 (Черкесск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2157.png"
+    },
+    {
+      "name": "Астрахань 24 HD",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2168.png"
+    },
+    {
+      "name": "БСТ (Челябинск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2464.png"
+    },
+    {
+      "name": "Брянская Губерния HD",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2300.png"
+    },
+    {
+      "name": "Ветта 24 (Пермь)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/206.png"
+    },
+    {
+      "name": "Восток 24",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/7705.png"
+    },
+    {
+      "name": "Дон 24",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/209.png"
+    },
+    {
+      "name": "Дума ТВ",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/210.png"
+    },
+    {
+      "name": "Енисей",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/212.png"
+    },
+    {
+      "name": "78 канал (Санкт-Петербург)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/7616.png"
+    },
+    {
+      "name": "Катунь 24",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5705.png"
+    },
+    {
+      "name": "Крик-ТВ",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/216.png"
+    },
+    {
+      "name": "ИТВ Крым (Симферополь)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/217.png"
+    },
+    {
+      "name": "Кубань 24",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/6027.png"
+    },
+    {
+      "name": "Кузбасс 1",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/7702.png"
+    },
+    {
+      "name": "Курай",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2475.png"
+    },
+    {
+      "name": "Липецкое время",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5810.png"
+    },
+    {
+      "name": "Миллет",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/6680.png"
+    },
+    {
+      "name": "Мир Белогорья",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5830.png"
+    },
+    {
+      "name": "Московский образовательный",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/224.png"
+    },
+    {
+      "name": "Санкт-Петербург",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/690.png"
+    },
+    {
+      "name": "НВК САХА",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/7699.png"
+    },
+    {
+      "name": "НТС",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/1117.png"
+    },
+    {
+      "name": "Наша Сибирь HD",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/4444.png"
+    },
+    {
+      "name": "Новое телевидение",
+      "group": "Казахстан",
+      "src": "http://epg.cdntv.online/img/232.png"
+    },
+    {
+      "name": "ОТВ 24",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/234.png"
+    },
+    {
+      "name": "ОТВ Челябинск",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/235.png"
+    },
+    {
+      "name": "ОТС HD (Новосибирск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/4624.png"
+    },
+    {
+      "name": "Первый крымский",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2472.png"
+    },
+    {
+      "name": "Регион 29",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/239.png"
+    },
+    {
+      "name": "Русский Север",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/7644.png"
+    },
+    {
+      "name": "С1 HD",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/242.png"
+    },
+    {
+      "name": "СТРК",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/244.png"
+    },
+    {
+      "name": "Салям ТВ",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/245.png"
+    },
+    {
+      "name": "ТелеДом (Санкт-Петербург)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2139.png"
+    },
+    {
+      "name": "Саратов 24",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/7693.png"
+    },
+    {
+      "name": "ТНВ-Планета",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/933.png"
+    },
+    {
+      "name": "ТНВ",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/933.png"
+    },
+    {
+      "name": "ТРК Губерния",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/254.png"
+    },
+    {
+      "name": "Туапсе24",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/257.png"
+    },
+    {
+      "name": "Тюменское Время",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/4639.png"
+    },
+    {
+      "name": "Центр (Красноярск)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/259.png"
+    },
+    {
+      "name": "Казань",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/261.png"
+    },
+    {
+      "name": "Эхо-ТВ",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/262.png"
+    },
+    {
+      "name": "Ингушетия",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/263.png"
+    },
+    {
+      "name": "Якутия 24",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/264.png"
+    },
+    {
+      "name": "Авто 24",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/2008.png"
+    },
+    {
+      "name": "Авто плюс",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/153.png"
+    },
+    {
+      "name": "Диалоги о рыбалке",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/2627.png"
+    },
+    {
+      "name": "Мужской",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/2444.png"
+    },
+    {
+      "name": "Наша Тема",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/2433.png"
+    },
+    {
+      "name": "Оружие",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/2430.png"
+    },
+    {
+      "name": "Охота и Рыбалка",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/2419.png"
+    },
+    {
+      "name": "Охотник и рыболов",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/1681.png"
+    },
+    {
+      "name": "Охотник и рыболов HD",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/1681.png"
+    },
+    {
+      "name": "360",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2265.png"
+    },
+    {
+      "name": "Russia Today",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2295.png"
+    },
+    {
+      "name": "Russia Today HD",
+      "group": "Новостные",
+      "src": "http://epg.cdntv.online/img/280.png"
+    },
+    {
+      "name": "Беларусь 24",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2170.png"
+    },
+    {
+      "name": "Вместе-РФ HD",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2398.png"
+    },
+    {
+      "name": "Euronews",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2266.png"
+    },
+    {
+      "name": "Известия",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2271.png"
+    },
+    {
+      "name": "Мир 24",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2078.png"
+    },
+    {
+      "name": "Мир 24 HD",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2078.png"
+    },
+    {
+      "name": "РБК",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/743.png"
+    },
+    {
+      "name": "365 Дней",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2423.png"
+    },
+    {
+      "name": "Animal Planet",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/365.png"
+    },
+    {
+      "name": "Animal Planet HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/365.png"
+    },
+    {
+      "name": "Da Vinci learning",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/410.png"
+    },
+    {
+      "name": "Discovery",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/325.png"
+    },
+    {
+      "name": "Discovery HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/325.png"
+    },
+    {
+      "name": "HD Life",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/415.png"
+    },
+    {
+      "name": "ID Investigation Discovery",
+      "group": "Познавательные",
+      "src": "http://epg.cdntv.online/img/306.png"
+    },
+    {
+      "name": "Nat Geo Wild",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/223.png"
+    },
+    {
+      "name": "Nat Geo Wild HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/223.png"
+    },
+    {
+      "name": "National Geographic",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/102.png"
+    },
+    {
+      "name": "National Geographic HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/102.png"
+    },
+    {
+      "name": "RTG HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/648.png"
+    },
+    {
+      "name": "RTД HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2295.png"
+    },
+    {
+      "name": "Travel+Adventure",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/1035.png"
+    },
+    {
+      "name": "Travel+Adventure HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/1035.png"
+    },
+    {
+      "name": "Viju Explore",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/521.png"
+    },
+    {
+      "name": "Viju History",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/277.png"
+    },
+    {
+      "name": "Viju Nature HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/765.png"
+    },
+    {
+      "name": "ZooПарк",
+      "group": "Познавательные",
+      "src": "http://epg.cdntv.online/img/320.png"
+    },
+    {
+      "name": "Бобёр",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2026.png"
+    },
+    {
+      "name": "Большая Азия",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2417.png"
+    },
+    {
+      "name": "В мире животных HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2498.png"
+    },
+    {
+      "name": "Время",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/669.png"
+    },
+    {
+      "name": "Доктор",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/16.png"
+    },
+    {
+      "name": "ЕГЭ",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2420.png"
+    },
+    {
+      "name": "Живая планета",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2432.png"
+    },
+    {
+      "name": "Живи!",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/113.png"
+    },
+    {
+      "name": "Загородная жизнь",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2298.png"
+    },
+    {
+      "name": "Зоо ТВ",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2431.png"
+    },
+    {
+      "name": "История",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/1036.png"
+    },
+    {
+      "name": "Красная линия",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2476.png"
+    },
+    {
+      "name": "Кухня ТВ",
+      "group": "Кулинарные",
+      "src": "https://cdn.epg.one/img2/614.png"
+    },
+    {
+      "name": "Love Nature HD (EN)",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/3919.png"
+    },
+    {
+      "name": "Моя Планета",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/675.png"
+    },
+    {
+      "name": "НТВ Право",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/1753.png"
+    },
+    {
+      "name": "Наука 2.0",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/8857.png"
+    },
+    {
+      "name": "Первый вегетарианский HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2292.png"
+    },
+    {
+      "name": "Победа",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2447.png"
+    },
+    {
+      "name": "Приключения HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2311.png"
+    },
+    {
+      "name": "Продвижение",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2297.png"
+    },
+    {
+      "name": "Психология 21",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2450.png"
+    },
+    {
+      "name": "Ратник HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2470.png"
+    },
+    {
+      "name": "Телепутешествия",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2424.png"
+    },
+    {
+      "name": "Техно 24",
+      "group": "Познавательные",
+      "src": "http://epg.cdntv.online/img/354.png"
+    },
+    {
+      "name": "ТномеР",
+      "group": "Познавательные",
+      "src": "http://epg.cdntv.online/img/355.png"
+    },
+    {
+      "name": "Центральное телевидение",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2400.png"
+    },
+    {
+      "name": "НТВ HD",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/2001.png"
+    },
+    {
+      "name": "Известия HD",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2271.png"
+    },
+    {
+      "name": "France 24 HD",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2133.png"
+    },
+    {
+      "name": "360 HD",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2265.png"
+    },
+    {
+      "name": "H2 HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2356.png"
+    },
+    {
+      "name": "Nano TV",
+      "group": "Познавательные",
+      "src": "http://epg.cdntv.online/img/370.png"
+    },
+    {
+      "name": "Travel Channel HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/613.png"
+    },
+    {
+      "name": "Viju Explore HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/521.png"
+    },
+    {
+      "name": "Viju History HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/277.png"
+    },
+    {
+      "name": "Viju+ Planet",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2012.png"
+    },
+    {
+      "name": "Большая Азия HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2417.png"
+    },
+    {
+      "name": "Моя Планета HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/675.png"
+    },
+    {
+      "name": "Победа HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2447.png"
+    },
+    {
+      "name": "UDAR HD",
+      "group": "Спортивные",
+      "src": "http://epg.cdntv.online/img/381.png"
+    },
+    {
+      "name": "Матч! Игра HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2050.png"
+    },
+    {
+      "name": "Ultra HD cinema (4K)",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2743.png"
+    },
+    {
+      "name": "Рен ТВ HD",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/2487.png"
+    },
+    {
+      "name": "ТНТ HD",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/1767.png"
+    },
+    {
+      "name": "1HD Music Television HD",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/4037.png"
+    },
+    {
+      "name": "Bridge TV HD",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/151.png"
+    },
+    {
+      "name": "Clubbing TV",
+      "group": "Музыкальные",
+      "src": "http://epg.cdntv.online/img/395.png"
+    },
+    {
+      "name": "RU.TV HD",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/2277.png"
+    },
+    {
+      "name": "Жара TV",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/165.png"
+    },
+    {
+      "name": "О2ТВ HD",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/2412.png"
+    },
+    {
+      "name": "A1 HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1371.png"
+    },
+    {
+      "name": "A2 HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/3961.png"
+    },
+    {
+      "name": "Bolt",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2138.png"
+    },
+    {
+      "name": "FAN HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2359.png"
+    },
+    {
+      "name": "Comedy Central",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/920.png"
+    },
+    {
+      "name": "Star Cinema",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2145.png"
+    },
+    {
+      "name": "Star Family",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2153.png"
+    },
+    {
+      "name": "Viju TV1000 Action HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/125.png"
+    },
+    {
+      "name": "Viju TV1000 HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/127.png"
+    },
+    {
+      "name": "Viju TV1000 Русское HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/267.png"
+    },
+    {
+      "name": "Конный Мир",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/1679.png"
+    },
+    {
+      "name": "Киносемья HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/987.png"
+    },
+    {
+      "name": "Русский роман HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/401.png"
+    },
+    {
+      "name": "Bollywood HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1395.png"
+    },
+    {
+      "name": "Диалоги о рыбалке HD",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/2627.png"
+    },
+    {
+      "name": "Дикая охота HD",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/2483.png"
+    },
+    {
+      "name": "Дикая рыбалка HD",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/2484.png"
+    },
+    {
+      "name": "Shant music HD",
+      "group": "Армения",
+      "src": "http://epg.cdntv.online/img/423.png"
+    },
+    {
+      "name": "Shant premium HD",
+      "group": "Армения",
+      "src": "http://epg.cdntv.online/img/424.png"
+    },
+    {
+      "name": "Shant kids HD",
+      "group": "Армения",
+      "src": "http://epg.cdntv.online/img/425.png"
+    },
+    {
+      "name": "Shant serial HD",
+      "group": "Армения",
+      "src": "http://epg.cdntv.online/img/426.png"
+    },
+    {
+      "name": "Food Network HD",
+      "group": "Кулинарные",
+      "src": "https://cdn.epg.one/img2/2741.png"
+    },
+    {
+      "name": "Fashion TV HD",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/2491.png"
+    },
+    {
+      "name": "C1 HD (Сургут)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/429.png"
+    },
+    {
+      "name": "Инфо 24 HD",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/430.png"
+    },
+    {
+      "name": "Осетия Ирыстон HD",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/432.png"
+    },
+    {
+      "name": "Ultra HD Cinema",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2743.png"
+    },
+    {
+      "name": "360 Новости",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/4458.png"
+    },
+    {
+      "name": "BBC World News",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/828.png"
+    },
+    {
+      "name": "CNN International",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2270.png"
+    },
+    {
+      "name": "Deutsche Welle",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/2352.png"
+    },
+    {
+      "name": "English Club TV HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2155.png"
+    },
+    {
+      "name": "History HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/1394.png"
+    },
+    {
+      "name": "Love Nature HD (4K)",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/3919.png"
+    },
+    {
+      "name": "NHK World",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/921.png"
+    },
+    {
+      "name": "TV BRICS",
+      "group": "Познавательные",
+      "src": "http://epg.cdntv.online/img/447.png"
+    },
+    {
+      "name": "Глазами туриста",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/5979.png"
+    },
+    {
+      "name": "Живая природа HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2495.png"
+    },
+    {
+      "name": "Здоровое ТВ",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2449.png"
+    },
+    {
+      "name": "MOSOBR.TV",
+      "group": "Познавательные",
+      "src": "http://epg.cdntv.online/img/454.png"
+    },
+    {
+      "name": "Пёс и Ко",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2434.png"
+    },
+    {
+      "name": "Viju+ Sport",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2055.png"
+    },
+    {
+      "name": "Мир Баскетбола",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/4629.png"
+    },
+    {
+      "name": "Старт HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2530.png"
+    },
+    {
+      "name": "Точка отрыва",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/617.png"
+    },
+    {
+      "name": "2x2",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/323.png"
+    },
+    {
+      "name": "Анекдот ТВ",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/2760.png"
+    },
+    {
+      "name": "Жар Птица",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/2415.png"
+    },
+    {
+      "name": "КВН ТВ",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/1700.png"
+    },
+    {
+      "name": "Ключ",
+      "group": "Развлекательные",
+      "src": "http://epg.cdntv.online/img/473.png"
+    },
+    {
+      "name": "Суббота!",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/2288.png"
+    },
+    {
+      "name": "Тайна",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2426.png"
+    },
+    {
+      "name": "ТНТ4",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/1649.png"
+    },
+    {
+      "name": "Boomerang",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/929.png"
+    },
+    {
+      "name": "Gulli Girl",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/810.png"
+    },
+    {
+      "name": "В Гостях у сказки HD",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/2027.png"
+    },
+    {
+      "name": "Уникум",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/66.png"
+    },
+    {
+      "name": "Радость моя",
+      "group": "Детские",
+      "src": "https://cdn.epg.one/img2/2287.png"
+    },
+    {
+      "name": "1HD Music Television",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/4037.png"
+    },
+    {
+      "name": "MCM Top",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/2276.png"
+    },
+    {
+      "name": "Mezzo",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/575.png"
+    },
+    {
+      "name": "Music Box Gold",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/5368.png"
+    },
+    {
+      "name": "MTV 00s",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/491.png"
+    },
+    {
+      "name": "Музыка Первого",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/715.png"
+    },
+    {
+      "name": "Радио Шансон",
+      "group": "Музыкальные",
+      "src": "http://epg.cdntv.online/img/497.png"
+    },
+    {
+      "name": "A2",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/3961.png"
+    },
+    {
+      "name": "Amedia Hit",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2007.png"
+    },
+    {
+      "name": "Amedia Premium",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1372.png"
+    },
+    {
+      "name": "Hollywood",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/608.png"
+    },
+    {
+      "name": "Hollywood HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/934.png"
+    },
+    {
+      "name": ".Black",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/935.png"
+    },
+    {
+      "name": "Star Cinema HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2145.png"
+    },
+    {
+      "name": "Star Family HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2153.png"
+    },
+    {
+      "name": "Киноужас",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2493.png"
+    },
+    {
+      "name": "Комедия",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/510.png"
+    },
+    {
+      "name": "Ретро ТВ",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2402.png"
+    },
+    {
+      "name": "Родное кино",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/12.png"
+    },
+    {
+      "name": "Феникс + кино",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/515.png"
+    },
+    {
+      "name": "Дикий",
+      "group": "Мужские",
+      "src": "https://cdn.epg.one/img2/2283.png"
+    },
+    {
+      "name": "Food Network",
+      "group": "Кулинарные",
+      "src": "https://cdn.epg.one/img2/2057.png"
+    },
+    {
+      "name": "Еда",
+      "group": "Кулинарные",
+      "src": "https://cdn.epg.one/img2/7614.png"
+    },
+    {
+      "name": "FoodTime",
+      "group": "Кулинарные",
+      "src": "https://cdn.epg.one/img2/7635.png"
+    },
+    {
+      "name": "Fashion TV Europe",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/2491.png"
+    },
+    {
+      "name": "Моя Удмуртия",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/521.png"
+    },
+    {
+      "name": "2x2 (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7974.png"
+    },
+    {
+      "name": "2x2 (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/1108.png"
+    },
+    {
+      "name": "Дагестан",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/525.png"
+    },
+    {
+      "name": "C1 HD (Сургут)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/527.png"
+    },
+    {
+      "name": "Солнце (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7986.png"
+    },
+    {
+      "name": "Солнце (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7669.png"
+    },
+    {
+      "name": "TV Губерния (Воронеж)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/530.png"
+    },
+    {
+      "name": "Ариранг",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/537.png"
+    },
+    {
+      "name": "Астрахань 24",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2168.png"
+    },
+    {
+      "name": "АТВ (Ставрополь)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5767.png"
+    },
+    {
+      "name": "АТВ (Улан-Удэ)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/541.png"
+    },
+    {
+      "name": "Белгород 24",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5831.png"
+    },
+    {
+      "name": "Вариант V (Владимир)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/546.png"
+    },
+    {
+      "name": "Волга (Н. Новгород)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2468.png"
+    },
+    {
+      "name": "Восток 24 (Владивосток)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/548.png"
+    },
+    {
+      "name": "Вот ТВ (Липецк)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/549.png"
+    },
+    {
+      "name": "ГИС (Самара)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/550.png"
+    },
+    {
+      "name": "ГТ-Ярославль",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/552.png"
+    },
+    {
+      "name": "Губерния (Брянск)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/553.png"
+    },
+    {
+      "name": "Губерния (Самара)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/6750.png"
+    },
+    {
+      "name": "Губерния (Брянск)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/555.png"
+    },
+    {
+      "name": "Девятка ТВ (Киров)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/556.png"
+    },
+    {
+      "name": "Дзержинск",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/557.png"
+    },
+    {
+      "name": "Домашний (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3010.png"
+    },
+    {
+      "name": "Домашний (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3012.png"
+    },
+    {
+      "name": "Домашний (+1)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/304.png"
+    },
+    {
+      "name": "Енисей (Красноярск)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/563.png"
+    },
+    {
+      "name": "Звезда (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/2039.png"
+    },
+    {
+      "name": "Звезда (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3036.png"
+    },
+    {
+      "name": "Карусель (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/2033.png"
+    },
+    {
+      "name": "Карусель (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/1107.png"
+    },
+    {
+      "name": "Краснодар",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/573.png"
+    },
+    {
+      "name": "Майдан (Казань)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/576.png"
+    },
+    {
+      "name": "МиГ ТВ (Екатеринбург)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/577.png"
+    },
+    {
+      "name": "Мир (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3019.png"
+    },
+    {
+      "name": "Мир (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3021.png"
+    },
+    {
+      "name": "Москва 24",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/334.png"
+    },
+    {
+      "name": "Москва. Доверие",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/582.png"
+    },
+    {
+      "name": "Муз ТВ (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/897.png"
+    },
+    {
+      "name": "Муз ТВ (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/2991.png"
+    },
+    {
+      "name": "Муз ТВ (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/1102.png"
+    },
+    {
+      "name": "Национальное телевидение Чувашии",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/587.png"
+    },
+    {
+      "name": "Наш дом (Пенза)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/588.png"
+    },
+    {
+      "name": "Наши Города (Сургут)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/589.png"
+    },
+    {
+      "name": "Ника",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/590.png"
+    },
+    {
+      "name": "ННТВ (Нижний Новгород)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5706.png"
+    },
+    {
+      "name": "НСК 49 (Новосибирск)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/592.png"
+    },
+    {
+      "name": "НТВ (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/2036.png"
+    },
+    {
+      "name": "НТВ (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3028.png"
+    },
+    {
+      "name": "НТВ (Мурманск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/162.png"
+    },
+    {
+      "name": "ОТВ (+7)",
+      "group": "Плюсовые",
+      "src": "http://epg.cdntv.online/img/598.png"
+    },
+    {
+      "name": "ОТС (Новосибирск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/4624.png"
+    },
+    {
+      "name": "Первый городской (Киров)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2122.png"
+    },
+    {
+      "name": "Первый городской (Омск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5855.png"
+    },
+    {
+      "name": "Первый канал (+1)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/146.png"
+    },
+    {
+      "name": "Первый канал (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/2034.png"
+    },
+    {
+      "name": "Первый канал (+3)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/146.png"
+    },
+    {
+      "name": "Первый канал (+5)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/146.png"
+    },
+    {
+      "name": "Первый канал (+6)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3026.png"
+    },
+    {
+      "name": "Первый канал (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3026.png"
+    },
+    {
+      "name": "Первый канал (+8)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3027.png"
+    },
+    {
+      "name": "Первый областной (Орел)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/619.png"
+    },
+    {
+      "name": "Первый тульский",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/6675.png"
+    },
+    {
+      "name": "Первый ярославский",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/7711.png"
+    },
+    {
+      "name": "Продвижение (Екатеринбург)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2297.png"
+    },
+    {
+      "name": "Продвижение (Омск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2297.png"
+    },
+    {
+      "name": "Пятница! (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3018.png"
+    },
+    {
+      "name": "Пятый канал (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/2035.png"
+    },
+    {
+      "name": "Пятый канал (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3031.png"
+    },
+    {
+      "name": "Рен ТВ (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/2037.png"
+    },
+    {
+      "name": "Рен ТВ (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3034.png"
+    },
+    {
+      "name": "РИМ (Екатеринбург)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/633.png"
+    },
+    {
+      "name": "РИФЕЙ-ТВ (Пермь)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/634.png"
+    },
+    {
+      "name": "Россия 1 (+1)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/711.png"
+    },
+    {
+      "name": "Россия 1 (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3000.png"
+    },
+    {
+      "name": "Россия 1 (+3)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/711.png"
+    },
+    {
+      "name": "Россия 1 (+5)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/711.png"
+    },
+    {
+      "name": "Россия 1 (+6)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3002.png"
+    },
+    {
+      "name": "Россия 1 (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/711.png"
+    },
+    {
+      "name": "Россия 1 (+8)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3003.png"
+    },
+    {
+      "name": "Россия 1 (+9)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/711.png"
+    },
+    {
+      "name": "Россия К (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/187.png"
+    },
+    {
+      "name": "Россия К (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/187.png"
+    },
+    {
+      "name": "Россия К (Хабаровск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/187.png"
+    },
+    {
+      "name": "РТС (Абакан)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5776.png"
+    },
+    {
+      "name": "Своё ТВ (Ставрополь)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/653.png"
+    },
+    {
+      "name": "Селенга ТВ (Улан-Удэ)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/654.png"
+    },
+    {
+      "name": "СТС (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3007.png"
+    },
+    {
+      "name": "СТС (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3009.png"
+    },
+    {
+      "name": "Суббота! (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7976.png"
+    },
+    {
+      "name": "Суббота! (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/1103.png"
+    },
+    {
+      "name": "Тагил-ТВ (Екатеринбург)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/666.png"
+    },
+    {
+      "name": "ТВ3 (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3013.png"
+    },
+    {
+      "name": "ТВ3 (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3015.png"
+    },
+    {
+      "name": "ТВ Центр (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/2038.png"
+    },
+    {
+      "name": "ТВ Центр (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/649.png"
+    },
+    {
+      "name": "ТВ3 (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3014.png"
+    },
+    {
+      "name": "Тверской проспект",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/672.png"
+    },
+    {
+      "name": "ТВ-ИН (Челябинск)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/673.png"
+    },
+    {
+      "name": "ТВЦ (Мурманск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/649.png"
+    },
+    {
+      "name": "Тивиком (Улан-Удэ)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/675.png"
+    },
+    {
+      "name": "ТК центр (Красноярск)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/676.png"
+    },
+    {
+      "name": "ТКР (Рязань)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/677.png"
+    },
+    {
+      "name": "TMTV",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/678.png"
+    },
+    {
+      "name": "ТНТ (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3022.png"
+    },
+    {
+      "name": "ТНТ (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/3024.png"
+    },
+    {
+      "name": "ТНТ4 (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7978.png"
+    },
+    {
+      "name": "ТНТ4 (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/1104.png"
+    },
+    {
+      "name": "Томское время",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/7681.png"
+    },
+    {
+      "name": "Хабар 24",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/2578.png"
+    },
+    {
+      "name": "Хамдан (Элиста)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/686.png"
+    },
+    {
+      "name": "Че (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/1598.png"
+    },
+    {
+      "name": "Че (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/1598.png"
+    },
+    {
+      "name": "Шаян ТВ",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/690.png"
+    },
+    {
+      "name": "Ю (+2)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7982.png"
+    },
+    {
+      "name": "Ю (+4)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/7983.png"
+    },
+    {
+      "name": "Ю (+7)",
+      "group": "Плюсовые",
+      "src": "https://cdn.epg.one/img2/1106.png"
+    },
+    {
+      "name": "Югра (Тюмень)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/4640.png"
+    },
+    {
+      "name": "ЮРГАН (Сыктывкар)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2454.png"
+    },
+    {
+      "name": "Экспресс Пенза",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/698.png"
+    },
+    {
+      "name": "БелРос (ТРО)",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2294.png"
+    },
+    {
+      "name": "Крым 24",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2474.png"
+    },
+    {
+      "name": "TV5Monde",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/703.png"
+    },
+    {
+      "name": "Волгоград 1",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/707.png"
+    },
+    {
+      "name": "Волгоград 24",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/708.png"
+    },
+    {
+      "name": "Ивановское",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/711.png"
+    },
+    {
+      "name": "Новый век (Тамбов)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/4628.png"
+    },
+    {
+      "name": "РЕН ТВ 7 Канал (Красноярск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/18.png"
+    },
+    {
+      "name": "СТС (Кузбасс)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/79.png"
+    },
+    {
+      "name": "СТС Прима (Красноярск)",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/79.png"
+    },
+    {
+      "name": "Univer TV",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/5600.png"
+    },
+    {
+      "name": "ЕКО-ТВ",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/744.png"
+    },
+    {
+      "name": "24 канал",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2084.png"
+    },
+    {
+      "name": "Еспресо",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2096.png"
+    },
+    {
+      "name": "Рада",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2118.png"
+    },
+    {
+      "name": "Бигуди",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/758.png"
+    },
+    {
+      "name": "ПЕРШИЙ",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2124.png"
+    },
+    {
+      "name": "KVARTAL TV",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/761.png"
+    },
+    {
+      "name": "Дача HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/8890.png"
+    },
+    {
+      "name": "Mostvideo.TV HD",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/763.png"
+    },
+    {
+      "name": "ATR",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/764.png"
+    },
+    {
+      "name": "Fashion TV HD Ukraine",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2491.png"
+    },
+    {
+      "name": "Беларусь 1",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2538.png"
+    },
+    {
+      "name": "Беларусь 2",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2539.png"
+    },
+    {
+      "name": "Беларусь 3",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2540.png"
+    },
+    {
+      "name": "Беларусь 5",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2541.png"
+    },
+    {
+      "name": "НТВ Беларусь",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/6773.png"
+    },
+    {
+      "name": "РТР-Беларусь",
+      "group": "Беларусь",
+      "src": "http://epg.cdntv.online/img/780.png"
+    },
+    {
+      "name": "9 канал (Израиль)",
+      "group": "Израиль",
+      "src": "http://epg.cdntv.online/img/781.png"
+    },
+    {
+      "name": "Hidabroot",
+      "group": "Израиль",
+      "src": "http://epg.cdntv.online/img/783.png"
+    },
+    {
+      "name": "ערוץ הידברות",
+      "group": "Израиль",
+      "src": "http://epg.cdntv.online/img/784.png"
+    },
+    {
+      "name": "Интер",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2106.png"
+    },
+    {
+      "name": "Прямой HD",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/789.png"
+    },
+    {
+      "name": "УНІАН HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2217.png"
+    },
+    {
+      "name": "Первый деловой",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/797.png"
+    },
+    {
+      "name": "Киев",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/798.png"
+    },
+    {
+      "name": "Zoom",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2201.png"
+    },
+    {
+      "name": "Сварожичи",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/6456.png"
+    },
+    {
+      "name": "8 Канал",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/4659.png"
+    },
+    {
+      "name": "5 канал",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2643.png"
+    },
+    {
+      "name": "Суспільне Дніпро",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/810.png"
+    },
+    {
+      "name": "Суспільне Запоріжжя",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/811.png"
+    },
+    {
+      "name": "Суспільне Культура",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/8869.png"
+    },
+    {
+      "name": "Правда ТУТ Киев",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2117.png"
+    },
+    {
+      "name": "ТРК Алекс",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/816.png"
+    },
+    {
+      "name": "Eu Music HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2094.png"
+    },
+    {
+      "name": "7D7 TV",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/821.png"
+    },
+    {
+      "name": "XSPORT",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2243.png"
+    },
+    {
+      "name": "М1 HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/3335.png"
+    },
+    {
+      "name": "М2 HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/3336.png"
+    },
+    {
+      "name": "OBOZREVATEL HD",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/834.png"
+    },
+    {
+      "name": "Аквариум HD",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/846.png"
+    },
+    {
+      "name": "Камин HD",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/847.png"
+    },
+    {
+      "name": "Lale",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/849.png"
+    },
+    {
+      "name": "Film.Ua Drama",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/853.png"
+    },
+    {
+      "name": "2+2 HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2195.png"
+    },
+    {
+      "name": "К1",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2100.png"
+    },
+    {
+      "name": "К2",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2099.png"
+    },
+    {
+      "name": "Мега",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2098.png"
+    },
+    {
+      "name": "ОЦЕ",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/3351.png"
+    },
+    {
+      "name": "Телевсесвит HD",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/861.png"
+    },
+    {
+      "name": "Setanta Sports Ukraine HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2370.png"
+    },
+    {
+      "name": "1+1 HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2194.png"
+    },
+    {
+      "name": "ICTV HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/3307.png"
+    },
+    {
+      "name": "СТБ HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/3309.png"
+    },
+    {
+      "name": "ОНТ",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2545.png"
+    },
+    {
+      "name": "ТВ-3 Беларусь",
+      "group": "Беларусь",
+      "src": "http://epg.cdntv.online/img/872.png"
+    },
+    {
+      "name": "Первый Музыкальный HD",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/5364.png"
+    },
+    {
+      "name": "8 канал Беларусь",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/4659.png"
+    },
+    {
+      "name": "СТВ Беларусь",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2543.png"
+    },
+    {
+      "name": "Кино",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/1037.png"
+    },
+    {
+      "name": "kino 1",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/878.png"
+    },
+    {
+      "name": "KINO 2",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/879.png"
+    },
+    {
+      "name": "kino 3",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/880.png"
+    },
+    {
+      "name": "Series novels",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/882.png"
+    },
+    {
+      "name": "Кино 1 INT",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/883.png"
+    },
+    {
+      "name": "Видеокассета",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6005.png"
+    },
+    {
+      "name": "Histori novels",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/887.png"
+    },
+    {
+      "name": "Akubji",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/888.png"
+    },
+    {
+      "name": "Кино 312",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/890.png"
+    },
+    {
+      "name": "Film",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/891.png"
+    },
+    {
+      "name": "STR TV",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/892.png"
+    },
+    {
+      "name": "Russian Movies",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/893.png"
+    },
+    {
+      "name": "Детское кино",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6260.png"
+    },
+    {
+      "name": "Маша и Медведь",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/897.png"
+    },
+    {
+      "name": "Наше крутое HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2018.png"
+    },
+    {
+      "name": "Премиальное HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2732.png"
+    },
+    {
+      "name": "Остросюжетное HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/1588.png"
+    },
+    {
+      "name": "Душевное HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2019.png"
+    },
+    {
+      "name": "Кинопоказ HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2834.png"
+    },
+    {
+      "name": "Шокирующее HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2309.png"
+    },
+    {
+      "name": "Комедийное HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/138.png"
+    },
+    {
+      "name": "День победы HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2773.png"
+    },
+    {
+      "name": "Allgäu TV",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/908.png"
+    },
+    {
+      "name": "Augsburg TV",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/909.png"
+    },
+    {
+      "name": "Baden TV",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/910.png"
+    },
+    {
+      "name": "Donau TV",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/912.png"
+    },
+    {
+      "name": "Campus TV",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/913.png"
+    },
+    {
+      "name": "Filstalwelle",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/914.png"
+    },
+    {
+      "name": "Franken Fernsehen HD",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/915.png"
+    },
+    {
+      "name": "FS1 AUSTRIA",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/916.png"
+    },
+    {
+      "name": "Halle",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/917.png"
+    },
+    {
+      "name": "München TV",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/920.png"
+    },
+    {
+      "name": "NRWision",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/921.png"
+    },
+    {
+      "name": "Oberpfalz TV",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/922.png"
+    },
+    {
+      "name": "RNF",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/924.png"
+    },
+    {
+      "name": "RFO",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/925.png"
+    },
+    {
+      "name": "Saarland Fernsehen 1",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/926.png"
+    },
+    {
+      "name": "Saarland Fernsehen 2",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/927.png"
+    },
+    {
+      "name": "W24",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/928.png"
+    },
+    {
+      "name": "ARTN TV",
+      "group": "Армения",
+      "src": "http://epg.cdntv.online/img/930.png"
+    },
+    {
+      "name": "H1",
+      "group": "Армения",
+      "src": "http://epg.cdntv.online/img/931.png"
+    },
+    {
+      "name": "US Armenia TV",
+      "group": "Армения",
+      "src": "http://epg.cdntv.online/img/932.png"
+    },
+    {
+      "name": "1TV",
+      "group": "Грузия",
+      "src": "https://cdn.epg.one/img2/2560.png"
+    },
+    {
+      "name": "IMEDI HD",
+      "group": "Грузия",
+      "src": "http://epg.cdntv.online/img/935.png"
+    },
+    {
+      "name": "31 Канал",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/2639.png"
+    },
+    {
+      "name": "7 канал",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/2224.png"
+    },
+    {
+      "name": "Atameken Business TV",
+      "group": "Казахстан",
+      "src": "http://epg.cdntv.online/img/940.png"
+    },
+    {
+      "name": "Ел Арна",
+      "group": "Казахстан",
+      "src": "http://epg.cdntv.online/img/941.png"
+    },
+    {
+      "name": "Халык Арна",
+      "group": "Казахстан",
+      "src": "http://epg.cdntv.online/img/942.png"
+    },
+    {
+      "name": "Yeshua Chai TV",
+      "group": "Израиль",
+      "src": "http://epg.cdntv.online/img/943.png"
+    },
+    {
+      "name": "Moldova 1",
+      "group": "Молдова",
+      "src": "http://epg.cdntv.online/img/945.png"
+    },
+    {
+      "name": "Az TV",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/946.png"
+    },
+    {
+      "name": "Arb TV",
+      "group": "Азербайджан",
+      "src": "https://cdn.epg.one/img2/2635.png"
+    },
+    {
+      "name": "Arb 24",
+      "group": "Азербайджан",
+      "src": "https://cdn.epg.one/img2/2551.png"
+    },
+    {
+      "name": "VIVA TV HD",
+      "group": "Музыкальные",
+      "src": "http://epg.cdntv.online/img/955.png"
+    },
+    {
+      "name": "ТРК Луч",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/957.png"
+    },
+    {
+      "name": "МТВ Волгоград",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/958.png"
+    },
+    {
+      "name": "МузСоюз",
+      "group": "Религиозные",
+      "src": "https://cdn.epg.one/img2/2413.png"
+    },
+    {
+      "name": "НТМ (Мордовия)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/961.png"
+    },
+    {
+      "name": "РЖД ТВ HD",
+      "group": "Познавательные",
+      "src": "http://epg.cdntv.online/img/962.png"
+    },
+    {
+      "name": "Сочи 24",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/2830.png"
+    },
+    {
+      "name": "Союз",
+      "group": "Религиозные",
+      "src": "https://cdn.epg.one/img2/2448.png"
+    },
+    {
+      "name": "Страна FM HD",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/5369.png"
+    },
+    {
+      "name": "СТРК HD",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/968.png"
+    },
+    {
+      "name": "Три Ангела HD",
+      "group": "Религиозные",
+      "src": "https://cdn.epg.one/img2/2469.png"
+    },
+    {
+      "name": "Суспільне Одеса",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/972.png"
+    },
+    {
+      "name": "BamBarBia TV HD",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/973.png"
+    },
+    {
+      "name": "Плюс Плюс",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/976.png"
+    },
+    {
+      "name": "ТЕТ HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2171.png"
+    },
+    {
+      "name": "Матч! Футбол 1",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2044.png"
+    },
+    {
+      "name": "Матч! Футбол 2",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/1042.png"
+    },
+    {
+      "name": "Матч! Футбол 3",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2005.png"
+    },
+    {
+      "name": "France 24",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2133.png"
+    },
+    {
+      "name": "H2",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2356.png"
+    },
+    {
+      "name": "History",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/1394.png"
+    },
+    {
+      "name": "Жара",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/165.png"
+    },
+    {
+      "name": "Вопросы и ответы",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2451.png"
+    },
+    {
+      "name": "Беларусь 1 HD",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2538.png"
+    },
+    {
+      "name": "Беларусь 2 HD",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2539.png"
+    },
+    {
+      "name": "Беларусь 24 HD",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2170.png"
+    },
+    {
+      "name": "Беларусь 3 HD",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2540.png"
+    },
+    {
+      "name": "Беларусь 5 HD",
+      "group": "Беларусь",
+      "src": "https://cdn.epg.one/img2/2541.png"
+    },
+    {
+      "name": "Keshet 12",
+      "group": "Израиль",
+      "src": "https://cdn.epg.one/img2/2670.png"
+    },
+    {
+      "name": "Reshet 13",
+      "group": "Израиль",
+      "src": "https://cdn.epg.one/img2/2671.png"
+    },
+    {
+      "name": "Новый канал HD",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/1008.png"
+    },
+    {
+      "name": "VOX HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/2996.png"
+    },
+    {
+      "name": "Sat. 1 HD DE",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/1013.png"
+    },
+    {
+      "name": "Sat. 1 Gold HD DE",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/1014.png"
+    },
+    {
+      "name": "Sport 1 HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/2888.png"
+    },
+    {
+      "name": "Kabel Eins HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/3127.png"
+    },
+    {
+      "name": "N-TV HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/4484.png"
+    },
+    {
+      "name": "НТВ-Мир",
+      "group": "Развлекательные",
+      "src": "http://epg.cdntv.online/img/1018.png"
+    },
+    {
+      "name": "Сетанта Спорт HD",
+      "group": "Спортивные",
+      "src": "http://epg.cdntv.online/img/1021.png"
+    },
+    {
+      "name": "Сетанта Спорт+ HD",
+      "group": "Спортивные",
+      "src": "http://epg.cdntv.online/img/1022.png"
+    },
+    {
+      "name": "Хит HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2833.png"
+    },
+    {
+      "name": "Наш Кинопоказ HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2831.png"
+    },
+    {
+      "name": "Дорама",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2174.png"
+    },
+    {
+      "name": "Романтичное HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2772.png"
+    },
+    {
+      "name": "Наше Мужское HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2835.png"
+    },
+    {
+      "name": "КиноСат",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2407.png"
+    },
+    {
+      "name": "Блокбастер HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2832.png"
+    },
+    {
+      "name": "Арсенал HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2768.png"
+    },
+    {
+      "name": "HGTV HD",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/2377.png"
+    },
+    {
+      "name": "Russian Extreme HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/2497.png"
+    },
+    {
+      "name": "ТВ3 HD",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/698.png"
+    },
+    {
+      "name": "Moldova 2",
+      "group": "Молдова",
+      "src": "https://cdn.epg.one/img2/2787.png"
+    },
+    {
+      "name": "Pro TV Chisinau HD",
+      "group": "Молдова",
+      "src": "http://epg.cdntv.online/img/1047.png"
+    },
+    {
+      "name": "Baku TV",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1049.png"
+    },
+    {
+      "name": "Apa TV",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1050.png"
+    },
+    {
+      "name": "TRT Haber",
+      "group": "Азербайджан",
+      "src": "https://cdn.epg.one/img2/3974.png"
+    },
+    {
+      "name": "AN T",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1056.png"
+    },
+    {
+      "name": "Welt HD",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/4483.png"
+    },
+    {
+      "name": "СТС HD",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/79.png"
+    },
+    {
+      "name": "Первый космический HD",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/2310.png"
+    },
+    {
+      "name": "Setanta Sports+ Ukraine HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/6860.png"
+    },
+    {
+      "name": "Das Erste HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/5657.png"
+    },
+    {
+      "name": "ZDF HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/3072.png"
+    },
+    {
+      "name": "ProSieben HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/3070.png"
+    },
+    {
+      "name": "RTL HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/3113.png"
+    },
+    {
+      "name": "RTL2 HD DE",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/1070.png"
+    },
+    {
+      "name": "Super RTL HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/3116.png"
+    },
+    {
+      "name": "Sky Sport 1 HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/2878.png"
+    },
+    {
+      "name": "Sky Sport 2 HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/2879.png"
+    },
+    {
+      "name": "Sky Sport Bundesliga 1 HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/2880.png"
+    },
+    {
+      "name": "Sky Cinema +24 HD",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/1075.png"
+    },
+    {
+      "name": "Sky Cinema Action HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/6474.png"
+    },
+    {
+      "name": "Sky Cinema Best HD DE",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/1077.png"
+    },
+    {
+      "name": "Sky Cinema Family HD DE",
+      "group": "Германия",
+      "src": "https://cdn.epg.one/img2/2869.png"
+    },
+    {
+      "name": "Sky Cinema Premieren HD DE",
+      "group": "Германия",
+      "src": "http://epg.cdntv.online/img/1079.png"
+    },
+    {
+      "name": "HOT Cinema 1 IL",
+      "group": "Израиль",
+      "src": "https://cdn.epg.one/img2/2688.png"
+    },
+    {
+      "name": "HOT Cinema 2 IL",
+      "group": "Израиль",
+      "src": "https://cdn.epg.one/img2/2702.png"
+    },
+    {
+      "name": "HOT Cinema 3 IL",
+      "group": "Израиль",
+      "src": "https://cdn.epg.one/img2/2703.png"
+    },
+    {
+      "name": "HOT Cinema 4 IL",
+      "group": "Израиль",
+      "src": "https://cdn.epg.one/img2/2687.png"
+    },
+    {
+      "name": "REN MD",
+      "group": "Молдова",
+      "src": "http://epg.cdntv.online/img/1094.png"
+    },
+    {
+      "name": "Мосфильм HD",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/1095.png"
+    },
+    {
+      "name": "Запад 24 (Калининград)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1096.png"
+    },
+    {
+      "name": "Перец International",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/5651.png"
+    },
+    {
+      "name": "Trash HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/3361.png"
+    },
+    {
+      "name": "Про любовь HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2829.png"
+    },
+    {
+      "name": "Камеди HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2836.png"
+    },
+    {
+      "name": "Кино UHD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2804.png"
+    },
+    {
+      "name": "Сериал UHD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/2749.png"
+    },
+    {
+      "name": "Кино Ultra HD",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/1103.png"
+    },
+    {
+      "name": "Сериал Ultra HD",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/1104.png"
+    },
+    {
+      "name": "НТВ Стиль",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/1755.png"
+    },
+    {
+      "name": "1+1",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2194.png"
+    },
+    {
+      "name": "2+2",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2195.png"
+    },
+    {
+      "name": "ICTV",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/3307.png"
+    },
+    {
+      "name": "СТБ",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/3309.png"
+    },
+    {
+      "name": "ТЕТ",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/2171.png"
+    },
+    {
+      "name": "Новый канал",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/1114.png"
+    },
+    {
+      "name": "Звезда HD",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/405.png"
+    },
+    {
+      "name": "QAZSPORT HD",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/7509.png"
+    },
+    {
+      "name": "СТВ (Казахстан)",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/2543.png"
+    },
+    {
+      "name": "КТК",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/2570.png"
+    },
+    {
+      "name": "Первый канал Евразия",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/2571.png"
+    },
+    {
+      "name": "TDK 42",
+      "group": "Казахстан",
+      "src": "http://epg.cdntv.online/img/1148.png"
+    },
+    {
+      "name": "Любимое HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/6019.png"
+    },
+    {
+      "name": "E HD",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/1676.png"
+    },
+    {
+      "name": "Bridge TV Шлягер",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/4621.png"
+    },
+    {
+      "name": "Матч! Премьер HD+",
+      "group": "Экстра",
+      "src": "https://cdn.epg.one/img2/2250.png"
+    },
+    {
+      "name": "Матч! Футбол 1+",
+      "group": "Экстра",
+      "src": "https://cdn.epg.one/img2/2051.png"
+    },
+    {
+      "name": "Матч! Футбол 2+",
+      "group": "Экстра",
+      "src": "https://cdn.epg.one/img2/2051.png"
+    },
+    {
+      "name": "Матч! Футбол 3+",
+      "group": "Экстра",
+      "src": "https://cdn.epg.one/img2/2051.png"
+    },
+    {
+      "name": "TV Formula",
+      "group": "Грузия",
+      "src": "http://epg.cdntv.online/img/1157.png"
+    },
+    {
+      "name": "Palitra TV",
+      "group": "Грузия",
+      "src": "http://epg.cdntv.online/img/1159.png"
+    },
+    {
+      "name": "Rustavi 2",
+      "group": "Грузия",
+      "src": "http://epg.cdntv.online/img/1160.png"
+    },
+    {
+      "name": "Adjara TV",
+      "group": "Грузия",
+      "src": "https://cdn.epg.one/img2/2567.png"
+    },
+    {
+      "name": "Marao",
+      "group": "Грузия",
+      "src": "https://cdn.epg.one/img2/4281.png"
+    },
+    {
+      "name": "Mtavari Arxi",
+      "group": "Грузия",
+      "src": "http://epg.cdntv.online/img/1163.png"
+    },
+    {
+      "name": "Obieqtivi TV",
+      "group": "Грузия",
+      "src": "https://cdn.epg.one/img2/2566.png"
+    },
+    {
+      "name": "TV Pirveli",
+      "group": "Грузия",
+      "src": "https://cdn.epg.one/img2/2565.png"
+    },
+    {
+      "name": "Твое ТВ",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5441.png"
+    },
+    {
+      "name": "1mus.com",
+      "group": "Музыкальные",
+      "src": "http://epg.cdntv.online/img/1180.png"
+    },
+    {
+      "name": "Relax",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1181.png"
+    },
+    {
+      "name": "Беларусь 5 HD+",
+      "group": "Экстра",
+      "src": "https://cdn.epg.one/img2/2541.png"
+    },
+    {
+      "name": "Мордовия 24",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1185.png"
+    },
+    {
+      "name": "Setanta Qazaqstan HD",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/2630.png"
+    },
+    {
+      "name": "CBS Reality",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/3795.png"
+    },
+    {
+      "name": "TVR Moldova",
+      "group": "Молдова",
+      "src": "https://cdn.epg.one/img2/7824.png"
+    },
+    {
+      "name": "RU.TV Moldova",
+      "group": "Молдова",
+      "src": "https://cdn.epg.one/img2/2277.png"
+    },
+    {
+      "name": "National 24 Plus",
+      "group": "Молдова",
+      "src": "https://cdn.epg.one/img2/3689.png"
+    },
+    {
+      "name": "Alfa Omega TV",
+      "group": "Молдова",
+      "src": "https://cdn.epg.one/img2/3688.png"
+    },
+    {
+      "name": "Busuioc TV",
+      "group": "Молдова",
+      "src": "http://epg.cdntv.online/img/1194.png"
+    },
+    {
+      "name": "Gurinel TV HD",
+      "group": "Молдова",
+      "src": "https://cdn.epg.one/img2/2854.png"
+    },
+    {
+      "name": "Prime HD",
+      "group": "Молдова",
+      "src": "https://cdn.epg.one/img2/2844.png"
+    },
+    {
+      "name": "Jurnal TV HD",
+      "group": "Молдова",
+      "src": "https://cdn.epg.one/img2/2843.png"
+    },
+    {
+      "name": "BACKUSTV",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4770.png"
+    },
+    {
+      "name": "BACKUSTV СТРАШНОЕ",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4662.png"
+    },
+    {
+      "name": "Таджикская Музыка",
+      "group": "Таджикистан",
+      "src": "http://epg.cdntv.online/img/1205.png"
+    },
+    {
+      "name": "ТВ-Бадахшон",
+      "group": "Таджикистан",
+      "src": "http://epg.cdntv.online/img/1210.png"
+    },
+    {
+      "name": "ТВ-Кулоб",
+      "group": "Таджикистан",
+      "src": "http://epg.cdntv.online/img/1211.png"
+    },
+    {
+      "name": "Jahonnamo",
+      "group": "Таджикистан",
+      "src": "https://cdn.epg.one/img2/2585.png"
+    },
+    {
+      "name": "Safina",
+      "group": "Таджикистан",
+      "src": "https://cdn.epg.one/img2/2583.png"
+    },
+    {
+      "name": "TVT 1",
+      "group": "Таджикистан",
+      "src": "http://epg.cdntv.online/img/1216.png"
+    },
+    {
+      "name": "Синамо",
+      "group": "Таджикистан",
+      "src": "http://epg.cdntv.online/img/1217.png"
+    },
+    {
+      "name": "Aqlvoy",
+      "group": "Узбекистан",
+      "src": "http://epg.cdntv.online/img/1223.png"
+    },
+    {
+      "name": "Yoshlar",
+      "group": "Узбекистан",
+      "src": "https://cdn.epg.one/img2/2645.png"
+    },
+    {
+      "name": "Toshkent",
+      "group": "Узбекистан",
+      "src": "https://cdn.epg.one/img2/2646.png"
+    },
+    {
+      "name": "O'zbekiston",
+      "group": "Узбекистан",
+      "src": "http://epg.cdntv.online/img/1227.png"
+    },
+    {
+      "name": "Dunyo Boylab",
+      "group": "Узбекистан",
+      "src": "https://cdn.epg.one/img2/2649.png"
+    },
+    {
+      "name": "Navo",
+      "group": "Узбекистан",
+      "src": "https://cdn.epg.one/img2/2651.png"
+    },
+    {
+      "name": "O'zbekiston 24",
+      "group": "Узбекистан",
+      "src": "http://epg.cdntv.online/img/1235.png"
+    },
+    {
+      "name": "Zo'rTV",
+      "group": "Узбекистан",
+      "src": "http://epg.cdntv.online/img/1236.png"
+    },
+    {
+      "name": "MilliyTV",
+      "group": "Узбекистан",
+      "src": "http://epg.cdntv.online/img/1238.png"
+    },
+    {
+      "name": "Кус-кус HD",
+      "group": "Украина",
+      "src": "http://epg.cdntv.online/img/1246.png"
+    },
+    {
+      "name": "ГТРК Вайнах",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1248.png"
+    },
+    {
+      "name": "ЧГТРК Грозный",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1249.png"
+    },
+    {
+      "name": "Kinoteatr",
+      "group": "Узбекистан",
+      "src": "https://cdn.epg.one/img2/2652.png"
+    },
+    {
+      "name": "Qazaqstan",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/2569.png"
+    },
+    {
+      "name": "Cartoons 90",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4728.png"
+    },
+    {
+      "name": "Cartoons Short",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4729.png"
+    },
+    {
+      "name": "Cartoons Big",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4730.png"
+    },
+    {
+      "name": "CineMan",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4682.png"
+    },
+    {
+      "name": "CineMan Top",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4683.png"
+    },
+    {
+      "name": "CineMan Action",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4684.png"
+    },
+    {
+      "name": "CineMan Thriller",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4685.png"
+    },
+    {
+      "name": "CineMan Melodrama",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4686.png"
+    },
+    {
+      "name": "CineMan Marvel",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4687.png"
+    },
+    {
+      "name": "CineMan Ужасы",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4688.png"
+    },
+    {
+      "name": "CineMan Комедия",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4689.png"
+    },
+    {
+      "name": "CineMan VHS",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4690.png"
+    },
+    {
+      "name": "CineMan РуКино",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4691.png"
+    },
+    {
+      "name": "CineMan Сваты",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4692.png"
+    },
+    {
+      "name": "Сериал \"Скорая помощь\"",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5524.png"
+    },
+    {
+      "name": "Сериал \"Симпсоны\"",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5525.png"
+    },
+    {
+      "name": "CineMan Катастрофы",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5585.png"
+    },
+    {
+      "name": "A Haber",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/2589.png"
+    },
+    {
+      "name": "TRT Cocuk",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1274.png"
+    },
+    {
+      "name": "EM TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1275.png"
+    },
+    {
+      "name": "TRT Arapca",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1276.png"
+    },
+    {
+      "name": "Power TV",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/2665.png"
+    },
+    {
+      "name": "TRT Muzik",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/3924.png"
+    },
+    {
+      "name": "TRT World",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1280.png"
+    },
+    {
+      "name": "Power Turk",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/2666.png"
+    },
+    {
+      "name": "Can TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1283.png"
+    },
+    {
+      "name": "Haber Global",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1285.png"
+    },
+    {
+      "name": "Icel TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1286.png"
+    },
+    {
+      "name": "RTVi HD",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/2401.png"
+    },
+    {
+      "name": "CineMan Ментовские войны",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6051.png"
+    },
+    {
+      "name": "CineMan ПёС",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6052.png"
+    },
+    {
+      "name": "CineMan Лесник",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6053.png"
+    },
+    {
+      "name": "Telewizja Torun",
+      "group": "Польша",
+      "src": "http://epg.cdntv.online/img/1300.png"
+    },
+    {
+      "name": "Trwam TV",
+      "group": "Польша",
+      "src": "http://epg.cdntv.online/img/1301.png"
+    },
+    {
+      "name": "TV Kujawy",
+      "group": "Польша",
+      "src": "http://epg.cdntv.online/img/1302.png"
+    },
+    {
+      "name": "TV Republika",
+      "group": "Польша",
+      "src": "http://epg.cdntv.online/img/1303.png"
+    },
+    {
+      "name": "TVT",
+      "group": "Польша",
+      "src": "http://epg.cdntv.online/img/1322.png"
+    },
+    {
+      "name": "TVT Zgorzelec",
+      "group": "Польша",
+      "src": "http://epg.cdntv.online/img/1323.png"
+    },
+    {
+      "name": "Bloomberg TV Europe HD",
+      "group": "Польша",
+      "src": "http://epg.cdntv.online/img/1325.png"
+    },
+    {
+      "name": "5 Канал KZ",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/2643.png"
+    },
+    {
+      "name": "Balapan",
+      "group": "Казахстан",
+      "src": "http://epg.cdntv.online/img/1329.png"
+    },
+    {
+      "name": "Q Sport HD",
+      "group": "Казахстан",
+      "src": "https://cdn.epg.one/img2/7235.png"
+    },
+    {
+      "name": "Звезда Плюс",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/4661.png"
+    },
+    {
+      "name": "Gagsnetwork",
+      "group": "Развлекательные",
+      "src": "https://cdn.epg.one/img2/3551.png"
+    },
+    {
+      "name": "Ісландія HD",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/8884.png"
+    },
+    {
+      "name": "KLI Cinema HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6106.png"
+    },
+    {
+      "name": "KLI Music HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6120.png"
+    },
+    {
+      "name": "KLI Комедия HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6107.png"
+    },
+    {
+      "name": "KLI HIT 90",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6121.png"
+    },
+    {
+      "name": "VL Comedy",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1347.png"
+    },
+    {
+      "name": "VL Cartoons",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1348.png"
+    },
+    {
+      "name": "VL Fantastic",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1349.png"
+    },
+    {
+      "name": "VL Holiday",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1350.png"
+    },
+    {
+      "name": "VL Horror",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1351.png"
+    },
+    {
+      "name": "Мир HD",
+      "group": "Федеральные",
+      "src": "https://cdn.epg.one/img2/726.png"
+    },
+    {
+      "name": "Cinema Classic",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/2754.png"
+    },
+    {
+      "name": "RT News HD",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2269.png"
+    },
+    {
+      "name": "RT News",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/2269.png"
+    },
+    {
+      "name": "Kentron",
+      "group": "Армения",
+      "src": "https://cdn.epg.one/img2/5917.png"
+    },
+    {
+      "name": "5TV",
+      "group": "Армения",
+      "src": "https://cdn.epg.one/img2/2372.png"
+    },
+    {
+      "name": "Cineman",
+      "group": "Армения",
+      "src": "https://cdn.epg.one/img2/4682.png"
+    },
+    {
+      "name": "Comedy",
+      "group": "Армения",
+      "src": "https://cdn.epg.one/img2/4269.png"
+    },
+    {
+      "name": "Filmzone",
+      "group": "Армения",
+      "src": "http://epg.cdntv.online/img/1363.png"
+    },
+    {
+      "name": "U! Premium",
+      "group": "Армения",
+      "src": "http://epg.cdntv.online/img/1365.png"
+    },
+    {
+      "name": "KLI History HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6233.png"
+    },
+    {
+      "name": "KLI Premium HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6234.png"
+    },
+    {
+      "name": "KLI Russian HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6235.png"
+    },
+    {
+      "name": "KLI Fantastica HD",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1373.png"
+    },
+    {
+      "name": "KLI VHS HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6395.png"
+    },
+    {
+      "name": "KLI Action HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7172.png"
+    },
+    {
+      "name": "KLI СССР HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6397.png"
+    },
+    {
+      "name": "KLI Famliy HD",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1377.png"
+    },
+    {
+      "name": "KLI Retro HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6399.png"
+    },
+    {
+      "name": "Z!Channel HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/1113.png"
+    },
+    {
+      "name": "Z!Action HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8783.png"
+    },
+    {
+      "name": "Z!Adventure HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8784.png"
+    },
+    {
+      "name": "Z!Biography HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8821.png"
+    },
+    {
+      "name": "Z!Comedy HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/1114.png"
+    },
+    {
+      "name": "Z!Crime HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/1115.png"
+    },
+    {
+      "name": "Z!Detective HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8785.png"
+    },
+    {
+      "name": "Z!Drama HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8786.png"
+    },
+    {
+      "name": "Z!Family HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8787.png"
+    },
+    {
+      "name": "Z!Fantastic HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8788.png"
+    },
+    {
+      "name": "Z!Fantasy HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8789.png"
+    },
+    {
+      "name": "Z!History HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8819.png"
+    },
+    {
+      "name": "Z!Horror HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/1116.png"
+    },
+    {
+      "name": "Z!Russian HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8790.png"
+    },
+    {
+      "name": "Z!Serial HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5898.png"
+    },
+    {
+      "name": "Z!Sitcom HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5899.png"
+    },
+    {
+      "name": "Z!Smile HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5900.png"
+    },
+    {
+      "name": "Z!Thriller HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8782.png"
+    },
+    {
+      "name": "Z!Travel HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6213.png"
+    },
+    {
+      "name": "Z!Fun HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8791.png"
+    },
+    {
+      "name": "Z!Musiс HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5290.png"
+    },
+    {
+      "name": "Z!Rock HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5291.png"
+    },
+    {
+      "name": "Оплот ТВ",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1401.png"
+    },
+    {
+      "name": "Оплот 2",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1402.png"
+    },
+    {
+      "name": "Первый Республиканский",
+      "group": "Региональные",
+      "src": "https://cdn.epg.one/img2/6674.png"
+    },
+    {
+      "name": "Новороссия ТВ",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1404.png"
+    },
+    {
+      "name": "Юнион",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1405.png"
+    },
+    {
+      "name": "6ТВ (Горловка)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1406.png"
+    },
+    {
+      "name": "Луганск 24",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1407.png"
+    },
+    {
+      "name": "Соловьёв LIVE",
+      "group": "Новостные",
+      "src": "http://epg.cdntv.online/img/1409.png"
+    },
+    {
+      "name": "Fox News",
+      "group": "Новостные",
+      "src": "https://cdn.epg.one/img2/1031.png"
+    },
+    {
+      "name": "Al Quran Al Kareem",
+      "group": "Саудовская Аравия",
+      "src": "http://epg.cdntv.online/img/1411.png"
+    },
+    {
+      "name": "Al Sunnah",
+      "group": "Саудовская Аравия",
+      "src": "http://epg.cdntv.online/img/1412.png"
+    },
+    {
+      "name": "CineMan Miniseries",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7150.png"
+    },
+    {
+      "name": "Bridge TV Rock",
+      "group": "Музыкальные",
+      "src": "https://cdn.epg.one/img2/151.png"
+    },
+    {
+      "name": "Z!Military HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8820.png"
+    },
+    {
+      "name": "Z!Science HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8822.png"
+    },
+    {
+      "name": "KLI Horror FHD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7229.png"
+    },
+    {
+      "name": "KLI Concert FHD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7177.png"
+    },
+    {
+      "name": "KLI Мультик HD",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1420.png"
+    },
+    {
+      "name": "KLI Docu HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7661.png"
+    },
+    {
+      "name": "KLI Шансон",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7590.png"
+    },
+    {
+      "name": "Lorence TV",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1423.png"
+    },
+    {
+      "name": "CineMan Premium",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7485.png"
+    },
+    {
+      "name": "Ahi TV Kirsehir",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1427.png"
+    },
+    {
+      "name": "Akit TV",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/3839.png"
+    },
+    {
+      "name": "Al Hayat TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1429.png"
+    },
+    {
+      "name": "Cekmeköy TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1432.png"
+    },
+    {
+      "name": "ETB Basque",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1435.png"
+    },
+    {
+      "name": "Halk TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1436.png"
+    },
+    {
+      "name": "IBB TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1437.png"
+    },
+    {
+      "name": "Insight TV",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/6677.png"
+    },
+    {
+      "name": "Milyon TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1439.png"
+    },
+    {
+      "name": "Sarıyer TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1440.png"
+    },
+    {
+      "name": "Sat7 Türk",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1441.png"
+    },
+    {
+      "name": "Tempo TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1442.png"
+    },
+    {
+      "name": "TGRT EU",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/3855.png"
+    },
+    {
+      "name": "TRT Avaz",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/3858.png"
+    },
+    {
+      "name": "TRT Belgesel",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/3907.png"
+    },
+    {
+      "name": "TRT EBA Ilkokul",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1446.png"
+    },
+    {
+      "name": "TRT EBA Lise",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1447.png"
+    },
+    {
+      "name": "TRT EBA Ortaokul",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1448.png"
+    },
+    {
+      "name": "TRT Haber",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/3974.png"
+    },
+    {
+      "name": "TRT Kurdî",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1450.png"
+    },
+    {
+      "name": "TRT Türk",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/2951.png"
+    },
+    {
+      "name": "TV4",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/4495.png"
+    },
+    {
+      "name": "TVnet",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/3987.png"
+    },
+    {
+      "name": "UçanKuş TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1455.png"
+    },
+    {
+      "name": "BeritaSatu World [IDN]",
+      "group": "Другие (тест)",
+      "src": "http://epg.cdntv.online/img/1457.png"
+    },
+    {
+      "name": "RTI1",
+      "group": "Другие (тест)",
+      "src": "http://epg.cdntv.online/img/1469.png"
+    },
+    {
+      "name": "Red Bull TV [AT]",
+      "group": "Другие (тест)",
+      "src": "https://cdn.epg.one/img2/6039.png"
+    },
+    {
+      "name": "Sofy TV",
+      "group": "Другие (тест)",
+      "src": "http://epg.cdntv.online/img/1471.png"
+    },
+    {
+      "name": "Taevas TV7 [EE]",
+      "group": "Другие (тест)",
+      "src": "http://epg.cdntv.online/img/1472.png"
+    },
+    {
+      "name": "TBN Baltia [EE]",
+      "group": "Другие (тест)",
+      "src": "http://epg.cdntv.online/img/1473.png"
+    },
+    {
+      "name": "WeatherSpy Europe",
+      "group": "Другие (тест)",
+      "src": "http://epg.cdntv.online/img/1475.png"
+    },
+    {
+      "name": "KONUL TV AZERBAIJAN",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1477.png"
+    },
+    {
+      "name": "KLI DRAMA HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7174.png"
+    },
+    {
+      "name": "KLI Humor HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7173.png"
+    },
+    {
+      "name": "KLI Kids FHD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7178.png"
+    },
+    {
+      "name": "KLI Club HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6732.png"
+    },
+    {
+      "name": "KLI Кино серия HD",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1483.png"
+    },
+    {
+      "name": "KLI Fantasy HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7175.png"
+    },
+    {
+      "name": "ETV+ HD",
+      "group": "Другие (тест)",
+      "src": "https://cdn.epg.one/img2/5343.png"
+    },
+    {
+      "name": "Terra",
+      "group": "Познавательные",
+      "src": "https://cdn.epg.one/img2/7632.png"
+    },
+    {
+      "name": "Среда (Дагестан)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1487.png"
+    },
+    {
+      "name": "Прибой ТВ (Дагестан)",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1488.png"
+    },
+    {
+      "name": "Киносерия",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/799.png"
+    },
+    {
+      "name": "Anime TV HD",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/1491.png"
+    },
+    {
+      "name": "Horror TV HD",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/1492.png"
+    },
+    {
+      "name": "Kanal 7",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/3956.png"
+    },
+    {
+      "name": "Новгородское областное ТВ",
+      "group": "Региональные",
+      "src": "http://epg.cdntv.online/img/1494.png"
+    },
+    {
+      "name": "Ukraine World News",
+      "group": "Украина",
+      "src": "https://cdn.epg.one/img2/8877.png"
+    },
+    {
+      "name": "Футбольный HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/4679.png"
+    },
+    {
+      "name": "Хоккейный HD",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/4605.png"
+    },
+    {
+      "name": "Спортивный",
+      "group": "Спортивные",
+      "src": "https://cdn.epg.one/img2/4678.png"
+    },
+    {
+      "name": "KLI NETFLIX HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/7898.png"
+    },
+    {
+      "name": "KLI Millennium",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8755.png"
+    },
+    {
+      "name": "KLI Marvel HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8756.png"
+    },
+    {
+      "name": "Детективный",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1505.png"
+    },
+    {
+      "name": "РТР-Планета",
+      "group": "Новостные",
+      "src": "http://epg.cdntv.online/img/1506.png"
+    },
+    {
+      "name": "Криминальное HD",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/7844.png"
+    },
+    {
+      "name": "Твое ТВ Юмор",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1511.png"
+    },
+    {
+      "name": "Sky High Epoch HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5449.png"
+    },
+    {
+      "name": "Sky High Heroes HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5448.png"
+    },
+    {
+      "name": "Sky High Dance HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5455.png"
+    },
+    {
+      "name": "Sky High Spirit HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5452.png"
+    },
+    {
+      "name": "Sky High Fight HD",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1516.png"
+    },
+    {
+      "name": "Sky High Series HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5447.png"
+    },
+    {
+      "name": "Sky High Man HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5461.png"
+    },
+    {
+      "name": "Sky High Concert HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5454.png"
+    },
+    {
+      "name": "Sky High Fresh HDR HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6066.png"
+    },
+    {
+      "name": "Sky High Future HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5588.png"
+    },
+    {
+      "name": "Sky High Bunny HD",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1522.png"
+    },
+    {
+      "name": "Sky High Fresh HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5450.png"
+    },
+    {
+      "name": "Sky High Nature 4K",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5456.png"
+    },
+    {
+      "name": "Sky High 3D",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1525.png"
+    },
+    {
+      "name": "Sky High By Slonka",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6139.png"
+    },
+    {
+      "name": "Sky High Classic HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5596.png"
+    },
+    {
+      "name": "Sky High Nature HDR 4K",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1528.png"
+    },
+    {
+      "name": "Sky High Russian HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6054.png"
+    },
+    {
+      "name": "Sky High New 60",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1531.png"
+    },
+    {
+      "name": "Sky High Kids USSR",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1532.png"
+    },
+    {
+      "name": "Sky High Anime HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6827.png"
+    },
+    {
+      "name": "Sky High Mix 4K",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6186.png"
+    },
+    {
+      "name": "Sky High Doc UHD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6194.png"
+    },
+    {
+      "name": "Sky High UHD HDR",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6204.png"
+    },
+    {
+      "name": "Sky High VHS UHD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6203.png"
+    },
+    {
+      "name": "Sky High Doc HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6339.png"
+    },
+    {
+      "name": "Sky High Brain HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6826.png"
+    },
+    {
+      "name": "Sky High Nature FHD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6738.png"
+    },
+    {
+      "name": "Sky High Orig HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6725.png"
+    },
+    {
+      "name": "Sky High Standup HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6741.png"
+    },
+    {
+      "name": "Sky High LO FI HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6726.png"
+    },
+    {
+      "name": "MS Animated",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6166.png"
+    },
+    {
+      "name": "1+1 kino",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/2194.png"
+    },
+    {
+      "name": "Sky High Music HD",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1551.png"
+    },
+    {
+      "name": "MS Animated HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6166.png"
+    },
+    {
+      "name": "MS Crime HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5605.png"
+    },
+    {
+      "name": "MS Prisons HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5593.png"
+    },
+    {
+      "name": "MS Toons HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5594.png"
+    },
+    {
+      "name": "MS Young Blood HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/5595.png"
+    },
+    {
+      "name": "MS Magic HD",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/6140.png"
+    },
+    {
+      "name": "Clarity4K Netflix",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1558.png"
+    },
+    {
+      "name": "Clarity4K Кино СССР",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1559.png"
+    },
+    {
+      "name": "Clarity4K Приключения",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1560.png"
+    },
+    {
+      "name": "Clarity4K Ужасы",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1561.png"
+    },
+    {
+      "name": "Clarity4K Фантастика",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1562.png"
+    },
+    {
+      "name": "Clarity4k Драмы",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1563.png"
+    },
+    {
+      "name": "Clarity4k Русские сериалы",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1564.png"
+    },
+    {
+      "name": "Clarity4k Классика кино",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1565.png"
+    },
+    {
+      "name": "Clarity4k Единоборства",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1566.png"
+    },
+    {
+      "name": "Clarity4K Семейный",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1567.png"
+    },
+    {
+      "name": "Clarity4K Travel blog",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1568.png"
+    },
+    {
+      "name": "Clarity4K Звериный мир",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1569.png"
+    },
+    {
+      "name": "Clarity4K КосмоМир",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1570.png"
+    },
+    {
+      "name": "Clarity4K Ужасы VHS",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1571.png"
+    },
+    {
+      "name": "Clarity4k КиноФраншизы",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1572.png"
+    },
+    {
+      "name": "Clarity4K Комедия",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1573.png"
+    },
+    {
+      "name": "Clarity4k Боевик",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1574.png"
+    },
+    {
+      "name": "Clarity4K Фэнтези",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1575.png"
+    },
+    {
+      "name": "Clarity4K Walt Disney",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1576.png"
+    },
+    {
+      "name": "Clarity4K Мультимир",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1577.png"
+    },
+    {
+      "name": "Первый туристический",
+      "group": "Развлекательные",
+      "src": "http://epg.cdntv.online/img/1578.png"
+    },
+    {
+      "name": "Ювелирочка",
+      "group": "Развлекательные",
+      "src": "http://epg.cdntv.online/img/1579.png"
+    },
+    {
+      "name": "CineMan Глухарь + Карпов",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8750.png"
+    },
+    {
+      "name": "CineMan Интерны",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8751.png"
+    },
+    {
+      "name": "CineMan Универ",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8752.png"
+    },
+    {
+      "name": "Clarity4K Комедия СССР 2",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1583.png"
+    },
+    {
+      "name": "Clarity4K Комедия СССР 1",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1584.png"
+    },
+    {
+      "name": "Clarity4k Боевик VHS",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1585.png"
+    },
+    {
+      "name": "Clarity4K Кино 80х",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1586.png"
+    },
+    {
+      "name": "Clarity4K UrbanBlack",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1587.png"
+    },
+    {
+      "name": "CineMan Фитнес",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/8753.png"
+    },
+    {
+      "name": "Кинозал.ТВ",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1589.png"
+    },
+    {
+      "name": "Советская киноклассика",
+      "group": "Кино",
+      "src": "http://epg.cdntv.online/img/1590.png"
+    },
+    {
+      "name": "BeinSports 1",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1591.png"
+    },
+    {
+      "name": "BeinSports 2",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1592.png"
+    },
+    {
+      "name": "BeinSports 3",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1593.png"
+    },
+    {
+      "name": "BeinSports 4",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1594.png"
+    },
+    {
+      "name": "BeinSports Haber",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1595.png"
+    },
+    {
+      "name": "Sinema Tv 2",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1596.png"
+    },
+    {
+      "name": "DiziSmart Max",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1597.png"
+    },
+    {
+      "name": "DiziSmart Premium",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/3860.png"
+    },
+    {
+      "name": "Bein Movies Premiere",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1599.png"
+    },
+    {
+      "name": "Bein Sreis 2",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1600.png"
+    },
+    {
+      "name": "Bein Series 1",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1601.png"
+    },
+    {
+      "name": "Film Box",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/2181.png"
+    },
+    {
+      "name": "Dream Turk",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1603.png"
+    },
+    {
+      "name": "TRT Spor",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/6525.png"
+    },
+    {
+      "name": "Haber Turk",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1605.png"
+    },
+    {
+      "name": "Natgeowild Turkiye",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1606.png"
+    },
+    {
+      "name": "A spor",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/2587.png"
+    },
+    {
+      "name": "ATV",
+      "group": "Азербайджан",
+      "src": "https://cdn.epg.one/img2/2067.png"
+    },
+    {
+      "name": "XEZER TV",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1611.png"
+    },
+    {
+      "name": "SPACE TV",
+      "group": "Азербайджан",
+      "src": "https://cdn.epg.one/img2/2553.png"
+    },
+    {
+      "name": "REAL TV",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1613.png"
+    },
+    {
+      "name": "KANAL S",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1614.png"
+    },
+    {
+      "name": "VASTOK TV",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1621.png"
+    },
+    {
+      "name": "GEM AZ",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1623.png"
+    },
+    {
+      "name": "Konul TV",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1624.png"
+    },
+    {
+      "name": "AZSTAR TV",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1625.png"
+    },
+    {
+      "name": "SHOW PLUS",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1626.png"
+    },
+    {
+      "name": "H TV MUZIK",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1627.png"
+    },
+    {
+      "name": "AzadSozAz TV",
+      "group": "Азербайджан",
+      "src": "http://epg.cdntv.online/img/1628.png"
+    },
+    {
+      "name": "CineMan Relax 4K",
+      "group": "Кинозалы",
+      "src": "https://cdn.epg.one/img2/4682.png"
+    },
+    {
+      "name": "A2 HD",
+      "group": "Турция",
+      "src": "https://cdn.epg.one/img2/3961.png"
+    },
+    {
+      "name": "KANAL 61",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1631.png"
+    },
+    {
+      "name": "Euro Indie Music Chart TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1632.png"
+    },
+    {
+      "name": "Istanbul TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1633.png"
+    },
+    {
+      "name": "Diyanet TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1634.png"
+    },
+    {
+      "name": "Yansinema TV",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1635.png"
+    },
+    {
+      "name": "Power Love",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1636.png"
+    },
+    {
+      "name": "PowerTurk Taptaze",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1637.png"
+    },
+    {
+      "name": "kANAL Z",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1638.png"
+    },
+    {
+      "name": "Kanal 15",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1639.png"
+    },
+    {
+      "name": "Kanal 68",
+      "group": "Турция",
+      "src": "http://epg.cdntv.online/img/1640.png"
+    },
+    {
+      "name": "START Air",
+      "group": "Кино",
+      "src": "https://cdn.epg.one/img2/6241.png"
+    },
+    {
+      "name": "ClarityHD American Football",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1642.png"
+    },
+    {
+      "name": "INSIDER",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1643.png"
+    },
+    {
+      "name": "ClarityHD FishingTV",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1644.png"
+    },
+    {
+      "name": "Clarity4K Мультляндия",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1645.png"
+    },
+    {
+      "name": "Clarity4K Remastered music",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1646.png"
+    },
+    {
+      "name": "Clarity4K France music",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1647.png"
+    },
+    {
+      "name": "Clarity4k Сумеречный Эфир",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1648.png"
+    },
+    {
+      "name": "Clarity4K Asia",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1649.png"
+    },
+    {
+      "name": "Clarity4K Galaxy Films",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1650.png"
+    },
+    {
+      "name": "Clarity4K Latin music",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1651.png"
+    },
+    {
+      "name": "Clarity4K BluesString",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1652.png"
+    },
+    {
+      "name": "Clarity4K World Music",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1653.png"
+    },
+    {
+      "name": "Clarity4K Ukrainian music",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1655.png"
+    },
+    {
+      "name": "Clarity4K Korean music",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1656.png"
+    },
+    {
+      "name": "Clarity4K Avto Blog",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1657.png"
+    },
+    {
+      "name": "Clarity4K Bollywood music",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1658.png"
+    },
+    {
+      "name": "Clarity4K Russian music",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1659.png"
+    },
+    {
+      "name": "Clarity4k Anime",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1660.png"
+    },
+    {
+      "name": "Clarity4K Heavy metal",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1661.png"
+    },
+    {
+      "name": "Clarity4K КиноНовинки",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1662.png"
+    },
+    {
+      "name": "Clarity4K Киношарм",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1663.png"
+    },
+    {
+      "name": "Clarity4k Deep House",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1664.png"
+    },
+    {
+      "name": "Clarity4K Kинодети CССР",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1665.png"
+    },
+    {
+      "name": "Clarity4k DeepMe",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1666.png"
+    },
+    {
+      "name": "Clarity4K Запал",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1667.png"
+    },
+    {
+      "name": "Clarity4K RemasterWave",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1668.png"
+    },
+    {
+      "name": "Clarity4k Боевик (VHS)",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1669.png"
+    },
+    {
+      "name": "Clarity4K HBO series",
+      "group": "Кинозалы",
+      "src": "http://epg.cdntv.online/img/1670.png"
+    }
+  ]
+}
