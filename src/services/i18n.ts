@@ -6,6 +6,7 @@ import enHeader from '../locales/en/header.json';
 import ruMain from '../locales/ru/main.json';
 import enMain from '../locales/en/main.json';
 import ruOperators from '../locales/ru/operators.json'
+import enOperators from '../locales/en/operators.json'
 
 // const en =  fetch ("/locales/en/translation.json");
 // const ru =  fetch ("/locales/ru/translation.json");
@@ -17,7 +18,8 @@ i18n
     resources: {
       en: {
         header: enHeader,
-        main: enMain
+        main: enMain,
+        operators: enOperators
       },
       ru: {
         header: ruHeader,
