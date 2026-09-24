@@ -3,14 +3,8 @@ import { type Params, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
-  Box,
-  Button,
-  ButtonGroup,
-  CircularProgress,
-  Stack
+  Accordion, AccordionDetails, AccordionSummary, Box, Button,
+  ButtonGroup, CircularProgress, Stack
 } from "@mui/material";
 import { operators } from "../data/dataIPTV";
 import { appColors } from "../services/appColors";
@@ -28,31 +22,32 @@ export const CategoriesOperator = () => {
   const links: string[] = operators[operator as keyof (typeof operators)]['links'];
 
   useEffect(() => {
-    console.log(operator);
-    if (operator) {
-      fetch(`/channelsLists/${operator}List.json`, {
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        }
-      })
-        .then((response) => response.json())
-        .then((data) => {
-          setChannelsList(data[operator]);
-          setIsListLoaded(true);
-          const catList: string[] = [];
-          data[operator].forEach((_item: object, index: number) => {
-            if (!catList.includes(data[operator][index]['group'])) {
-              catList.push(data[operator][index]['group']);
-            }
-          });
-          setCategoriesList(catList);
-        })
-        .catch((error) => {
-          console.log(error);
+    // Reset opened accordions when operator changes
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setIsListLoaded(false);
+    setExpandedAccordions([]);
+    if (!operator) return;
+    fetch(`/channelsLists/${operator}List.json`, {
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        setChannelsList(data[operator]);
+        setIsListLoaded(true);
+        const catList: string[] = [];
+        data[operator].forEach((_item: object, index: number) => {
+          if (!catList.includes(data[operator][index]['group'])) {
+            catList.push(data[operator][index]['group']);
+          }
         });
-    }
-
+        setCategoriesList(catList);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }, [operator]);
 
   const handlerOperator = (link: string): void => {
@@ -66,7 +61,6 @@ export const CategoriesOperator = () => {
   const expandAll = () => {
     if (categoriesList) {
       const newArray: number[] = [];
-      // Object.keys(categoriesList).forEach((log: string, index: number) => newArray.push(index))
       categoriesList.forEach((_log: string, index: number) => newArray.push(index));
       setExpandedAccordions(newArray);
     }
@@ -120,28 +114,27 @@ export const CategoriesOperator = () => {
           <>
             <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', '& > *': {m: 1,},}}>
               <ButtonGroup variant="outlined" color="warning" aria-label="Medium-sized button group">
-                <Button key="one" onClick={expandAll}>{t('menuExpand')}</Button>,
-                <Button key="three" onClick={collapseAll}>{t('menuCollapse')}</Button>
+                <Button key="one" onClick={expandAll}>{t('shared:menuExpand')}</Button>,
+                <Button key="three" onClick={collapseAll}>{t('shared:menuCollapse')}</Button>
               </ButtonGroup>
             </Box>
             <Box component="div" sx={{display: 'block'}}>
               {categoriesList.map((element: string, index: number) => {
                 return (
                   <Accordion
-                    defaultExpanded={false}
+                    // defaultExpanded={false}
                     key={`accordion${index}`}
                     sx={{color: appColors.light1, backgroundColor: appColors.light11}}
                     expanded={expandedAccordions.includes(index)}
                     slotProps={{transition: {unmountOnExit: true}}}
+                    onChange={() => changeAccordion(index)}
                   >
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon sx={{color: appColors.light1}}/>}
                       aria-controls={`${element}-content`}
                       id={`${element}-header`}
-                      sx={{mx: {xs: '10%', md: '35%'}, fontSize: {xs: '1rem', md: '1.25rem'}}}
-                      onClick={() => {
-                        changeAccordion(index);
-                      }}
+                      // sx={{width: {xs: '50%', md: '55%'}, fontSize: {xs: '1rem', md: '1.25rem'}}}
+                      sx={{mx: 'auto', maxWidth: '25rem', fontSize: {xs: '1rem', md: '1.25rem'}}}
                     >
                       {element}
                     </AccordionSummary>

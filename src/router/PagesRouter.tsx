@@ -18,7 +18,6 @@ import { CategoriesOperator } from "../components/CategoriesOperator.tsx";
 export const PagesRouter = () => {
   const {i18n}: ITranslateI18n = useTranslation();
   const lang = i18n.language === 'en' ? 'en' : 'ru';
-  console.log(lang);
 
   return (
     <Routes>
