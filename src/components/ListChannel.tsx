@@ -1,14 +1,13 @@
-import { useState } from "react";
-import { appColors } from "../services/appColors";
+import { useState, type SyntheticEvent } from "react";
 import { Box, Skeleton } from "@mui/material";
+import { appColors } from "../services/appColors";
 import type { PropsImageChannel } from "../types/typesBox";
 
 export const ListChannel = ({index, srcImgChannel, altImgChannel, nameImgChannel}: PropsImageChannel) => {
 
   const [imageLoaded, setImageLoaded] = useState<boolean>(false);
-  const handlerErrorImg = (e: any) => {
-    const target = e.target as HTMLTextAreaElement;
-    target.setAttribute('src', '/img/channels/noimage.webp');
+  const handlerErrorImg = (e: SyntheticEvent<HTMLImageElement>) => {
+    e.currentTarget.src = '/img/channels/noimage.webp';
   }
 
   const handlerLoadImg = () => {
@@ -52,7 +51,6 @@ export const ListChannel = ({index, srcImgChannel, altImgChannel, nameImgChannel
             }}/>
         )
       }
-
       <Box component="div"
            sx={{
              ml: '0.5rem',
@@ -63,8 +61,7 @@ export const ListChannel = ({index, srcImgChannel, altImgChannel, nameImgChannel
              verticalAlign: 'middle'
            }}
       >
-        <Box component="span" sx={{wordWrap: 'break-word'}}
-        >
+        <Box component="span" sx={{wordWrap: 'break-word'}}>
           {nameImgChannel}
         </Box>
       </Box>

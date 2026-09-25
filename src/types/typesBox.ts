@@ -24,14 +24,10 @@ export type PropsOperator = {
   operator: string;
 }
 
-interface callbackType {
-  (myArgument: string): void
-}
-
 export type PropsListChannels = {
   operator: string;
   activeCard: string;
-  changeCard: callbackType;
+  handlerList: (isActive: boolean, operator: string) => void
 }
 
 export type PropsLoader = {
