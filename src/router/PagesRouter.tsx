@@ -6,8 +6,8 @@ import type { ITranslateI18n } from "../types/typesBox.ts";
 import { PageChoosingOperator } from "../pages/PageChoosingOperator.tsx";
 import { PageChannels } from "../pages/PageChannels";
 import { CategoriesOperator } from "../components/CategoriesOperator.tsx";
+import { PageOperators } from '../pages/PageOperators';
 // import PageDevices from '../pages/PageDevices';
-// import PageOperators from '../pages/PageOperators';
 // import PageChoosingOperator from "../pages/PageChoosingOperator";
 // import PageManual from "../pages/PageManual";
 // import PagePlayers from "../pages/PagePlayers";
@@ -28,8 +28,8 @@ export const PagesRouter = () => {
         <Route path='lists' element={<PageChannels/>}>
           <Route path=':operator' element={<CategoriesOperator/>}/>
         </Route>
+        <Route path='iptv' element={<PageOperators/>}/>
       </Route>
-      {/*<Route path='/iptv' element={<PageOperators/>}/>*/}
       {/*<Route path='/iptv/:operator' element={<PageDevices/>}/>*/}
       {/*<Route path='/iptv/:operator/:devices' element={<PageDevices/>}/>*/}
       {/*<Route path='/iptv/:operator/:devices/:device' element={<PagePlayers/>}/>*/}

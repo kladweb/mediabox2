@@ -11,7 +11,7 @@ function MenuIcon() {
   return null;
 }
 
-function Header() {
+export const Header = () => {
   const navigate = useNavigate();
   const currentLang = useParams();
   const lang = currentLang.language;
@@ -238,5 +238,3 @@ function Header() {
     </AppBar>
   );
 }
-
-export default Header;

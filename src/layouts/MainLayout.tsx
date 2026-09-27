@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Box } from '@mui/material'
 import { Navigate, Outlet, useParams } from "react-router-dom";
-import Header from "../components/Header.tsx";
+import { Header } from "../components/Header.tsx";
 import { appColors } from "../services/appColors";
 import { useTranslation } from "react-i18next";
 

@@ -15,5 +15,3 @@ export const PageChannels = () => {
     </>
   )
 }
-
-export default PageChannels;
