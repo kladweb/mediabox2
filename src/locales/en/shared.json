@@ -1,5 +1,6 @@
 {
   "headOperator": "Select an IPTV service",
   "menuExpand": "Expand all",
-  "menuCollapse": "Collapse all"
+  "menuCollapse": "Collapse all",
+  "whichChooseOperator": "Which service should I choose ?"
 }

@@ -1,5 +1,6 @@
 {
   "headOperator": "Выберите IPTV оператора",
   "menuExpand": "Развернуть все",
-  "menuCollapse": "Свернуть все"
+  "menuCollapse": "Свернуть все",
+  "whichChooseOperator": "Какой оператор выбрать?"
 }
