@@ -1,9 +1,9 @@
 {
   "registration": {
-    "name": "Регистрация на чайте",
+    "name": "Registration on the website",
     "actions": [
       {
-        "name": "Регистрируемся на сайте ILookTV, перейдя по любой из ссылок:",
+        "name": "Register on the ILookTV website using any of the links:",
         "links": [
           "https://vipdrive.net/welcome/signup/54e9515db854ab61",
           "https://tvlider.net/welcome/signup/54e9515db854ab61",

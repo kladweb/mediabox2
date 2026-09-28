@@ -2,5 +2,12 @@
   "headOperator": "Select an IPTV service",
   "menuExpand": "Expand all",
   "menuCollapse": "Collapse all",
-  "whichChooseOperator": "Which service should I choose ?"
+  "whichChooseOperator": "Which service should I choose ?",
+  "headDevice": "Select your device receiving the content",
+  "boxes": "TV set-top box or receiver",
+  "smarttv": "TV with SMART-TV function (without TV BOX)",
+  "androidtvbox": "ANDROID TV BOX",
+  "appletv": "Apple TV",
+  "ottplaybyalex-Note": "Russian public channels do not work",
+  "headPlayer": "Select a player to watch IPTV"
 }
