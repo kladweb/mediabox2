@@ -7,10 +7,10 @@ import { PageChoosingOperator } from "../pages/PageChoosingOperator.tsx";
 import { PageChannels } from "../pages/PageChannels";
 import { CategoriesOperator } from "../components/CategoriesOperator.tsx";
 import { PageOperators } from '../pages/PageOperators';
-// import PageDevices from '../pages/PageDevices';
+import { PageDevices } from '../pages/PageDevices';
+import { PagePlayers } from "../pages/PagePlayers";
 // import PageChoosingOperator from "../pages/PageChoosingOperator";
 // import PageManual from "../pages/PageManual";
-// import PagePlayers from "../pages/PagePlayers";
 // import Blank from "../components/Blank";
 // import PageCinemas from "../pages/PageCinemas";
 // import PageAbout from "../pages/PageAbout";
@@ -29,10 +29,10 @@ export const PagesRouter = () => {
           <Route path=':operator' element={<CategoriesOperator/>}/>
         </Route>
         <Route path='iptv' element={<PageOperators/>}/>
+        <Route path='iptv/:operator' element={<PageDevices/>}/>
+        <Route path='iptv/:operator/:devices' element={<PageDevices/>}/>
+        <Route path='iptv/:operator/:devices/:device' element={<PagePlayers/>}/>
       </Route>
-      {/*<Route path='/iptv/:operator' element={<PageDevices/>}/>*/}
-      {/*<Route path='/iptv/:operator/:devices' element={<PageDevices/>}/>*/}
-      {/*<Route path='/iptv/:operator/:devices/:device' element={<PagePlayers/>}/>*/}
       {/*<Route path='/iptv/:operator/:devices/:device/:player' element={<PageManual/>}/>*/}
 
       {/*<Route path='/media' element={<PageCinemas/>}/>*/}

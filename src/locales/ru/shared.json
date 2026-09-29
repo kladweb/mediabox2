@@ -2,5 +2,12 @@
   "headOperator": "Выберите IPTV оператора",
   "menuExpand": "Развернуть все",
   "menuCollapse": "Свернуть все",
-  "whichChooseOperator": "Какой оператор выбрать?"
+  "whichChooseOperator": "Какой оператор выбрать?",
+  "headDevice": "Выберите Ваше устройство, принимающее контент",
+  "boxes": "ТВ приставка или ресивер",
+  "smarttv": "Телевизор с функцией SMART-TV (без приставки)",
+  "androidtvbox": "ANDROID ТВ приставка",
+  "appletv": "Apple TV приставка",
+  "ottplaybyalex-Note": "не работают общественные каналы РФ",
+  "headPlayer": "Выберите плеер для просмотра IPTV"
 }
