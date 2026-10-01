@@ -3,6 +3,7 @@ import { type Params, useParams } from "react-router-dom";
 
 type Manuals = {
   operator: unknown;
+  device: unknown;
   player: unknown;
 } | null;
 
@@ -25,14 +26,16 @@ export const Manual = () => {
 
     (async () => {
       try {
-        const [operatorData, playerData] = await Promise.all([
+        const [operatorData, deviceData, playerData] = await Promise.all([
           loadManual(operator),
-          loadManual(`${player}-${device}`),
+          loadManual(device),
+          loadManual(player),
         ]);
 
         if (!cancelled) {
           setManuals({
             operator: operatorData,
+            device: deviceData,
             player: playerData,
           });
         }
