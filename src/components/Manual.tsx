@@ -26,17 +26,16 @@ export const Manual = () => {
 
     (async () => {
       try {
-        const [operatorData, deviceData, playerData] = await Promise.all([
+        const [operatorData, deviceData, playerData] = await Promise.allSettled([
           loadManual(operator),
           loadManual(device),
           loadManual(player),
         ]);
-
         if (!cancelled) {
           setManuals({
-            operator: operatorData,
-            device: deviceData,
-            player: playerData,
+            operator: operatorData.status === "fulfilled" ? operatorData.value : null,
+            device: deviceData.status === "fulfilled" ? deviceData.value : null,
+            player: playerData.status === "fulfilled" ? playerData.value : null,
           });
         }
       } catch (err) {

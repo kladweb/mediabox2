@@ -1,27 +1,26 @@
 {
-  "registration": {
-    "name": "Регистрация на сайте",
+  "download": {
+    "name": "скачивание приложения Televizo",
     "actions": [
       {
-        "name": "Регистрируемся на сайте ILookTV, перейдя по любой из ссылок:",
+        "name": "Скачиваем приложение Televizo:",
         "links": [
-          "https://vipdrive.net/welcome/signup/54e9515db854ab61",
-          "https://tvlider.net/welcome/signup/54e9515db854ab61",
-          "https://melord.net/welcome/signup/54e9515db854ab61",
-          "https://jinopro.net/welcome/signup/54e9515db854ab61",
-          "https://iseetv.net/welcome/signup/54e9515db854ab61"
+          {
+            "name": "Официальный сайт",
+            "link": "https://televizo.net/"
+          },
+          {
+            "name": "4PDA форум",
+            "link": "https://4pda.to/forum/index.php?showtopic=943863"
+          },
+          {
+            "name": "Прямая ссылка",
+            "link": "https://www.dropbox.com/scl/fi/6haivb3jrcasqfy0t9xfb/Televizo_1.9.6.50-google.apk?rlkey=zxgpn050trbdp9bfwq0k5jzn7&dl=1"
+          }
         ]
       },
       {
-        "name": "Указываем: ник, e-mail, пароль и подтверждение пароля.",
-        "img": "Ilooktv/ilooktv_manual1"
-      },
-      {
-        "name": "Затем на Ваш e-mail придет проверочный код, вводим его для подтверждения почты.",
-        "img": "Ilooktv/ilooktv_manual2"
-      },
-      {
-        "name": "Далее нужно авторизоваться на сайте с Вашими данными, указанными при регистрации."
+        "name": "Теперь наша задача перенести этот файл apk на ТВ-приставку. Если вы сохраняли ссылку на плейлист в текстовый файл, то этот файл переносим тоже. Если в вашей приставке есть USB-вход, то можно просто перенести эти файлы при помощи любой флешки. Но сейчас очень популярны мини ТВ-приставки в виде стиков, не имеющие USB-разъема. Поэтому, мы рассмотрим простой и удобный способ переноса файлов на ANDROID ТВ-приставку без использования флеш-накопителя."
       }
     ]
   },
