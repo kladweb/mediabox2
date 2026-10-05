@@ -1,17 +1,29 @@
 import { useEffect, useState } from "react";
 import { type Params, useParams } from "react-router-dom";
+import { Box, Card } from "@mui/material";
+import { sxCardMain, sxHeadMain } from "../services/sxStyles.ts";
 
-type Manuals = {
-  operator: unknown;
-  device: unknown;
-  player: unknown;
-} | null;
+type Instruction = {
+  name: string;
+  img?: string;
+}
 
-export const Manual = () => {
+type Manual = {
+  name: string;
+  actions: Instruction[];
+}
+
+interface Manuals {
+  operator: Manual[];
+  device: Manual[];
+  player: Manual[];
+};
+
+export const Manuals = () => {
   const params: Readonly<Params<string>> = useParams();
   const {language, operator, device, player} = params;
 
-  const [manuals, setManuals] = useState<Manuals>(null);
+  const [manuals, setManuals] = useState<Manuals | null>(null);
 
   const loadManual = async (part: string) => {
     const response = await fetch(`/manualsText/${language}/${part}.json`);
@@ -21,9 +33,7 @@ export const Manual = () => {
 
   useEffect(() => {
     if (!language || !operator || !device || !player) return;
-
     let cancelled = false;
-
     (async () => {
       try {
         const [operatorData, deviceData, playerData] = await Promise.allSettled([
@@ -42,7 +52,6 @@ export const Manual = () => {
         if (!cancelled) console.error(err);
       }
     })();
-
     return () => {
       cancelled = true;
     };
@@ -51,5 +60,22 @@ export const Manual = () => {
 
   console.log(manuals);
 
-  return <div>MANUAL</div>;
+  if (!manuals) return (
+    <div>LOADING....</div>
+  );
+
+  const manualOperator = manuals.operator.map((manual: Manual) => {
+    console.log(manual);
+    return (
+      <Card component='div' sx={sxCardMain} key={manual.name}>
+        <Box component='h4' sx={sxHeadMain}>
+          {manual.name}
+        </Box>
+      </Card>
+    )
+  })
+
+  return <div>
+    {manualOperator}
+  </div>;
 };
