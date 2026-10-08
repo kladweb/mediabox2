@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import { type Params, useParams } from "react-router-dom";
 import { Box, Card } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import { sxCardMain, sxHeadMain } from "../services/sxStyles.ts";
+import { appColors } from "../services/appColors.ts";
+import type { ITranslate } from "../types/typesBox.ts";
 
 type Instruction = {
   name: string;
@@ -9,6 +12,7 @@ type Instruction = {
 }
 
 type Manual = {
+  id: string;
   name: string;
   actions: Instruction[];
 }
@@ -20,6 +24,7 @@ interface Manuals {
 };
 
 export const Manuals = () => {
+  const {t}: ITranslate = useTranslation();
   const params: Readonly<Params<string>> = useParams();
   const {language, operator, device, player} = params;
 
@@ -64,18 +69,29 @@ export const Manuals = () => {
     <div>LOADING....</div>
   );
 
-  const manualOperator = manuals.operator.map((manual: Manual) => {
+  const manualOperator = manuals.operator.map((manual: Manual, i: number) => {
     console.log(manual);
     return (
-      <Card component='div' sx={sxCardMain} key={manual.name}>
+      <Card component='div' sx={sxCardMain} key={manual.id}>
         <Box component='h4' sx={sxHeadMain}>
-          {manual.name}
+          {`${t('shared:step')}${i + 1} - ${manual.name}`}
         </Box>
       </Card>
     )
   })
 
-  return <div>
+  return <Box
+    component='div'
+    sx={{
+      mt: 12,
+      mx: 'auto',
+      width: '100%',
+      fontSize: {xs: '1.25rem', md: '1.5rem'},
+      fontWeight: '400',
+      color: appColors.mid2,
+      textAlign: 'center',
+    }}
+  >
     {manualOperator}
-  </div>;
+  </Box>;
 };
