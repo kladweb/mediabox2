@@ -7,7 +7,8 @@ export const sxCardMain = {
   backgroundColor: appColors.light11,
   transition: '1s',
   border: `solid 3px ${appColors.dark2}`,
-  borderRadius: '1em'
+  borderRadius: '1em',
+  textAlign: 'left',
 }
 
 export const sxHeadMain = {
