@@ -1,14 +1,20 @@
 import { useEffect, useState } from "react";
 import { type Params, useParams } from "react-router-dom";
-import { Box, Card } from "@mui/material";
+import { Box, Card, CardContent } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import { sxCardMain, sxHeadMain } from "../services/sxStyles.ts";
+import { sxButtonLinkOperator, sxCardMain, sxHeadMain, sxManualText1 } from "../services/sxStyles.ts";
 import { appColors } from "../services/appColors.ts";
 import type { ITranslate } from "../types/typesBox.ts";
+
+type ILink = {
+  name: string;
+  link: string;
+}
 
 type Instruction = {
   name: string;
   img?: string;
+  links?: ILink[];
 }
 
 type Manual = {
@@ -35,6 +41,10 @@ export const Manuals = () => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
   };
+
+  const handlerOperator = (link: string): void => {
+    window.open(link);
+  }
 
   useEffect(() => {
     if (!language || !operator || !device || !player) return;
@@ -76,6 +86,32 @@ export const Manuals = () => {
         <Box component='h4' sx={sxHeadMain}>
           {`${t('shared:step')}${i + 1} - ${manual.name}`}
         </Box>
+        {
+          manual.actions.map((action: Instruction, i: number) => {
+            const links = action?.links ?
+              action.links.map((link: ILink) => {
+                return (
+                  <Box
+                    key={link.name}
+                    component='button'
+                    onClick={() => {
+                      handlerOperator(link.link);
+                    }}
+                    sx={sxButtonLinkOperator}
+                  >
+                    {link.name}
+                  </Box>
+                );
+              }) : null;
+
+            return (
+              <>
+                <CardContent key={manual.id + i} sx={sxManualText1}>{action.name}</CardContent>
+                {links}
+              </>
+            );
+          })
+        }
       </Card>
     )
   })
