@@ -34,6 +34,7 @@ export const Manuals = () => {
   const {t}: ITranslate = useTranslation();
   const params: Readonly<Params<string>> = useParams();
   const {language, operator, device, player} = params;
+  let actionNumber = 0;
 
   const [manuals, setManuals] = useState<Manuals | null>(null);
 
@@ -74,51 +75,57 @@ export const Manuals = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [language, operator, device, player]);
 
-  console.log(manuals);
-
   if (!manuals) return (
     <div>LOADING....</div>
   );
 
-  const manualOperator = manuals.operator.map((manual: Manual, index: number) => {
-    console.log(manual);
-    return (
-      <Card component='div' sx={sxCardMain} key={manual.id}>
-        <Box component='h4' sx={sxHeadMain}>
-          {`${t('shared:step')}${index + 1} - ${manual.name}`}
-        </Box>
-        {
-          manual.actions.map((action: Instruction, i: number) => {
-            const links = action?.links ?
-              action.links.map((link: ILink) => {
-                return (
-                  <Box
-                    key={link.name}
-                    component='button'
-                    onClick={() => {
-                      handlerOperator(link.link);
-                    }}
-                    sx={sxButtonLinkOperator}
-                  >
-                    {link.name}
-                  </Box>
-                )
-              }) : null;
+  const createManual = (manualItem: Manual[]) => {
+    if (!manualItem || manualItem.length === 0) return null;
 
-            const manualImage = action?.img ? <ImageManual image={action.img}/> : null;
+    return manualItem.map((manual: Manual) => {
+      actionNumber++;
+      return (
+        <Card component='div' sx={sxCardMain} key={manual.id}>
+          <Box component='h4' sx={sxHeadMain}>
+            {`${t('shared:step')}${actionNumber} - ${manual.name}`}
+          </Box>
+          {
+            manual.actions.map((action: Instruction, i: number) => {
+              const links = action?.links ?
+                action.links.map((link: ILink) => {
+                  return (
+                    <Box
+                      key={link.name}
+                      component='button'
+                      onClick={() => {
+                        handlerOperator(link.link);
+                      }}
+                      sx={sxButtonLinkOperator}
+                    >
+                      {link.name}
+                    </Box>
+                  )
+                }) : null;
 
-            return (
-              <div key={manual.id + i}>
-                <CardContent sx={sxManualText1}>{action.name}</CardContent>
-                {links}
-                {manualImage}
-              </div>
-            );
-          })
-        }
-      </Card>
-    )
-  })
+              const manualImage = action?.img ? <ImageManual image={action.img}/> : null;
+
+              return (
+                <div key={manual.id + i}>
+                  <CardContent sx={sxManualText1}>{action.name}</CardContent>
+                  {links}
+                  {manualImage}
+                </div>
+              );
+            })
+          }
+        </Card>
+      )
+    })
+  }
+
+  const manualOperator = createManual(manuals.operator);
+  const manualDevice = createManual(manuals.device);
+  const manualPlayer = createManual(manuals.player);
 
   return <Box
     component='div'
@@ -133,5 +140,7 @@ export const Manuals = () => {
     }}
   >
     {manualOperator}
+    {manualDevice}
+    {manualPlayer}
   </Box>;
 };
