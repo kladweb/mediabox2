@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { sxButtonLinkOperator, sxCardMain, sxHeadMain, sxManualText1 } from "../services/sxStyles.ts";
 import { appColors } from "../services/appColors.ts";
 import type { ITranslate } from "../types/typesBox.ts";
+import ImageManual from "./ImageManual.tsx";
 
 type ILink = {
   name: string;
@@ -58,9 +59,9 @@ export const Manuals = () => {
         ]);
         if (!cancelled) {
           setManuals({
-            operator: operatorData.status === "fulfilled" ? operatorData.value : null,
-            device: deviceData.status === "fulfilled" ? deviceData.value : null,
-            player: playerData.status === "fulfilled" ? playerData.value : null,
+            operator: operatorData.status === "fulfilled" ? operatorData.value : [],
+            device: deviceData.status === "fulfilled" ? deviceData.value : [],
+            player: playerData.status === "fulfilled" ? playerData.value : [],
           });
         }
       } catch (err) {
@@ -79,12 +80,12 @@ export const Manuals = () => {
     <div>LOADING....</div>
   );
 
-  const manualOperator = manuals.operator.map((manual: Manual, i: number) => {
+  const manualOperator = manuals.operator.map((manual: Manual, index: number) => {
     console.log(manual);
     return (
       <Card component='div' sx={sxCardMain} key={manual.id}>
         <Box component='h4' sx={sxHeadMain}>
-          {`${t('shared:step')}${i + 1} - ${manual.name}`}
+          {`${t('shared:step')}${index + 1} - ${manual.name}`}
         </Box>
         {
           manual.actions.map((action: Instruction, i: number) => {
@@ -101,14 +102,17 @@ export const Manuals = () => {
                   >
                     {link.name}
                   </Box>
-                );
+                )
               }) : null;
 
+            const manualImage = action?.img ? <ImageManual image={action.img}/> : null;
+
             return (
-              <>
-                <CardContent key={manual.id + i} sx={sxManualText1}>{action.name}</CardContent>
+              <div key={manual.id + i}>
+                <CardContent sx={sxManualText1}>{action.name}</CardContent>
                 {links}
-              </>
+                {manualImage}
+              </div>
             );
           })
         }
