@@ -13,7 +13,7 @@ type ILink = {
 }
 
 type Instruction = {
-  name: string;
+  name?: string;
   img?: string;
   links?: ILink[];
 }
@@ -111,7 +111,7 @@ export const Manuals = () => {
 
               return (
                 <div key={manual.id + i}>
-                  <CardContent sx={sxManualText1}>{action.name}</CardContent>
+                  {action?.name ? <CardContent sx={sxManualText1}>{action.name}</CardContent> : null}
                   {links}
                   {manualImage}
                 </div>
