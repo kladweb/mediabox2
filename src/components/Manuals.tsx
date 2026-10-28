@@ -83,6 +83,9 @@ export const Manuals = () => {
     if (!manualItem || manualItem.length === 0) return null;
 
     return manualItem.map((manual: Manual) => {
+
+      if (player === "ottplayer" && manual.id === "prepareBox") return null;
+
       actionNumber++;
       return (
         <Card component='div' sx={sxCardMain} key={manual.id}>
