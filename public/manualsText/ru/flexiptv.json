@@ -1,0 +1,108 @@
+[
+  {
+    "id": "installAndSetup",
+    "name": "установка и настройка приложения FLEX IPTV",
+    "actions": [
+      {
+        "name": "Для просмотра IPTV на устройстве apple необходимо установить из магазина App Store плеер под названием Flex IPTV."
+      },
+      {
+        "name": "После установки плеера запускаем его и видим шаблон телеканалов.",
+        "img": "FlexIptv/flexiptv_manual01"
+      },
+      {
+        "name": "В плеер встроен демонстрационный плейлист, при желании его можно удалить, в левом верхнем углу нажимаем на иконку вызова меню, в виде трех полос, тем самым вызвав основное меню.",
+        "img": "FlexIptv/flexiptv_manual02"
+      },
+      {
+        "name": "Нажимаем на Playlists manager и переходим в меню создания плейлиста.",
+        "img": "FlexIptv/flexiptv_manual03"
+      },
+      {
+        "name": "Нажимаем Add Playlist и прописываем на свой плейлист. Название листа произвольное, в моем случае playlist01, затем жмем Download.",
+        "img": "FlexIptv/flexiptv_manual04"
+      },
+      {
+        "name": "Eсли лист прописали без ошибок, он появится в перечне с указанием числа каналов.",
+        "img": "FlexIptv/flexiptv_manual05"
+      },
+      {
+        "name": "Снова вызываем основное меню и нажимаем Settings.",
+        "img": "FlexIptv/flexiptv_manual06"
+      },
+      {
+        "name": "Выбираем раздел EPG Sourses.",
+        "img": "FlexIptv/flexiptv_manual07"
+      },
+      {
+        "img": "FlexIptv/flexiptv_manual08"
+      },
+      {
+        "nameilooktv": "Вводим адрес листа для загрузки телегида выбранного Вами оператора:\nhttp://epg.it999.ru/epg.xml.gz",
+        "imgilooktv": "FlexIptv/flexiptv_manual09_ilooktv"
+      },
+      {
+        "namesharavoz": "Вводим адрес листа для загрузки телегида выбранного Вами оператора:\nhttp://iptv-content.webhop.net/guide.xml",
+        "imgsharavoz": "FlexIptv/flexiptv_manual09_sharavoz"
+      },
+      {
+        "nameviplime": "Вводим адрес листа для загрузки телегида выбранного Вами оператора:\nhttp://epg.cdntv.online/full.xml.gz",
+        "imgviplime": "FlexIptv/flexiptv_manual09_viplime"
+      },
+      {
+        "namecbilling": "Вводим адрес листа для загрузки телегида выбранного Вами оператора:\nhttp://epg.iptvx.tv/xmltv.xml.gz",
+        "imgcbilling": "FlexIptv/flexiptv_manual09_cbilling"
+      },
+      {
+        "nametvteam": "Вводим адрес листа для загрузки телегида выбранного Вами оператора:\nhttp://epg.it999.ru/epg.xml.gz",
+        "imgtvteam": "FlexIptv/flexiptv_manual09_ilooktv"
+      },
+      {
+        "namekineskopclub": "Вводим адрес листа для загрузки телегида выбранного Вами оператора:\nhttp://st.kineskop.tv/epg.xml.gz",
+        "imgkineskopclub": "FlexIptv/flexiptv_manual09_kineskopclub"
+      },
+      {
+        "namerusskoetv": "Вводим адрес листа для загрузки телегида выбранного Вами оператора:\nhttp://rutv.aws-static-hosting.com/epg.xml.gz",
+        "imgrusskoetv": "FlexIptv/flexiptv_manual09_kineskopclub"
+      },
+      {
+        "name": "Ждем завершения загрузки.",
+        "img": "FlexIptv/flexiptv_manual10"
+      },
+      {
+        "name": "После этого возвращаемся в основное меню, выбираем наш плейлист (в примере playlist01) и попадаем на главный экран листа.",
+        "img": "FlexIptv/flexiptv_manual11"
+      },
+      {
+        "img": "FlexIptv/flexiptv_manual12"
+      },
+      {
+        "name": "В правом верхнем углу нажимаем на иконку вызова доп. меню, в виде трех вертикальных точек.",
+        "img": "FlexIptv/flexiptv_manual13"
+      },
+      {
+        "name": "Нажимаем на иконку в виде шестеренки и попадаем в меню в котором активируем телегид, нажав на ползунок Show EPG.",
+        "img": "FlexIptv/flexiptv_manual14"
+      },
+      {
+        "name": "Далее прилагаем несколько скринов с внешним видом меню самого плеера, а также меню, в котором можно отключить ненужные категории.",
+        "img": "FlexIptv/flexiptv_manual15"
+      },
+      {
+        "img": "FlexIptv/flexiptv_manual16"
+      },
+      {
+        "img": "FlexIptv/flexiptv_manual17"
+      },
+      {
+        "img": "FlexIptv/flexiptv_manual18"
+      },
+      {
+        "name": "ПРИМЕЧАНИЕ: набор каналов на скриншотах может отличаться от Ваших. Это зависит от выбранного Вами оператора (плейлиста)."
+      },
+      {
+        "name": "Приятного просмотра!"
+      }
+    ]
+  }
+]

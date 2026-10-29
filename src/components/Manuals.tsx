@@ -16,7 +16,9 @@ type Instruction = {
   name?: string;
   img?: string;
   links?: ILink[];
-}
+  [key: `name${string}`]: string | undefined;
+  [key: `img${string}`]: string | undefined;
+};
 
 type Manual = {
   id: string;
@@ -110,13 +112,15 @@ export const Manuals = () => {
                   )
                 }) : null;
 
-              const manualImage = action?.img ? <ImageManual image={action.img}/> : null;
+              const manualName = action[`name${operator}`] ?? action.name ?? null;
+
+              const manualImage = action[`img${operator}`] ?? action.img ?? null;
 
               return (
                 <div key={manual.id + i}>
-                  {action?.name ? <CardContent sx={sxManualText1}>{action.name}</CardContent> : null}
+                  {manualName ? <CardContent sx={sxManualText1}>{manualName}</CardContent> : null}
                   {links}
-                  {manualImage}
+                  {manualImage ? <ImageManual image={manualImage}/> : null}
                 </div>
               );
             })
