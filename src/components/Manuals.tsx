@@ -112,9 +112,17 @@ export const Manuals = () => {
                   )
                 }) : null;
 
-              const manualName = action[`name${operator}`] ?? action.name ?? null;
+              const manualName = action[`name${operator}`] ??
+                action[`name${device}`] ??
+                action[`name${player}`] ??
+                action.name ??
+                null;
 
-              const manualImage = action[`img${operator}`] ?? action.img ?? null;
+              const manualImage = action[`img${operator}`] ??
+                action[`img${device}`] ??
+                action[`img${player}`] ??
+                action.img ??
+                null;
 
               return (
                 <div key={manual.id + i}>
