@@ -119,4 +119,4 @@ export interface Ioperators {
   russkoetv: IOperator,
 }
 
-export type ContextCategoriesType = { [index: string]: any };
+// export type ContextCategoriesType = { [index: string]: any };

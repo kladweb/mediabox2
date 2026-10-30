@@ -40,7 +40,7 @@ const ImageManual = ({image}: PropsImg) => {
         (!loaded) &&
         <Skeleton
           variant="rounded"
-          sx={{m: "0.5em auto", width: `${scaleSmall}%`, height: `${(window.innerWidth <= 900) ? 4 : 9}em`}}
+          sx={{m: "0.5em auto", width: `${scaleSmall}%`, height: `${(window.innerWidth <= 900) ? 5 : 4}em`}}
         />
       }
     </>
