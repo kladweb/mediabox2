@@ -1,0 +1,107 @@
+[
+  {
+    "id": "registerOttplayer",
+    "name": "Registering on the OttPlayer website and uploading a playlist",
+    "actions": [
+      {
+        "name": "Go to the OttPlayer website using the following link:",
+        "links": [
+          {
+            "name": "OttPlayer website",
+            "link": "https://ottplayer.tv/"
+          }
+        ]
+      },
+      {
+        "img": "Ottplayer/ottplayer_manual_01"
+      },
+      {
+        "img": "Ottplayer/ottplayer_manual_02"
+      },
+      {
+        "name": "After registering, you will receive an email asking you to verify your email address."
+      },
+      {
+        "name": "Next, log in to your OttPlayer account and open the \"Playlists\" tab."
+      },
+      {
+        "img": "Ottplayer/ottplayer_manual_03"
+      },
+      {
+        "name": "In the \"Playlist name\" field, enter any name you like. This is the name that will appear in the player on your TV box or television.\nIn the \"Playlist source\" field, select \"URL\".\nThen click the \"Direct link\" field and paste your playlist URL from the clipboard by pressing Ctrl+V or Shift+Ins. If the URL isn't pasted, go back to the previous step and copy your playlist URL again.",
+        "img": "Ottplayer/ottplayer_manual_04"
+      },
+      {
+        "img": "Ottplayer/ottplayer_manual_05"
+      },
+      {
+        "name": "The uploaded playlist should now appear in the list. Keep this browser tab open on your computer, as you'll need to return to it once more."
+      }
+    ]
+  },
+  {
+    "id": "installOttPlayer",
+    "name": "Installing and setting up the OttPlayer app",
+    "actions": [
+      {
+        "name": "On your TV box, open \"Google Play\" or the \"App Store\" and search for \"OttPlayer\".",
+        "img": "Ottplayer/ottplayer_manual_12"
+      },
+      {
+        "name": "Tap \"Install\".",
+        "img": "Ottplayer/ottplayer_manual_13"
+      },
+      {
+        "name": "Once the installation is complete, open the app and tap \"Start\".",
+        "img": "Ottplayer/ottplayer_manual_14"
+      },
+      {
+        "name": "Sign in to the app using the same credentials you used to register on the OttPlayer website in the previous step.",
+        "img": "Ottplayer/ottplayer_manual_15"
+      },
+      {
+        "img": "Ottplayer/ottplayer_manual_16"
+      },
+      {
+        "name": "Next, choose a name for your device and tap \"Add\".",
+        "img": "Ottplayer/ottplayer_manual_17"
+      },
+      {
+        "img": "Ottplayer/ottplayer_manual_18"
+      },
+      {
+        "name": "Return to your OttPlayer account on your computer. Open the \"Devices\" tab and make sure your device has been added.",
+        "img": "Ottplayer/ottplayer_manual_20"
+      },
+      {
+        "name": "Go back to the \"Playlists\" tab.",
+        "img": "Ottplayer/ottplayer_manual_03"
+      },
+      {
+        "name": "Enable automatic updates and link your device to the playlist.",
+        "img": "Ottplayer/ottplayer_manual_11"
+      },
+      {
+        "name": "Return to the OttPlayer app on your TV box.\nSelect your device and your playlist.",
+        "img": "Ottplayer/ottplayer_manual_21"
+      },
+      {
+        "img": "Ottplayer/ottplayer_manual_22"
+      },
+      {
+        "name": "The channels from your playlist should now load.",
+        "img": "Ottplayer/ottplayer_manual_23"
+      },
+      {
+        "name": "To open the player settings, move to the left and scroll all the way down to the bottom of the channel groups.",
+        "img": "Ottplayer/ottplayer_manual_24"
+      },
+      {
+        "name": "NOTE: The channel lineup shown in the screenshots may differ from yours. It depends on the IPTV provider (playlist) you have selected."
+      },
+      {
+        "name": "Enjoy watching!"
+      }
+    ]
+  }
+]

@@ -1,63 +1,72 @@
 [
   {
-    "name": "Registration on the website",
+    "id": "registration",
+    "name": "Website registration",
     "actions": [
       {
-        "name": "Register on the ILookTV website using any of the links:",
+        "name": "Register on the ILookTV website using any of the following links:",
         "links": [
-          "https://vipdrive.net/welcome/signup/54e9515db854ab61",
-          "https://tvlider.net/welcome/signup/54e9515db854ab61",
-          "https://melord.net/welcome/signup/54e9515db854ab61",
-          "https://jinopro.net/welcome/signup/54e9515db854ab61",
-          "https://iseetv.net/welcome/signup/54e9515db854ab61"
+          {
+            "name": "ILookTv1",
+            "link": "https://vipdrive.net/welcome/signup/54e9515db854ab61"
+          },
+          {
+            "name": "ILookTv2",
+            "link": "https://tvlider.net/welcome/signup/54e9515db854ab61"
+          },
+          {
+            "name": "ILookTv3",
+            "link": "https://melord.net/welcome/signup/54e9515db854ab61"
+          },
+          {
+            "name": "ILookTv4",
+            "link": "https://jinopro.net/welcome/signup/54e9515db854ab61"
+          },
+          {
+            "name": "ILookTv5",
+            "link": "https://iseetv.net/welcome/signup/54e9515db854ab61"
+          }
         ]
       },
       {
-        "name": "Указываем: ник, e-mail, пароль и подтверждение пароля.",
+        "name": "Enter your username, email address, password, and password confirmation.",
         "img": "Ilooktv/ilooktv_manual1"
       },
       {
-        "name": "Затем на Ваш e-mail придет проверочный код, вводим его для подтверждения почты.",
+        "name": "A verification code will then be sent to your email address. Enter the code to verify your email.",
         "img": "Ilooktv/ilooktv_manual2"
       },
       {
-        "name": "Далее нужно авторизоваться на сайте с Вашими данными, указанными при регистрации."
+        "name": "Next, log in to the website using the credentials you provided during registration."
       }
     ]
   },
   {
-    "name": "Активация тестового периода и/или покупка пакета",
+    "id": "activation",
+    "name": "Activating the trial period and/or purchasing a package",
     "actions": [
       {
-        "name": "Войдя на сайт, Вы увидите, что Вам доступен бесплатный просмотр на 1 сутки. Здесь можно перейти сразу к следующему шагу. Однако, по истечении суток, если Вы захотите продолжить просмотр, необходимо будет вернуться к этому шагу, чтобы пополнить баланс и приобрести пакет.",
+        "name": "After logging in, you'll see that one day of free viewing is available. You can proceed directly to the next step. However, once the free period expires, if you wish to continue watching, return to this step to top up your balance and purchase a package.",
         "img": "Ilooktv/ilooktv_manual3"
       },
       {
-        "name": "После истечения тестового периода нужно будет пополнить счет в личном кабинете. Для этого нужно зайти в раздел \"КАБИНЕТ\" - \"финансы\" - \"пополнить\". После пополнения счета нужно подключить пакет. Для этого нужно зайти в раздел \"ТАРИФ\" и активировать тариф. Также здесь желательно включить автопродление."
+        "name": "Once the trial period has expired, you will need to top up your account in your personal account area. To do this, go to \"ACCOUNT\" - \"FINANCES\" - \"TOP UP\". After adding funds, you need to activate a package. Go to the \"PLAN\" section and activate your chosen plan. We also recommend enabling automatic renewal."
       }
     ]
   },
   {
-    "name": "копирование плейлиста для плеера Вашего устройства",
+    "id": "playlist",
+    "name": "Copying the playlist to your device's media player",
     "actions": [
       {
-        "name": "В личном кабинете заходим на вкладку \"ПЛЕЙЛИСТ\" в раздел \"группы каналов\", в нем выбрать тип плейлиста (можно выбирать \"Стандартный\" или \"Тематический\" в зависимости от того, какие группы каналов Вам нужны, а также здесь можно убрать галочки с тех каналов, которые Вам не нужны."
+        "name": "In your account area, open the \"PLAYLIST\" tab and go to \"CHANNEL GROUPS\". Select the playlist type: either \"Standard\" or \"Thematic\" (recommended), depending on which channel groups you need. You can also untick any channels you don't want to include."
       },
       {
-        "name": "Затем заходим в раздел \"скачать\", выбираем плейлист в формате m3u8 и нажимаем на кнопку \"копировать\"."
+        "name": "Next, go to the \"DOWNLOAD\" section, select the playlist in m3u8 format, and save its URL. You can save the URL in a text file or simply take a screenshot."
       },
       {
-        "name": "ПРИМЕЧАНИЕ: Изменить группы каналов можно будет и позже, при этом все дальнейшие действия повторять не нужно. Каждый раз, после того, как Вы поменяете набор групп каналов, достаточно будет войти в настройки Вашего плеера и найти пункт \"Обновить плейлист\" или \"Загрузить плейлист\".\n",
+        "name": "NOTE: You can change the channel groups later without repeating the rest of the setup. Whenever you change the groups you want, simply open your player settings and look for the \"Update playlist\" or \"Load playlist\" option.\n",
         "img": "Ilooktv/ilooktv_manual4"
-      },
-      {
-        "name": "Отлично! Теперь ссылка на наш плейлист в буфере памяти компьютера."
-      },
-      {
-        "name": "Заходим на рабочий стол компьютера, нажимаем на правую кнопку мыши - Создать - Текстовый документ. Называем его, например, \"link.txt\". Затем открываем этот файл и вставляем нашу ссылку из буфера (Ctrl+V). Ссылка на Ваш плейлист должна вставиться в этот файл. Сохраняем и закрываем его. Он нам еще понадобится."
-      },
-      {
-        "name": "Если вместо компьютера Вы используете смартфон, то для переноса адреса плейлиста удобнее всего использовать приложение \"Mocha Mouse\" на смартфоне. При помощи него Вы можете вводить текст из буфера смартфона на Вашу приставку. При этом Вам не нужно создавать файл link.txt, а также Вам не нужно устанавливать вспомогательные приложения (этот шаг просто пропускаем)."
       }
     ]
   }

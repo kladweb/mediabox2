@@ -1,0 +1,35 @@
+[
+  {
+    "id": "prepareBox",
+    "name": "Preparing your TV box for setup",
+    "actions": [
+      {
+        "name": "If you can connect a wired or Bluetooth keyboard to your TV box, we recommend doing so. It will make the setup process easier and more convenient."
+      },
+      {
+        "name": "If you don't have a physical keyboard, you can use a virtual keyboard or a text editor with a \"Copy to clipboard\" button. These apps have been tested and verified and are completely safe to use."
+      },
+      {
+        "name": "1) A convenient virtual keyboard for Android TV with a \"Paste from clipboard\" button:",
+        "links": [
+          {
+            "name": "LeanKeyKeyboardPro_v6.1.13.apk",
+            "link": "https://www.dropbox.com/scl/fi/rcmwwfts2xr93mdxgvy86/LeanKeyKeyboardPro_v6.1.13.apk?rlkey=91bmt9vphhk04qg660nn4nbua&dl=1"
+          }
+        ]
+      },
+      {
+        "name": "2) A dedicated text editor with a \"Copy to clipboard\" button:",
+        "links": [
+          {
+            "name": "Text Editor_Modern&Advanced_90.2_Apkpure.apk",
+            "link": "https://www.dropbox.com/scl/fi/xlvic7nufk5dw5sbftlu1/Text-Editor_-Modern-Advanced_90.2_Apkpure.apk?rlkey=p8hs7wv2023m9vpa9kujqwoex&dl=1"
+          }
+        ]
+      },
+      {
+        "name": "Downloading these files is optional. They are provided only to make it easier to copy and paste your playlist URL into the TV box's media player, so you don't have to enter the address manually. After downloading, we recommend saving the files and apps in a separate folder on your computer or on your desktop for easy access. Once setup is complete, you can delete them."
+      }
+    ]
+  }
+]

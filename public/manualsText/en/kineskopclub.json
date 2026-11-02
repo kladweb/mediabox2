@@ -1,0 +1,79 @@
+[
+  {
+    "id": "registration",
+    "name": "Website registration",
+    "actions": [
+      {
+        "name": "Register on the Kineskop.club website using the following link:",
+        "links": [
+          {
+            "name": "Kineskop.club",
+            "link": "https://kineskop.club/?p=MTAxMTI0MA"
+          }
+        ]
+      },
+      {
+        "name": "Enter your username, email address, password, and password confirmation.",
+        "img": "Kineskop/kineskop_manual_01"
+      },
+      {
+        "img": "Kineskop/kineskop_manual_02"
+      },
+      {
+        "name": "Then log in to the website using the credentials you provided during registration.",
+        "img": "Kineskop/kineskop_manual_03"
+      },
+      {
+        "name": "After logging in, you will be asked to verify your email address.",
+        "img": "Kineskop/kineskop_manual_04"
+      },
+      {
+        "name": "A verification link will then be sent to your email address. Open the link to complete the email verification process."
+      }
+    ]
+  },
+  {
+    "id": "activation",
+    "name": "Activating the trial period and/or purchasing a package",
+    "actions": [
+      {
+        "name": "After logging in, you'll see that one day of free viewing is available. You can proceed directly to the next step. However, once the free period expires, if you wish to continue watching, return to this step to top up your balance and purchase a package."
+      },
+      {
+        "name": "To top up your balance, open the \"Payment\" tab and click \"TOP UP ACCOUNT\". Add funds using whichever payment method is most convenient for you.",
+        "img": "Kineskop/kineskop_manual_09"
+      },
+      {
+        "name": "Next, choose a plan and click the corresponding \"Subscribe to plan\" button.",
+        "img": "Kineskop/kineskop_manual_10"
+      }
+    ]
+  },
+  {
+    "id": "playlist",
+    "name": "Copying the playlist to your device's media player",
+    "actions": [
+      {
+        "name": "Log in to your account and select \"Playlist\".",
+        "img": "Kineskop/kineskop_manual_05"
+      },
+      {
+        "name": "Next, select \"Download playlist\".",
+        "img": "Kineskop/kineskop_manual_06"
+      },
+      {
+        "name": "You can then deselect any channel categories you don't need."
+      },
+      {
+        "name": "Select \"Copy playlist link\".",
+        "img": "Kineskop/kineskop_manual_08"
+      },
+      {
+        "name": "Save your playlist URL in a file named link.txt, take a screenshot of it, or save it somewhere else convenient."
+      },
+      {
+        "name": "Do not share your credentials (key or playlist) with third parties. If simultaneous viewing from different devices is detected, your account will be blocked!"
+      }
+    ]
+  }
+]

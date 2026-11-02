@@ -56,10 +56,7 @@ export const Header = () => {
   //   }
   // };
 
-
   const changeLanguage = (newLanguage: ILocale) => {
-    console.log(lang);
-    console.log(newLanguage);
     const newPath = location.pathname.replace(
       `/${lang}`,
       `/${newLanguage}`
