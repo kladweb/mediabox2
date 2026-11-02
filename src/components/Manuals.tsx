@@ -1,8 +1,14 @@
+
 import { useEffect, useState } from "react";
 import { type Params, useParams } from "react-router-dom";
 import { Box, Card, CardContent } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import { sxButtonLinkOperator, sxCardMain, sxHeadMain, sxManualText1 } from "../services/sxStyles.ts";
+import {
+  sxButtonLinkOperator,
+  sxCardMain,
+  sxHeadMain,
+  sxManualText1,
+} from "../services/sxStyles.ts";
 import { appColors } from "../services/appColors.ts";
 import type { ITranslate } from "../types/typesBox.ts";
 import ImageManual from "./ImageManual.tsx";
@@ -10,7 +16,7 @@ import ImageManual from "./ImageManual.tsx";
 type ILink = {
   name: string;
   link: string;
-}
+};
 
 type Instruction = {
   name?: string;
@@ -24,138 +30,194 @@ type Manual = {
   id: string;
   name: string;
   actions: Instruction[];
-}
+};
 
 interface Manuals {
   operator: Manual[];
   device: Manual[];
   player: Manual[];
+}
+
+type ManualRequest = {
+  key: keyof Manuals;
+  promise: Promise<Manual[]>;
 };
 
 export const Manuals = () => {
-  const {t}: ITranslate = useTranslation();
+  const { t }: ITranslate = useTranslation();
   const params: Readonly<Params<string>> = useParams();
-  const {language, operator, device, player} = params;
+  const { language, operator, device, player } = params;
+
   let actionNumber = 0;
 
   const [manuals, setManuals] = useState<Manuals | null>(null);
 
-  const loadManual = async (part: string) => {
-    const response = await fetch(`/manualsText/${language}/${part}.json`);
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  const loadManual = async (part: string): Promise<Manual[]> => {
+    const response = await fetch(
+      `/manualsText/${language}/${part}.json`
+    );
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
     return response.json();
   };
 
   const handlerOperator = (link: string): void => {
     window.open(link);
-  }
+  };
 
   useEffect(() => {
-    if (!language || !operator || !device || !player) return;
+    if (!language || (!operator && !device && !player)) return;
+
     let cancelled = false;
+
     (async () => {
-      try {
-        const [operatorData, deviceData, playerData] = await Promise.allSettled([
-          loadManual(operator),
-          loadManual(device),
-          loadManual(player),
-        ]);
-        if (!cancelled) {
-          setManuals({
-            operator: operatorData.status === "fulfilled" ? operatorData.value : [],
-            device: deviceData.status === "fulfilled" ? deviceData.value : [],
-            player: playerData.status === "fulfilled" ? playerData.value : [],
-          });
-        }
-      } catch (err) {
-        if (!cancelled) console.error(err);
+      const requests: ManualRequest[] = [];
+
+      if (operator) {
+        requests.push({
+          key: "operator",
+          promise: loadManual(operator),
+        });
       }
+
+      if (device) {
+        requests.push({
+          key: "device",
+          promise: loadManual(device),
+        });
+      }
+
+      if (player) {
+        requests.push({
+          key: "player",
+          promise: loadManual(player),
+        });
+      }
+
+      const results = await Promise.allSettled(
+        requests.map(({ promise }) => promise)
+      );
+
+      if (cancelled) return;
+
+      const data: Manuals = {
+        operator: [],
+        device: [],
+        player: [],
+      };
+
+      results.forEach((result, index) => {
+        const key = requests[index].key;
+
+        if (result.status === "fulfilled") {
+          data[key] = result.value;
+        } else {
+          console.error(`Failed to load ${key}:`, result.reason);
+        }
+      });
+
+      setManuals(data);
     })();
+
     return () => {
       cancelled = true;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [language, operator, device, player]);
+  }, [language, operator, device, player, loadManual]);
 
-  if (!manuals) return (
-    <div>LOADING....</div>
-  );
+  if (!manuals) {
+    return <div>LOADING....</div>;
+  }
 
   const createManual = (manualItem: Manual[]) => {
     if (!manualItem || manualItem.length === 0) return null;
 
     return manualItem.map((manual: Manual) => {
-
-      if (player === "ottplayer" && manual.id === "prepareBox") return null;
+      if (player === "ottplayer" && manual.id === "prepareBox") {
+        return null;
+      }
 
       actionNumber++;
+
       return (
-        <Card component='div' sx={sxCardMain} key={manual.id}>
-          <Box component='h4' sx={sxHeadMain}>
-            {`${t('shared:step')}${actionNumber} - ${manual.name}`}
+        <Card component="div" sx={sxCardMain} key={manual.id}>
+          <Box component="h4" sx={sxHeadMain}>
+            {`${t("shared:step")}${actionNumber} - ${manual.name}`}
           </Box>
-          {
-            manual.actions.map((action: Instruction, i: number) => {
-              const links = action?.links ?
-                action.links.map((link: ILink) => {
-                  return (
-                    <Box
-                      key={link.name}
-                      component='button'
-                      onClick={() => {
-                        handlerOperator(link.link);
-                      }}
-                      sx={sxButtonLinkOperator}
-                    >
-                      {link.name}
-                    </Box>
-                  )
-                }) : null;
 
-              const manualName = action[`name${operator}`] ??
-                action[`name${device}`] ??
-                action[`name${player}`] ??
-                action.name ??
-                null;
+          {manual.actions.map((action: Instruction, i: number) => {
+            const links = action?.links
+              ? action.links.map((link: ILink) => (
+                <Box
+                  key={link.name}
+                  component="button"
+                  onClick={() => {
+                    handlerOperator(link.link);
+                  }}
+                  sx={sxButtonLinkOperator}
+                >
+                  {link.name}
+                </Box>
+              ))
+              : null;
 
-              const manualImage = action[`img${operator}`] ??
-                action[`img${device}`] ??
-                action[`img${player}`] ??
-                action.img ??
-                null;
+            const manualName =
+              (operator && action[`name${operator}`]) ??
+              (device && action[`name${device}`]) ??
+              (player && action[`name${player}`]) ??
+              action.name ??
+              null;
 
-              return (
-                <div key={manual.id + i}>
-                  {manualName ? <CardContent sx={sxManualText1}>{manualName}</CardContent> : null}
-                  {links}
-                  {manualImage ? <ImageManual image={manualImage}/> : null}
-                </div>
-              );
-            })
-          }
+            const manualImage =
+              (operator && action[`img${operator}`]) ??
+              (device && action[`img${device}`]) ??
+              (player && action[`img${player}`]) ??
+              action.img ??
+              null;
+
+            return (
+              <div key={manual.id + i}>
+                {manualName ? (
+                  <CardContent sx={sxManualText1}>
+                    {manualName}
+                  </CardContent>
+                ) : null}
+
+                {links}
+
+                {manualImage ? (
+                  <ImageManual image={manualImage} />
+                ) : null}
+              </div>
+            );
+          })}
         </Card>
-      )
-    })
-  }
+      );
+    });
+  };
 
   const manualOperator = createManual(manuals.operator);
   const manualDevice = createManual(manuals.device);
   const manualPlayer = createManual(manuals.player);
 
-  return <Box
-    component='div'
-    sx={{
-      mt: 12,
-      mx: 'auto',
-      width: '100%',
-      fontSize: {xs: '1.25rem', md: '1.5rem'},
-      fontWeight: '400',
-      color: appColors.mid2,
-      textAlign: 'center',
-    }}
-  >
-    {manualOperator}
-    {manualDevice}
-    {manualPlayer}
-  </Box>;
+  return (
+    <Box
+      component="div"
+      sx={{
+        mt: 12,
+        mx: "auto",
+        width: "100%",
+        fontSize: { xs: "1.25rem", md: "1.5rem" },
+        fontWeight: "400",
+        color: appColors.mid2,
+        textAlign: "center",
+      }}
+    >
+      {manualOperator}
+      {manualDevice}
+      {manualPlayer}
+    </Box>
+  );
 };

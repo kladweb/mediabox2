@@ -10,5 +10,9 @@
   "appletv": "Apple TV приставка",
   "ottplaybyalex-Note": "не работают общественные каналы РФ",
   "headPlayer": "Выберите плеер для просмотра IPTV",
-  "step": "ШАГ"
+  "step": "ШАГ",
+  "hdvideobox-note": "Приложение для android тв приставок, Android TV и смартфонов android",
+  "lampaandroid-note": "Приложение для android тв приставок, Android TV и смартфонов android",
+  "lampasmarttv-note": "Приложение для SMART TV, поддерживающих установку Media Station X (LG, Samsung и др.)",
+  "lampabrowser-note": "Приложение для браузеров (на PC, SMART TV и др.)"
 }

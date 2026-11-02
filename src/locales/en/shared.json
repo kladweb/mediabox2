@@ -10,5 +10,9 @@
   "appletv": "Apple TV",
   "ottplaybyalex-Note": "Russian public channels do not work",
   "headPlayer": "Select a player to watch IPTV",
-  "step": "STEP"
+  "step": "STEP",
+  "hdvideobox-note": "Application for android set-top boxes, Android TV and android smartphones",
+  "lampaandroid-note": "Application for android set-top boxes, Android TV and android smartphones",
+  "lampasmarttv-note": "Application for SMART TVs that support Media Station X installation (LG, Samsung, etc.)",
+  "lampabrowser-note": "Application for browsers (on PC, SMART TV, etc.)"
 }
