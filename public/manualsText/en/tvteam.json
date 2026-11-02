@@ -1,0 +1,20 @@
+[
+  {
+    "id": "registration",
+    "name": "Website registration",
+    "actions": [
+      {
+        "name": "Register on the TV.Team website using this link:",
+        "links": [
+          {
+            "name": "TV.TEAM",
+            "link": "https://tv.team/420774"
+          }
+        ]
+      },
+      {
+        "name": "Pay for a subscription and get your playlist link from your account. You can watch for the first three days free of charge."
+      }
+    ]
+  }
+]

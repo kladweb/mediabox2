@@ -1,0 +1,68 @@
+[
+  {
+    "id": "registration",
+    "name": "Website registration",
+    "actions": [
+      {
+        "name": "Register on the Russkoe TV website using the following link:",
+        "links": [
+          {
+            "name": "RUSSKOETV",
+            "link": "https://russkoetv.shop/?ref=277521"
+          }
+        ]
+      },
+      {
+        "name": "Enter your username, email address, password, and password confirmation.",
+        "img": "Russkoetv/russkoetv_manual_01"
+      },
+      {
+        "img": "Russkoetv/russkoetv_manual_02"
+      },
+      {
+        "name": "A confirmation link will then be sent to your email address. Click the link to verify your email address."
+      },
+      {
+        "name": "After that, log in to the website using the credentials you provided during registration.",
+        "img": "Russkoetv/russkoetv_manual_03"
+      }
+    ]
+  },
+  {
+    "id": "activation",
+    "name": "Activating the trial period and/or purchasing a package",
+    "actions": [
+      {
+        "name": "Russkoe TV allows you to activate a free one-day trial once, at any time you choose. To activate the trial, go to the home page and select \"Get a Free Trial\".",
+        "img": "Russkoetv/russkoetv_manual_04"
+      },
+      {
+        "name": "Select \"Start 3-Day Trial\".",
+        "img": "Russkoetv/russkoetv_manual_05"
+      },
+      {
+        "name": "When the trial period expires, if you wish to continue watching, return to this step to top up your balance and purchase a package."
+      },
+      {
+        "name": "To top up your balance, select \"Home\" in the left-hand menu, then go to \"Your Balance\" and add funds using whichever payment method is most convenient for you."
+      }
+    ]
+  },
+  {
+    "id": "playlist",
+    "name": "Copying the playlist to your device's media player",
+    "actions": [
+      {
+        "name": "Go to your account dashboard, select \"Home\", and then choose \"Settings\".",
+        "img": "Russkoetv/russkoetv_manual_06"
+      },
+      {
+        "name": "Next, copy the playlist URL from the \"Auto-Updating Playlist\" section.",
+        "img": "Russkoetv/russkoetv_manual_07"
+      },
+      {
+        "name": "Do not share your credentials (key or playlist) with third parties. If simultaneous viewing from different devices is detected, your account will be blocked!"
+      }
+    ]
+  }
+]

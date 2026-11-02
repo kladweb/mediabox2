@@ -1,0 +1,108 @@
+[
+  {
+    "id": "installAndSetup",
+    "name": "Installing and setting up the FLEX IPTV app",
+    "actions": [
+      {
+        "name": "To watch IPTV on an Apple device, install the Flex IPTV player from the App Store."
+      },
+      {
+        "name": "Once the player is installed, open it. You will see a sample channel list.",
+        "img": "FlexIptv/flexiptv_manual01"
+      },
+      {
+        "name": "The player comes with a demo playlist, which you can delete if you wish. Tap the three-line menu icon in the top-left corner to open the main menu.",
+        "img": "FlexIptv/flexiptv_manual02"
+      },
+      {
+        "name": "Tap \"Playlists manager\" to open the playlist management menu.",
+        "img": "FlexIptv/flexiptv_manual03"
+      },
+      {
+        "name": "Tap \"Add Playlist\" and enter your playlist URL. You can choose any name for the playlist; in this example, it is called \"playlist01\". Then tap \"Download\".",
+        "img": "FlexIptv/flexiptv_manual04"
+      },
+      {
+        "name": "If the playlist URL was entered correctly, the playlist will appear in the list along with the number of channels it contains.",
+        "img": "FlexIptv/flexiptv_manual05"
+      },
+      {
+        "name": "Open the main menu again and tap \"Settings\".",
+        "img": "FlexIptv/flexiptv_manual06"
+      },
+      {
+        "name": "Select the \"EPG Sources\" section.",
+        "img": "FlexIptv/flexiptv_manual07"
+      },
+      {
+        "img": "FlexIptv/flexiptv_manual08"
+      },
+      {
+        "nameilooktv": "Enter the EPG URL for your IPTV provider:\nhttp://epg.it999.ru/epg.xml.gz",
+        "imgilooktv": "FlexIptv/flexiptv_manual09_ilooktv"
+      },
+      {
+        "namesharavoz": "Enter the EPG URL for your IPTV provider:\nhttp://iptv-content.webhop.net/guide.xml",
+        "imgsharavoz": "FlexIptv/flexiptv_manual09_sharavoz"
+      },
+      {
+        "nameviplime": "Enter the EPG URL for your IPTV provider:\nhttp://epg.cdntv.online/full.xml.gz",
+        "imgviplime": "FlexIptv/flexiptv_manual09_viplime"
+      },
+      {
+        "namecbilling": "Enter the EPG URL for your IPTV provider:\nhttp://epg.iptvx.tv/xmltv.xml.gz",
+        "imgcbilling": "FlexIptv/flexiptv_manual09_cbilling"
+      },
+      {
+        "nametvteam": "Enter the EPG URL for your IPTV provider:\nhttp://epg.it999.ru/epg.xml.gz",
+        "imgtvteam": "FlexIptv/flexiptv_manual09_ilooktv"
+      },
+      {
+        "namekineskopclub": "Enter the EPG URL for your IPTV provider:\nhttp://st.kineskop.tv/epg.xml.gz",
+        "imgkineskopclub": "FlexIptv/flexiptv_manual09_kineskopclub"
+      },
+      {
+        "namerusskoetv": "Enter the EPG URL for your IPTV provider:\nhttp://rutv.aws-static-hosting.com/epg.xml.gz",
+        "imgrusskoetv": "FlexIptv/flexiptv_manual09_kineskopclub"
+      },
+      {
+        "name": "Wait for the download to complete.",
+        "img": "FlexIptv/flexiptv_manual10"
+      },
+      {
+        "name": "Once the download is complete, return to the main menu, select your playlist (\"playlist01\" in this example), and open its main screen.",
+        "img": "FlexIptv/flexiptv_manual11"
+      },
+      {
+        "img": "FlexIptv/flexiptv_manual12"
+      },
+      {
+        "name": "Tap the three-dot icon in the top-right corner to open the additional options menu.",
+        "img": "FlexIptv/flexiptv_manual13"
+      },
+      {
+        "name": "Tap the gear icon to open the settings menu, then enable the TV guide by turning on the \"Show EPG\" toggle.",
+        "img": "FlexIptv/flexiptv_manual14"
+      },
+      {
+        "name": "Below are a few screenshots showing the player's menus, including the menu where you can hide categories you don't need.",
+        "img": "FlexIptv/flexiptv_manual15"
+      },
+      {
+        "img": "FlexIptv/flexiptv_manual16"
+      },
+      {
+        "img": "FlexIptv/flexiptv_manual17"
+      },
+      {
+        "img": "FlexIptv/flexiptv_manual18"
+      },
+      {
+        "name": "NOTE: The channel lineup shown in the screenshots may differ from yours. It depends on the IPTV provider (playlist) you have selected."
+      },
+      {
+        "name": "Enjoy watching!"
+      }
+    ]
+  }
+]

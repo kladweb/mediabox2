@@ -1,0 +1,73 @@
+[
+  {
+    "id": "registration",
+    "name": "Website registration",
+    "actions": [
+      {
+        "name": "Register on the VipLime website using this link:",
+        "links": [
+          {
+            "name": "VipLime",
+            "link": "https://viplime.fun/index.php?user=2006"
+          }
+        ]
+      },
+      {
+        "name": "Enter your username, email address, password, and password confirmation.",
+        "img": "VipLime/viplime_manual_01"
+      },
+      {
+        "img": "VipLime/viplime_manual_02"
+      },
+      {
+        "name": "A confirmation link will then be sent to your email address. Follow the link to verify your email address."
+      },
+      {
+        "name": "Next, log in to the website using the credentials you provided during registration.",
+        "img": "VipLime/viplime_manual_04"
+      }
+    ]
+  },
+  {
+    "id": "activation",
+    "name": "Activating the trial period and/or purchasing a package",
+    "actions": [
+      {
+        "name": "VipLime lets you activate a free 24-hour trial once, at any time you choose. To activate the trial, open the Telegram bot:",
+        "links": [
+          {
+            "name": "@viplime_bot",
+            "link": "https://t.me/viplime_bot"
+          }
+        ],
+        "img": "VipLime/viplime_manual_05"
+      },
+      {
+        "name": "After the 24-hour period ends, if you want to continue watching, you will need to top up your balance and purchase a package. To do this, go to \"Account\" and select \"Top up balance\".",
+        "img": "VipLime/viplime_manual_08"
+      },
+      {
+        "name": "Once your balance has been topped up, the service is activated automatically. Your subscription is also renewed automatically as long as you have a positive balance. The payment is charged once a month."
+      }
+    ]
+  },
+  {
+    "id": "playlist",
+    "name": "Copying the playlist to your device's media player",
+    "actions": [
+      {
+        "name": "Open your account and select \"Playlists\".\nThen select the \"HLS (M3U8)\" tab."
+      },
+      {
+        "name": "Next, choose the playlist that matches your internet connection speed and quality, then copy it. You can simply select the link and press Ctrl+C.",
+        "img": "VipLime/viplime_manual_06"
+      },
+      {
+        "name": "Save your playlist URL in a file named link.txt, take a photo of it, or save it anywhere convenient."
+      },
+      {
+        "name": "Do not share your credentials (key or playlist) with third parties. If simultaneous viewing from different devices is detected, your account will be blocked!"
+      }
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "id": "download",
+    "name": "Downloading the Televizo app",
+    "actions": [
+      {
+        "name": "Download the Televizo app:",
+        "links": [
+          {
+            "name": "Official website",
+            "link": "https://televizo.net/"
+          },
+          {
+            "name": "4PDA forum",
+            "link": "https://4pda.to/forum/index.php?showtopic=943863"
+          },
+          {
+            "name": "Direct download link",
+            "link": "https://www.dropbox.com/scl/fi/6haivb3jrcasqfy0t9xfb/Televizo_1.9.6.50-google.apk?rlkey=zxgpn050trbdp9bfwq0k5jzn7&dl=1"
+          }
+        ]
+      },
+      {
+        "name": "Next, transfer the APK file to your TV box. If you saved your playlist URL in a text file, transfer that file as well. If your TV box has a USB port, you can simply copy the files using a USB flash drive. However, many popular compact TV boxes come in the form of streaming sticks without a USB port. So, we'll show you a simple and convenient way to transfer files to an Android TV box without using a USB flash drive."
+      }
+    ]
+  },
+  {
+    "id": "transferFiles",
+    "name": "Transferring files to your TV box",
+    "actions": [
+      {
+        "name": "On your TV box, open the Play Store and install File Manager. You can use any file manager that supports FTP file transfers.",
+        "img": "AndroidHelp/androidtvbox_manual1"
+      },
+      {
+        "name": "Once installed, open the app and select \"Network Access\".",
+        "img": "AndroidHelp/androidtvbox_manual2"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual3"
+      },
+      {
+        "name": "Start the network file access service. Your computer and TV box must be connected to the same router, meaning they must be on the same network.",
+        "img": "AndroidHelp/androidtvbox_manual4"
+      },
+      {
+        "name": "Now return to your computer. Open \"This PC\" and enter the address displayed in the app on your TV box in the address bar. (In the previous screenshot, the address is \"ftp://192.168.1.97:3740\". Your address will be different.) Then enter the username and password shown in the app as well. These will also be different for your device; the screenshot is only an example."
+      },
+      {
+        "name": "A folder named \"device\" will now open on your computer (it may have a different name on your device). You can now access the files on your TV box from your computer. Open \"device/download/\" and drag the files you downloaded earlier into this folder.",
+        "img": "AndroidHelp/androidtvbox_manual5_televizo_2"
+      },
+      {
+        "name": "Go back to your TV box and use any file manager to find and open the \"download\" folder. You should now see the files there.",
+        "img": "AndroidHelp/androidtvbox_manual6"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual7"
+      },
+      {
+        "name": "The main app you need here is Televizo. As mentioned earlier, the other apps are optional and are only intended to make it easier to enter the long playlist URL. We won't cover those helper apps in detail here.",
+        "img": "AndroidHelp/androidtvbox_manual8_televizo_2"
+      }
+    ]
+  },
+  {
+    "id": "install",
+    "name": "Installing and setting up the Televizo app",
+    "actions": [
+      {
+        "name": "Install the Televizo app and grant all the permissions requested during installation. Then open the app and select \"Create playlist\".",
+        "img": "Televizo/televizo_manual4"
+      },
+      {
+        "img": "Televizo/televizo_manual5"
+      },
+      {
+        "name": "Enter any name you like for the playlist. In the \"Playlist link\" field, enter your playlist URL or paste it from the clipboard if you copied it earlier using one of the helper apps.",
+        "img": "Televizo/televizo_manual7"
+      },
+      {
+        "name": "If you have installed LeanKeyKeyboardPro, you can copy the playlist URL to the clipboard and then paste it by pressing the keyboard's paste key.",
+        "img": "Televizo/televizo_manual71"
+      },
+      {
+        "name": "Once the playlist has loaded, the channel categories menu will appear. The TV guide will load and update automatically after a short while. It took about 5 minutes on my first launch.",
+        "img": "Televizo/televizo_manual8"
+      },
+      {
+        "img": "Televizo/televizo_manual9"
+      },
+      {
+        "name": "You can also watch catch-up TV (recordings), although this feature is not available on all channels. To access it, open the TV guide, then press the Left button on your remote.",
+        "img": "Televizo/televizo_manual10"
+      },
+      {
+        "name": "The current programme is highlighted with a semi-transparent background. Upcoming programmes are listed below it, while catch-up programmes are shown in orange above. You can watch these programmes again and even rewind them!",
+        "img": "Televizo/televizo_manual11"
+      },
+      {
+        "name": "NOTE: The channel lineup shown in the screenshots may differ from yours. It depends on the IPTV provider (playlist) you have selected."
+      },
+      {
+        "name": "Enjoy watching!"
+      }
+    ]
+  }
+]

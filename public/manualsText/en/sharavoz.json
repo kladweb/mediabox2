@@ -1,0 +1,78 @@
+[
+  {
+    "id": "registration",
+    "name": "Website registration",
+    "actions": [
+      {
+        "name": "Register on the SHARAVOZ website using the following link:",
+        "links": [
+          {
+            "name": "Sharavoz",
+            "link": "https://sharavoz.tv/Account/Register?hash=YZoaV4m2wgp-qvc0IYnwHb4TgHBqZaaFgzY8AoVUr2zQJ8fB-w4elw=="
+          }
+        ]
+      },
+      {
+        "name": "Enter your username, email address, password, and password confirmation.",
+        "img": "Sharavoz/szaravoz_manual_01"
+      },
+      {
+        "name": "A verification link will then be sent to your email address. Open the link to verify your email. Once your email has been confirmed, you'll receive 24 hours of free access to the service."
+      },
+      {
+        "name": "Next, log in to the website using the credentials you provided during registration.",
+        "img": "Sharavoz/szaravoz_manual_02"
+      }
+    ]
+  },
+  {
+    "id": "activation",
+    "name": "Purchasing a subscription",
+    "actions": [
+      {
+        "name": "You can skip this step while your free trial is still active."
+      },
+      {
+        "name": "Once the trial period expires, you'll need to purchase a subscription if you wish to continue watching. To do this, open your account, click on your balance, select a payment method, agree to the service terms, and click \"Next\". Then click \"Pay\" and complete the payment.",
+        "img": "Sharavoz/szaravoz_manual_10"
+      },
+      {
+        "name": "After topping up your balance, go to your account and select \"Buy subscription\".",
+        "img": "Sharavoz/szaravoz_manual_11"
+      }
+    ]
+  },
+  {
+    "id": "playlist",
+    "name": "Copying the playlist to your device's media player",
+    "actions": [
+      {
+        "name": "Log in to your account and select \"Viewing settings\".",
+        "img": "Sharavoz/szaravoz_manual_03"
+      },
+      {
+        "name": "We recommend leaving the server selection unchanged for now. If you later experience buffering or picture freezes, and you're sure your internet connection is working properly, you can run a server test here and choose the best server for your region.\nYou can also use the channel editor to remove any channels you don't need from the list.\nNext, go to \"Get playlist\".",
+        "img": "Sharavoz/szaravoz_manual_04"
+      },
+      {
+        "nametelevizo": "Select \"ANDROID\", then \"Televizo\", and tap \"Copy link\". Save your playlist URL in a file named link.txt, take a screenshot of it, or save it somewhere else convenient.",
+        "imgtelevizo": "Sharavoz/szaravoz_manual_05_televizo"
+      },
+      {
+        "nameottnavigator": "Select \"ANDROID\", then \"Navigator OTT Player\". Make a note of your personal key (write it down or take a screenshot), and save your playlist URL as well.",
+        "imgottnavigator": "Sharavoz/szaravoz_manual_05_ottnavigator"
+      },
+      {
+        "nameottplaybyalex": "Select \"ANDROID\", then \"Televizo\", and tap \"Copy link\". Save your playlist URL in a file named link.txt, take a screenshot of it, or save it somewhere else convenient.",
+        "imgottplaybyalex": "Sharavoz/szaravoz_manual_05_televizo"
+      },
+      {
+        "nameottplayer": "Select \"Windows\", then \"OTT Player\", and tap \"Copy link\".",
+        "imgottplayer": "Sharavoz/szaravoz_manual_05_ottplayer"
+      },
+      {
+        "name": "Do not share your credentials (key or playlist) with third parties. If simultaneous viewing from different devices is detected, your account will be blocked!"
+      }
+    ]
+  }
+]

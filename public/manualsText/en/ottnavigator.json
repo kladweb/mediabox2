@@ -1,0 +1,93 @@
+[
+  {
+    "id": "download",
+    "name": "Downloading the OTT Navigator app",
+    "actions": [
+      {
+        "name": "Download the OTT Navigator app:",
+        "links": [
+          {
+            "name": "4PDA forum",
+            "link": "https://4pda.to/forum/index.php?showtopic=881962"
+          },
+          {
+            "name": "Direct download link",
+            "link": "https://www.dropbox.com/scl/fi/02zqgnu4af2u1w7h0rf0h/OTT-Navigator-23072804-1.6.9.4.apk?rlkey=hehs4rncmif9ggqujftasah1j&dl=1"
+          }
+        ]
+      },
+      {
+        "name": "Next, transfer the APK file to your TV box. If you saved your playlist URL in a text file, transfer that file as well. If your TV box has a USB port, you can simply copy the files using a USB flash drive. However, many popular compact TV boxes come in the form of streaming sticks without a USB port. So, we'll show you a simple and convenient way to transfer files to an Android TV box without using a USB flash drive."
+      }
+    ]
+  },
+  {
+    "id": "transferFiles",
+    "name": "Transferring files to your TV box",
+    "actions": [
+      {
+        "name": "On your TV box, open the Play Store and install File Manager. You can use any file manager that supports FTP file transfers.",
+        "img": "AndroidHelp/androidtvbox_manual1"
+      },
+      {
+        "name": "Once installed, open the app and select \"Network Access\".",
+        "img": "AndroidHelp/androidtvbox_manual2"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual3"
+      },
+      {
+        "name": "Start the network file access service. Your computer and TV box must be connected to the same router, meaning they must be on the same network.",
+        "img": "AndroidHelp/androidtvbox_manual4"
+      },
+      {
+        "name": "Now return to your computer. Open \"This PC\" and enter the address displayed in the app on your TV box in the address bar. (In the previous screenshot, the address is \"ftp://192.168.1.97:3740\". Your address will be different.) Then enter the username and password shown in the app as well. These will also be different for your device; the screenshot is only an example."
+      },
+      {
+        "name": "A folder named \"device\" will now open on your computer (it may have a different name on your device). You can now access the files on your TV box from your computer. Open \"device/download/\" and drag the files you downloaded earlier into this folder.",
+        "img": "AndroidHelp/androidtvbox_manual5_ottnavigator_2"
+      },
+      {
+        "name": "Go back to your TV box and use any file manager to find and open the \"download\" folder. You should now see the files there.",
+        "img": "AndroidHelp/androidtvbox_manual6"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual7"
+      },
+      {
+        "name": "The main app you need here is OTT Navigator. As mentioned earlier, the other apps are optional and are only intended to make it easier to enter the long playlist URL. We won't cover those helper apps in detail here.",
+        "img": "AndroidHelp/androidtvbox_manual8_ottnavigator_2"
+      }
+    ]
+  },
+  {
+    "id": "install",
+    "name": "Installing and setting up the OTT Navigator app",
+    "actions": [
+      {
+        "name": "Install OTT Navigator and grant all the permissions requested during installation. Then open the app and go to \"Playlist\".",
+        "img": "OttNavigator/ottnavigator_manual5"
+      },
+      {
+        "name": "Enter your playlist URL in the \"URL address\" field, or paste it from the clipboard if you copied it earlier using one of the helper apps.",
+        "img": "OttNavigator/ottnavigator_manual6"
+      },
+      {
+        "img": "OttNavigator/ottnavigator_manual7"
+      },
+      {
+        "name": "Once the playlist has loaded, go to \"Live TV\", select a channel category, and enjoy watching. The first time you use the app, wait about 5–10 minutes for the TV guide to load for all channels. Once the guide has loaded, you will also be able to watch catch-up TV by opening the corresponding menu. Catch-up may not be available for some channels, depending on your IPTV provider.",
+        "img": "OttNavigator/ottnavigator_manual8"
+      },
+      {
+        "img": "OttNavigator/ottnavigator_manual9"
+      },
+      {
+        "name": "NOTE: The channel lineup shown in the screenshots may differ from yours. It depends on the IPTV provider (playlist) you have selected."
+      },
+      {
+        "name": "Enjoy watching!"
+      }
+    ]
+  }
+]

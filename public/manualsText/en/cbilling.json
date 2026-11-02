@@ -1,0 +1,80 @@
+[
+  {
+    "id": "registration",
+    "name": "Website registration",
+    "actions": [
+      {
+        "name": "Register on the Cbilling website using either of the following links:",
+        "links": [
+          {
+            "name": "cbilling1",
+            "link": "https://cbillingtv.com/pl/23417"
+          },
+          {
+            "name": "cbilling2",
+            "link": "https://smotrivip.com/?pp=23417"
+          }
+        ]
+      },
+      {
+        "name": "Enter your email address.",
+        "img": "Cbilling/cbilling_manual_01"
+      },
+      {
+        "name": "A confirmation link will be sent to your email address. Open the link in the email, then enter the login details provided in that same email.",
+        "img": "Cbilling/cbilling_manual_03"
+      },
+      {
+        "name": "Then log in to the website using the credentials provided during registration."
+      }
+    ]
+  },
+  {
+    "id": "activation",
+    "name": "Activating the trial period and/or purchasing a package",
+    "actions": [
+      {
+        "name": "After logging in, you'll see that 72 hours of free viewing are available. To activate the 72-hour free trial, click \"Get a free trial\".",
+        "img": "Cbilling/cbilling_manual_04"
+      },
+      {
+        "name": "Next, select a package, for example, \"PREMIUM IPTV\", and click \"Get a trial\".",
+        "img": "Cbilling/cbilling_manual_05"
+      },
+      {
+        "name": "Then select \"Activate 72-hour trial\".",
+        "img": "Cbilling/cbilling_manual_06"
+      },
+      {
+        "name": "When the trial period expires, if you wish to continue watching, return to this step to top up your balance and purchase a package."
+      },
+      {
+        "name": "To top up your balance, select \"Home\" in the left-hand menu, then choose \"Top up balance\" and add funds using your preferred payment method.",
+        "img": "Cbilling/cbilling_manual_07"
+      },
+      {
+        "name": "After adding funds, make sure the selected package is active, or choose a different package. You will also have access to the Pay-per-view plan, where you are charged only for the time you spend watching. This option is suitable if you don't use IPTV very often."
+      }
+    ]
+  },
+  {
+    "id": "playlist",
+    "name": "Copying the playlist to your device's media player",
+    "actions": [
+      {
+        "name": "In your account, select \"Home\" from the left-hand menu, then choose \"Playlist\".",
+        "img": "Cbilling/cbilling_manual_08"
+      },
+      {
+        "name": "In the \"Auto-updating playlist with archive\" field, click the copy button, or simply select and copy the playlist URL.",
+        "img": "Cbilling/cbilling_manual_09"
+      },
+      {
+        "name": "Save your playlist URL in a file named link.txt, take a screenshot of it, or save it somewhere else convenient."
+      },
+      {
+        "name": "Do not share your credentials (key or playlist) with third parties. If simultaneous viewing from different devices is detected, your account will be blocked!"
+      }
+    ]
+  }
+]

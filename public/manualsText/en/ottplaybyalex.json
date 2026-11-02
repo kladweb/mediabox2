@@ -1,0 +1,122 @@
+[
+  {
+    "id": "download",
+    "name": "Downloading the Ott-Play by Alex app",
+    "actions": [
+      {
+        "name": "NOTES:\n1) Please note that this player blocks Russian public-service channels included in playlists.\n2) If you have already installed the \"OTT-play FOSS\" player, you won't be able to install \"Ott-Play by Alex\" alongside it. You must first uninstall \"OTT-play FOSS\". However, if you want to have both players installed on your device at the same time, one of them must be installed and launched through \"Media Station X\". We'll cover this setup in a separate guide later."
+      },
+      {
+        "name": "First, download the \"Ott-Play by Alex\" app:",
+        "links": [
+          {
+            "name": "Official website",
+            "link": "https://forum.ott-play.com/index.php?topic=2.0"
+          },
+          {
+            "name": "4PDA forum",
+            "link": "https://4pda.to/forum/index.php?showtopic=991852"
+          },
+          {
+            "name": "Direct download link",
+            "link": "http://ott-play.com/android/app-debug.apk"
+          }
+        ]
+      },
+      {
+        "name": "Next, transfer the APK file to your TV box. If you saved your playlist URL in a text file, transfer that file as well. If your TV box has a USB port, you can simply copy the files using a USB flash drive. However, many popular compact TV boxes come in the form of streaming sticks without a USB port. So, we'll show you a simple and convenient way to transfer files to an Android TV box without using a USB flash drive."
+      }
+    ]
+  },
+  {
+    "id": "transferFiles",
+    "name": "Transferring files to your TV box",
+    "actions": [
+      {
+        "name": "On your TV box, open the Play Store and install File Manager. You can use any file manager that supports FTP file transfers.",
+        "img": "AndroidHelp/androidtvbox_manual1"
+      },
+      {
+        "name": "Once installed, open the app and select \"Network Access\".",
+        "img": "AndroidHelp/androidtvbox_manual2"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual3"
+      },
+      {
+        "name": "Start the network file access service. Your computer and TV box must be connected to the same router, meaning they must be on the same network.",
+        "img": "AndroidHelp/androidtvbox_manual4"
+      },
+      {
+        "name": "Now return to your computer. Open \"This PC\" and enter the address displayed in the app on your TV box in the address bar. (In the previous screenshot, the address is \"ftp://192.168.1.97:3740\". Your address will be different.) Then enter the username and password shown in the app as well. These will also be different for your device; the screenshot is only an example."
+      },
+      {
+        "name": "A folder named \"device\" will now open on your computer (it may have a different name on your device). You can now access the files on your TV box from your computer. Open \"device/download/\" and drag the files you downloaded earlier into this folder.",
+        "img": "AndroidHelp/androidtvbox_manual5_ottplaybyalex_2"
+      },
+      {
+        "name": "Go back to your TV box and use any file manager to find and open the \"download\" folder. You should now see the files there.",
+        "img": "AndroidHelp/androidtvbox_manual6"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual7"
+      },
+      {
+        "name": "The main app you need here is Ott-Play by Alex. As mentioned earlier, the other apps are optional and are only intended to make it easier to enter the long playlist URL. We won't cover those helper apps in detail here.",
+        "img": "AndroidHelp/androidtvbox_manual8_ottplaybyalex_2"
+      }
+    ]
+  },
+  {
+    "id": "install",
+    "name": "Installing the Ott-Play by Alex app",
+    "actions": [
+      {
+        "name": "Install the \"Ott-Play by Alex\" app and grant all the permissions requested during installation. Then open the app and select your preferred language.",
+        "img": "OttPlay/ottplayfoss_manual4"
+      },
+      {
+        "name": "Next, select \"Manual setup\".",
+        "img": "OttPlay/ottplayfoss_manual5"
+      },
+      {
+        "name": "Go to \"Select playlist\".",
+        "img": "OttPlay/ottplayfoss_manual6"
+      },
+      {
+        "img": "OttPlay/ottplayfoss_manual7"
+      },
+      {
+        "name": "Tap \"Playlist name\" and enter any name you like for the playlist.",
+        "img": "OttPlay/ottplayfoss_manual8"
+      },
+      {
+        "img": "OttPlay/ottplayfoss_manual9"
+      },
+      {
+        "img": "OttPlay/ottplayfoss_manual10"
+      },
+      {
+        "name": "Go to \"Playlist URL\".",
+        "img": "OttPlay/ottplayfoss_manual11"
+      },
+      {
+        "name": "Set the archive duration to 168 hours and tap \"Load playlist\".",
+        "img": "OttPlay/ottplayfoss_manual12"
+      },
+      {
+        "name": "The selected channel groups should now load automatically!",
+        "img": "OttPlay/ottplayfoss_manual14"
+      },
+      {
+        "img": "OttPlay/ottplayfoss_manual15"
+      },
+      {
+        "name": "NOTE: The channel lineup shown in the screenshots may differ from yours. It depends on the IPTV provider (playlist) you have selected."
+      },
+      {
+        "name": "Enjoy watching!"
+      }
+    ]
+  }
+]
