@@ -1,14 +1,14 @@
 [
   {
     "id": "download",
-    "name": "скачивание приложения HD Videobox",
+    "name": "скачивание приложения Lampa (для android)",
     "actions": [
       {
-        "name": "Скачиваем рабочее приложение HD Videobox (с готовыми настройками):",
+        "name": "Скачиваем приложение Lampa (для android):",
         "links": [
           {
-            "name": "hdvideobox.apk",
-            "link": "https://www.dropbox.com/scl/fi/kpeoasy5y4glfi56tts8q/hdvideobox-2.31-fix-MaxVanced.apk?rlkey=915idjx3tgr5bmnt7picuysnd&dl=1"
+            "name": "Lampa+v7.7.7-82.apk",
+            "link": "https://www.dropbox.com/scl/fi/4bylxbdm6kcm0gjlbzxla/Lampa-v7.7.7-82.apk?rlkey=drfpvnnkluy73qwry7td5ezby&dl=1"
           }
         ]
       },
@@ -50,7 +50,7 @@
       },
       {
         "name": "После этого на компьютере откроется папка \"device\" (у Вас может называться по-другому). Теперь мы имеем доступ к файлам на приставке с нашего компьютера. Заходим в \"device/download/\" и перетаскиваем сюда скачанные ранее файлы.",
-        "img": "AndroidHelp/androidtvbox_manual5_hdvideobox_2"
+        "img": "AndroidHelp/androidtvbox_manual5_lampaandroid_2"
       },
       {
         "name": "Возвращаемся в нашу приставку и при помощи любого файлового менеджера ищем и открываем папку \"download\". Видим, что наши файлы уже здесь.",
@@ -60,7 +60,7 @@
         "img": "AndroidHelp/androidtvbox_manual7"
       },
       {
-        "img": "AndroidHelp/androidtvbox_manual8_hdvideobox_2"
+        "img": "AndroidHelp/androidtvbox_manual8_lampaandroid_2"
       }
     ]
   },
@@ -70,47 +70,17 @@
     "actions": [
       {
         "name": "Как было сказано выше Выше, на нашей приставке в папке \"Загрузки\" или \"download\" будут находится наши файлы.",
-        "img": "AndroidHelp/androidtvbox_manual8_hdvideobox_2"
+        "img": "AndroidHelp/androidtvbox_manual8_lampaandroid_2"
       },
       {
         "name": "Сначала можно установить приложение Vimu Player, запустив файл Vimu+Media+Player.apk"
       },
       {
-        "name": "Затем устанавливаем приложение HD Videobox, предоставив ему все разрешения в процессе установки.\nЗапускаем приложение и заходим в настройки.",
-        "img": "Hdvideobox/hdvid_manual_01"
-      },
-      {
-        "img": "Hdvideobox/hdvid_manual_02"
-      },
-      {
-        "name": "Переходим к настройкам Видео.",
-        "img": "Hdvideobox/hdvid_manual_03"
-      },
-      {
-        "name": "Выбираем \"Видеоплеер\".",
-        "img": "Hdvideobox/hdvid_manual_04"
-      },
-      {
-        "name": "Выбираем установленный внешний плеер. В нашем случае это \"ViMu Player\" (можно выбрать другой плеер, который вам больше нравится.",
-        "img": "Hdvideobox/hdvid_manual_05"
-      },
-      {
-        "name": "Как запускать видео? Рассмотрим пример. \nПереходим в главное меню и через поиск находим нужный нам фильм. Откроется страница с описанием. Переходим во вкладку \"ВИДЕО\".",
-        "img": "Hdvideobox/hdvid_manual_06"
-      },
-      {
-        "name": "Выбираем вариант файла с переводом на выбор. Запускаем - начнется воспроизведение видео.",
-        "img": "Hdvideobox/hdvid_manual_07"
-      },
-      {
-        "img": "Hdvideobox/hdvid_manual_08"
-      },
-      {
-        "img": "Hdvideobox/hdvid_manual_09"
-      },
-      {
-        "name": "Приятного просмотра!"
+        "name": "Затем устанавливаем приложение Lampa, предоставив ему все разрешения в процессе установки."
       }
     ]
+  },
+  {
+    "source": "./common/lampaSetup.json"
   }
 ]

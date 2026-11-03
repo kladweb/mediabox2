@@ -1,0 +1,30 @@
+[
+  {
+    "id": "install",
+    "name": "установка приложения Lampa на SMART TV",
+    "actions": [
+      {
+        "name": "Переходим в телевизор SMART TV. В магазине приложений ищем и устанавливаем приложение Media Station X."
+      },
+      {
+        "name": "Открываем приложение Media Station X. Заходим в настройки (Settings).",
+        "img": "Mediastation/mediastation_01"
+      },
+      {
+        "name": "Переходим в пункт \"Подтверждение ссылок\". Меняем значение на \"Нет\" или \"No\".",
+        "img": "Mediastation/mediastation_06"
+      },
+      {
+        "name": "или",
+        "img": "Mediastation/mediastation_07"
+      },
+      {
+        "name": "Открываем Start Parameter.",
+        "img": "Mediastation/mediastation_02"
+      }
+    ]
+  },
+  {
+    "source": "./common/lampaSetup.json"
+  }
+]

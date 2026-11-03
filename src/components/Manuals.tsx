@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { type Params, useParams } from "react-router-dom";
 import { Box, Card, CardContent } from "@mui/material";
@@ -43,62 +42,71 @@ type ManualRequest = {
   promise: Promise<Manual[]>;
 };
 
+type ManualReference = {
+  source: string;
+};
+
+type ManualEntry = Manual | ManualReference;
+
 export const Manuals = () => {
-  const { t }: ITranslate = useTranslation();
+  const {t}: ITranslate = useTranslation();
   const params: Readonly<Params<string>> = useParams();
-  const { language, operator, device, player } = params;
-
+  const {language, operator, device, player} = params;
   let actionNumber = 0;
-
   const [manuals, setManuals] = useState<Manuals | null>(null);
-
-  const loadManual = async (part: string): Promise<Manual[]> => {
-    const response = await fetch(
-      `/manualsText/${language}/${part}.json`
-    );
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
-
-    return response.json();
-  };
 
   const handlerOperator = (link: string): void => {
     window.open(link);
   };
 
+  const loadInstructions = async (url: string): Promise<Manual[]> => {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    const instructions: ManualEntry[] = await response.json();
+    return Promise.all(
+      instructions.map(async (item): Promise<Manual> => {
+        if (!("source" in item)) return item;
+        const sourceUrl = new URL(item.source, response.url || url);
+        const external = await fetch(sourceUrl);
+        if (!external.ok) {
+          throw new Error(`HTTP ${external.status}: ${sourceUrl}`);
+        }
+        return external.json();
+      })
+    );
+  };
+
+  const loadManual = (part: string): Promise<Manual[]> => {
+    return loadInstructions(`/manualsText/${language}/${part}.json`);
+  };
+
   useEffect(() => {
     if (!language || (!operator && !device && !player)) return;
-
     let cancelled = false;
-
     (async () => {
       const requests: ManualRequest[] = [];
-
       if (operator) {
         requests.push({
           key: "operator",
           promise: loadManual(operator),
         });
       }
-
       if (device) {
         requests.push({
           key: "device",
           promise: loadManual(device),
         });
       }
-
       if (player) {
         requests.push({
           key: "player",
           promise: loadManual(player),
         });
       }
-
       const results = await Promise.allSettled(
-        requests.map(({ promise }) => promise)
+        requests.map(({promise}) => promise)
       );
 
       if (cancelled) return;
@@ -108,7 +116,6 @@ export const Manuals = () => {
         device: [],
         player: [],
       };
-
       results.forEach((result, index) => {
         const key = requests[index].key;
 
@@ -118,14 +125,12 @@ export const Manuals = () => {
           console.error(`Failed to load ${key}:`, result.reason);
         }
       });
-
       setManuals(data);
     })();
-
     return () => {
       cancelled = true;
     };
-  }, [language, operator, device, player, loadManual]);
+  }, [language, operator, device, player]);
 
   if (!manuals) {
     return <div>LOADING....</div>;
@@ -188,7 +193,7 @@ export const Manuals = () => {
                 {links}
 
                 {manualImage ? (
-                  <ImageManual image={manualImage} />
+                  <ImageManual image={manualImage}/>
                 ) : null}
               </div>
             );
@@ -209,7 +214,7 @@ export const Manuals = () => {
         mt: 12,
         mx: "auto",
         width: "100%",
-        fontSize: { xs: "1.25rem", md: "1.5rem" },
+        fontSize: {xs: "1.25rem", md: "1.5rem"},
         fontWeight: "400",
         color: appColors.mid2,
         textAlign: "center",
