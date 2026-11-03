@@ -11,7 +11,6 @@ import { PageDevices } from '../pages/PageDevices';
 import { PagePlayers } from "../pages/PagePlayers";
 import { PageManual } from "../pages/PageManual";
 import { PageCinemas } from "../pages/PageCinemas";
-// import PageChoosingOperator from "../pages/PageChoosingOperator";
 // import Blank from "../components/Blank";
 // import PageAbout from "../pages/PageAbout";
 
