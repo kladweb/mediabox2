@@ -9,9 +9,8 @@ import ruOperators from '../locales/ru/operators.json';
 import enOperators from '../locales/en/operators.json';
 import ruShared from '../locales/ru/shared.json';
 import enShared from '../locales/en/shared.json';
-
-// const en =  fetch ("/locales/en/translation.json");
-// const ru =  fetch ("/locales/ru/translation.json");
+import enAbout from '../locales/en/about.json';
+import ruAbout from '../locales/ru/about.json';
 
 i18n
   .use(LanguageDetector)
@@ -23,12 +22,14 @@ i18n
         main: enMain,
         operators: enOperators,
         shared: enShared,
+        about: enAbout
       },
       ru: {
         header: ruHeader,
         main: ruMain,
         operators: ruOperators,
         shared: ruShared,
+        about: ruAbout
       },
     },
     debug: false,

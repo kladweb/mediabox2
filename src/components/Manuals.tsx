@@ -1,13 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ReactNode, Fragment } from "react";
 import { type Params, useParams } from "react-router-dom";
-import { Box, Card, CardContent } from "@mui/material";
+import { Box, Card, CardContent, FormControlLabel, Radio, RadioGroup, } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import {
-  sxButtonLinkOperator,
-  sxCardMain,
-  sxHeadMain,
-  sxManualText1,
-} from "../services/sxStyles.ts";
+import { sxButtonLinkOperator, sxCardMain, sxHeadMain, sxManualText1, } from "../services/sxStyles.ts";
 import { appColors } from "../services/appColors.ts";
 import type { ITranslate } from "../types/typesBox.ts";
 import ImageManual from "./ImageManual.tsx";
@@ -17,10 +12,17 @@ type ILink = {
   link: string;
 };
 
+type ManualOption = {
+  id: string;
+  name: string;
+  actions: Instruction[];
+};
+
 type Instruction = {
   name?: string;
   img?: string;
   links?: ILink[];
+  options?: Record<string, ManualOption>;
   [key: `name${string}`]: string | undefined;
   [key: `img${string}`]: string | undefined;
 };
@@ -48,63 +50,103 @@ type ManualReference = {
 
 type ManualEntry = Manual | ManualReference;
 
+// -------------------------------------
+// JSON loaders
+// -------------------------------------
+
+const loadInstructions = async (url: string): Promise<Manual[]> => {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}`);
+  }
+  const instructions: ManualEntry[] = await response.json();
+  return Promise.all(
+    instructions.map(async (item): Promise<Manual> => {
+      if (!("source" in item)) return item;
+      const sourceUrl = new URL(
+        item.source,
+        response.url || new URL(url, window.location.origin).href
+      );
+      const external = await fetch(sourceUrl);
+      if (!external.ok) {
+        throw new Error(`HTTP ${external.status}: ${sourceUrl}`);
+      }
+      return external.json();
+    })
+  );
+};
+
+const loadManual = (
+  part: string,
+  language: string
+): Promise<Manual[]> => {
+  return loadInstructions(
+    `/manualsText/${language}/${part}.json`
+  );
+};
+
+// -------------------------------------
+// Component
+// -------------------------------------
+
 export const Manuals = () => {
   const {t}: ITranslate = useTranslation();
   const params: Readonly<Params<string>> = useParams();
   const {language, operator, device, player} = params;
-  let actionNumber = 0;
   const [manuals, setManuals] = useState<Manuals | null>(null);
+  const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
+
+  // -------------------------------------
+  // Handlers
+  // -------------------------------------
 
   const handlerOperator = (link: string): void => {
     window.open(link);
   };
 
-  const loadInstructions = async (url: string): Promise<Manual[]> => {
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
-    const instructions: ManualEntry[] = await response.json();
-    return Promise.all(
-      instructions.map(async (item): Promise<Manual> => {
-        if (!("source" in item)) return item;
-        const sourceUrl = new URL(item.source, response.url || url);
-        const external = await fetch(sourceUrl);
-        if (!external.ok) {
-          throw new Error(`HTTP ${external.status}: ${sourceUrl}`);
-        }
-        return external.json();
-      })
-    );
+  const handleOptionChange = (
+    optionKey: string,
+    value: string
+  ): void => {
+    setSelectedOptions((prev) => ({
+      ...prev,
+      [optionKey]: value,
+    }));
   };
 
-  const loadManual = (part: string): Promise<Manual[]> => {
-    return loadInstructions(`/manualsText/${language}/${part}.json`);
-  };
+  // -------------------------------------
+  // Load manuals
+  // -------------------------------------
 
   useEffect(() => {
     if (!language || (!operator && !device && !player)) return;
+
     let cancelled = false;
+
     (async () => {
       const requests: ManualRequest[] = [];
+
       if (operator) {
         requests.push({
           key: "operator",
-          promise: loadManual(operator),
+          promise: loadManual(operator, language),
         });
       }
+
       if (device) {
         requests.push({
           key: "device",
-          promise: loadManual(device),
+          promise: loadManual(device, language),
         });
       }
+
       if (player) {
         requests.push({
           key: "player",
-          promise: loadManual(player),
+          promise: loadManual(player, language),
         });
       }
+
       const results = await Promise.allSettled(
         requests.map(({promise}) => promise)
       );
@@ -116,96 +158,212 @@ export const Manuals = () => {
         device: [],
         player: [],
       };
+
       results.forEach((result, index) => {
         const key = requests[index].key;
 
         if (result.status === "fulfilled") {
           data[key] = result.value;
         } else {
-          console.error(`Failed to load ${key}:`, result.reason);
+          console.error(
+            `Failed to load ${key}:`,
+            result.reason
+          );
         }
       });
+
       setManuals(data);
     })();
+
     return () => {
       cancelled = true;
     };
   }, [language, operator, device, player]);
 
+  // -------------------------------------
+  // Loading state
+  // -------------------------------------
+
   if (!manuals) {
     return <div>LOADING....</div>;
   }
 
-  const createManual = (manualItem: Manual[]) => {
+  // -------------------------------------
+  // Recursive actions renderer
+  // -------------------------------------
+
+  const createActions = (
+    actions: Instruction[],
+    manualKey: string,
+    parentKey = ""
+  ): ReactNode => {
+    return actions.map((action, i) => {
+      const actionKey = `${parentKey}${i}`;
+      const optionKey = `${manualKey}:${actionKey}`;
+
+      // Links
+      const links = action.links?.map((link: ILink) => (
+        <Box
+          key={link.link}
+          component="button"
+          onClick={() => handlerOperator(link.link)}
+          sx={sxButtonLinkOperator}
+        >
+          {link.name}
+        </Box>
+      ));
+
+      // Text
+      const manualName =
+        (operator && action[`name${operator}`]) ??
+        (device && action[`name${device}`]) ??
+        (player && action[`name${player}`]) ??
+        action.name ??
+        null;
+
+      // Image
+      const manualImage =
+        (operator && action[`img${operator}`]) ??
+        (device && action[`img${device}`]) ??
+        (player && action[`img${player}`]) ??
+        action.img ??
+        null;
+
+      // Options
+      const options = action.options ? Object.values(action.options) : [];
+
+      const selectedOption = options.find(
+        (option) => option.id === selectedOptions[optionKey]
+      );
+
+      return (
+        <Fragment key={actionKey}>
+          {manualName && (
+            <CardContent sx={sxManualText1}>
+              {manualName}
+            </CardContent>
+          )}
+
+          {links ? <CardContent sx={sxManualText1}>{links}</CardContent> : null}
+
+          {manualImage && (
+            <ImageManual image={manualImage}/>
+          )}
+
+          {options.length > 0 && (
+            <RadioGroup
+              name={optionKey}
+              value={selectedOptions[optionKey] ?? ""}
+              onChange={(_event, value) =>
+                handleOptionChange(optionKey, value)
+              }
+              sx={{
+                alignItems: "center",
+                gap: 1
+              }}
+            >
+              {options.map((option) => {
+                const selected = selectedOptions[optionKey] === option.id;
+
+                return (
+                  <FormControlLabel
+                    key={option.id}
+                    value={option.id}
+                    control={<Radio sx={{display: "none"}}/>}
+                    label={option.name}
+                    sx={{
+                      m: 0,
+                      px: 2,
+                      py: 1,
+                      borderRadius: 2,
+                      border: "1px solid",
+                      borderColor: selected ? appColors.mid2 : "divider",
+                      backgroundColor: selected
+                        ? "rgba(245, 158, 11, 0.12)"
+                        : "transparent",
+                      color: selected ? appColors.mid2 : appColors.light1,
+                      fontWeight: selected ? 600 : 400,
+                      transition: "all 0.2s ease",
+                      cursor: "pointer",
+                      "&:hover": {
+                        borderColor: appColors.mid21,
+                        backgroundColor: "rgba(245, 158, 11, 0.08)",
+                      },
+                    }}
+                  />
+                );
+              })}
+            </RadioGroup>
+          )}
+
+          {selectedOption && (
+            <Box>
+              {createActions(
+                selectedOption.actions,
+                manualKey,
+                `${actionKey}:${selectedOption.id}:`
+              )}
+            </Box>
+          )}
+        </Fragment>
+      );
+    });
+  };
+
+  // -------------------------------------
+  // Manual renderer
+  // -------------------------------------
+
+  let actionNumber = 0;
+
+  const createManual = (
+    manualItem: Manual[],
+    section: keyof Manuals
+  ): ReactNode => {
     if (!manualItem || manualItem.length === 0) return null;
 
     return manualItem.map((manual: Manual) => {
-      if (player === "ottplayer" && manual.id === "prepareBox") {
+      if (
+        player === "ottplayer" &&
+        manual.id === "prepareBox"
+      ) {
         return null;
       }
 
       actionNumber++;
 
+      const manualKey = `${language}:${section}:${manual.id}`;
+
       return (
-        <Card component="div" sx={sxCardMain} key={manual.id}>
+        <Card
+          className="TTT"
+          component="div"
+          sx={sxCardMain}
+          key={manualKey}
+        >
           <Box component="h4" sx={sxHeadMain}>
             {`${t("shared:step")}${actionNumber} - ${manual.name}`}
           </Box>
 
-          {manual.actions.map((action: Instruction, i: number) => {
-            const links = action?.links
-              ? action.links.map((link: ILink) => (
-                <Box
-                  key={link.name}
-                  component="button"
-                  onClick={() => {
-                    handlerOperator(link.link);
-                  }}
-                  sx={sxButtonLinkOperator}
-                >
-                  {link.name}
-                </Box>
-              ))
-              : null;
-
-            const manualName =
-              (operator && action[`name${operator}`]) ??
-              (device && action[`name${device}`]) ??
-              (player && action[`name${player}`]) ??
-              action.name ??
-              null;
-
-            const manualImage =
-              (operator && action[`img${operator}`]) ??
-              (device && action[`img${device}`]) ??
-              (player && action[`img${player}`]) ??
-              action.img ??
-              null;
-
-            return (
-              <div key={manual.id + i}>
-                {manualName ? (
-                  <CardContent sx={sxManualText1}>
-                    {manualName}
-                  </CardContent>
-                ) : null}
-
-                {links}
-
-                {manualImage ? (
-                  <ImageManual image={manualImage}/>
-                ) : null}
-              </div>
-            );
-          })}
+          {createActions(manual.actions, manualKey)}
         </Card>
       );
     });
   };
 
-  const manualOperator = createManual(manuals.operator);
-  const manualDevice = createManual(manuals.device);
-  const manualPlayer = createManual(manuals.player);
+  // -------------------------------------
+  // Render manuals
+  // -------------------------------------
+
+  const manualOperator = createManual(manuals.operator, "operator");
+
+  const manualDevice = createManual(manuals.device, "device");
+
+  const manualPlayer = createManual(manuals.player, "player");
+
+  // -------------------------------------
+  // JSX
+  // -------------------------------------
 
   return (
     <Box

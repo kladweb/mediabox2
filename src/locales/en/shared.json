@@ -14,5 +14,7 @@
   "hdvideobox-note": "Application for android set-top boxes, Android TV and android smartphones",
   "lampaandroid-note": "Application for android set-top boxes, Android TV and android smartphones",
   "lampasmarttv-note": "Application for SMART TVs that support Media Station X installation (LG, Samsung, etc.)",
-  "lampabrowser-note": "Application for browsers (on PC, SMART TV, etc.)"
+  "lampabrowser-note": "Application for browsers (on PC, SMART TV, etc.)",
+  "headApplication": "Choose an application for an online cinema",
+  "blank": "This page is under development ...\nWe apologize."
 }
