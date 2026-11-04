@@ -1,0 +1,31 @@
+[
+  {
+    "id": "lunch",
+    "name": "запуск приложения Lampa в браузере",
+    "actions": [
+      {
+        "name": "Онлайн кинотеатр Lampa также работает во многих браузерах, даже на старых SMART TV."
+      },
+      {
+        "name": "Чтобы запустить приложение Lampa, нужно в строку Вашего браузера ввести любой из перечисленных ниже адресов:",
+        "links": [
+          {
+            "name": "lampa.mx",
+            "link": "http://lampa.mx/"
+          },
+          {
+            "name": "lampa.stream",
+            "link": "https://lampa.stream/"
+          },
+          {
+            "name": "bylampa.online",
+            "link": "https://bylampa.online/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "./common/lampaSetup.json"
+  }
+]

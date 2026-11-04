@@ -1,0 +1,100 @@
+[
+  {
+    "id": "install",
+    "name": "Installing the Lampa App on SMART TV",
+    "actions": [
+      {
+        "name": "On your SMART TV, open the app store, find Media Station X, and install it."
+      },
+      {
+        "name": "Open the Media Station X app and go to Settings.",
+        "img": "Mediastation/mediastation_01"
+      },
+      {
+        "name": "Go to the “Confirm links” setting and change its value to “No”.",
+        "img": "Mediastation/mediastation_06"
+      },
+      {
+        "name": "or",
+        "img": "Mediastation/mediastation_07"
+      },
+      {
+        "name": "Open Start Parameter.",
+        "img": "Mediastation/mediastation_02"
+      },
+      {
+        "name": "Open Setup.",
+        "img": "Mediastation/mediastation_03"
+      },
+      {
+        "name": "Next, choose how you want to use the Media Station X app:"
+      },
+      {
+        "name": "1) To launch the Lampa app only. In this case, Lampa will start automatically as soon as you open Media Station X.\n2) To launch an app launcher. Choose this option if you want to install several apps in Media Station X, such as different media players, or if you already have an IPTV app installed there."
+      },
+      {
+        "name": "Choose your preferred option:"
+      },
+      {
+        "options": {
+          "option1": {
+            "id": "option1",
+            "name": "1. Launch the Lampa App Only",
+            "actions": [
+              {
+                "name": "In the “HTTP Server” field, enter “lampa.mx” and tap the checkmark.",
+                "img": "Lampa/lampa_manual_17"
+              },
+              {
+                "name": "Next, tap “Yes”."
+              },
+              {
+                "name": "The next time you launch Media Station X, select the “Lampa” app."
+              }
+            ]
+          },
+          "option2": {
+            "id": "option2",
+            "name": "2. Launch the App Launcher",
+            "actions": [
+              {
+                "name": "In the “HTTP Server” field, enter “msxplayer.ru” and tap the checkmark.",
+                "img": "Lampa/lampa_manual_10"
+              },
+              {
+                "name": "Next, tap “Yes”.",
+                "img": "Lampa/lampa_manual_11"
+              },
+              {
+                "name": "The app will restart and open the Launcher. Tap the “+” button.",
+                "img": "Lampa/lampa_manual_12"
+              },
+              {
+                "name": "Next, select “From Store”.",
+                "img": "Lampa/lampa_manual_13"
+              },
+              {
+                "name": "Find the “Lampa” app in the store, select it, and tap “Install”.",
+                "img": "Lampa/lampa_manual_14"
+              },
+              {
+                "name": "Find the “Lampa” app in the store, select it, and tap “Install”.",
+                "img": "Lampa/lampa_manual_15"
+              },
+              {
+                "name": "A new item, “Lampa”, should appear in the list.",
+                "img": "Lampa/lampa_manual_16"
+              },
+              {
+                "name": "You can now add any other apps you need here."
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "source": "./common/lampaSetup.json"
+  }
+]

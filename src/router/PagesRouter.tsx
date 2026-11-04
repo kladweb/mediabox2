@@ -11,8 +11,8 @@ import { PageDevices } from '../pages/PageDevices';
 import { PagePlayers } from "../pages/PagePlayers";
 import { PageManual } from "../pages/PageManual";
 import { PageCinemas } from "../pages/PageCinemas";
-// import Blank from "../components/Blank";
-// import PageAbout from "../pages/PageAbout";
+import { Blank } from "../components/Blank";
+import { PageAbout } from "../pages/PageAbout";
 
 export const PagesRouter = () => {
   const {i18n}: ITranslateI18n = useTranslation();
@@ -34,14 +34,13 @@ export const PagesRouter = () => {
         <Route path='iptv/:operator/:devices/:device/:player' element={<PageManual/>}/>
         <Route path='media' element={<PageCinemas/>}/>
         <Route path='media/:player' element={<PageManual/>}/>
+        <Route path='faq' element={<Blank/>}/>
+        <Route path='about' element={<PageAbout/>}/>
       </Route>
 
 
-      {/*<Route path='/faq' element={<Blank/>}/>*/}
-      {/*<Route path='/about' element={<PageAbout/>}/>*/}
-
       {/*<Route path='/blank' element={<Blank/>}/>*/}
-      {/*<Route path='*' element={<Navigate to='/'/>}/>*/}
+      <Route path='*' element={<Navigate to='/'/>}/>
     </Routes>
   );
 }

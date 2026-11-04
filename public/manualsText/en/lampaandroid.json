@@ -1,0 +1,86 @@
+[
+  {
+    "id": "download",
+    "name": "Downloading the Lampa App (for Android)",
+    "actions": [
+      {
+        "name": "Download the Lampa app for Android:",
+        "links": [
+          {
+            "name": "Lampa+v7.7.7-82.apk",
+            "link": "https://www.dropbox.com/scl/fi/4bylxbdm6kcm0gjlbzxla/Lampa-v7.7.7-82.apk?rlkey=drfpvnnkluy73qwry7td5ezby&dl=1"
+          }
+        ]
+      },
+      {
+        "name": "We also recommend downloading and installing an external media player, such as MX Player (available on Google Play) or Vimu Media Player.",
+        "links": [
+          {
+            "name": "Vimu+Media+Player.apk",
+            "link": "https://www.dropbox.com/scl/fi/ph3p26byqoujw7pyi8eap/Vimu-Media-Player-6.82.apk?rlkey=0l17nfi3som7gmryu761zgsts&dl=1"
+          }
+        ]
+      },
+      {
+        "name": "The next step is to transfer the APK files to your TV box. If your device has a USB port, you can simply copy the files using a USB flash drive. However, many popular compact TV streaming sticks do not have a USB port. So, we'll look at a more universal, simple, and convenient way to transfer files to an Android TV box without using a flash drive."
+      }
+    ]
+  },
+  {
+    "id": "transferFiles",
+    "name": "Transferring Files to the TV Box",
+    "actions": [
+      {
+        "name": "On your TV box, open the Play Store and download the File Manager app. You can use any file manager that supports FTP transfers.",
+        "img": "AndroidHelp/androidtvbox_manual1"
+      },
+      {
+        "name": "Install and open the app, then select “Access from network”.",
+        "img": "AndroidHelp/androidtvbox_manual2"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual3"
+      },
+      {
+        "name": "Start the network file access service. Your computer and TV box must be connected to the same router, meaning they must be on the same network.",
+        "img": "AndroidHelp/androidtvbox_manual4"
+      },
+      {
+        "name": "Return to your computer. Open “This PC” and enter the address shown in the app on your TV box in the address bar. (In the previous screenshot, the address is “ftp://192.168.1.97:3740”. Your address will be different.) Then enter the username and password shown in the app. (Your credentials will be different; the screenshot is only an example.)"
+      },
+      {
+        "name": "A folder named “device” will then open on your computer (it may have a different name on your device). You can now access the files on your TV box from your computer. Open “device/download/” and drag the files you downloaded earlier into this folder.",
+        "img": "AndroidHelp/androidtvbox_manual5_lampaandroid_2"
+      },
+      {
+        "name": "Return to your TV box and use any file manager to find and open the “download” folder. You should see the files there.",
+        "img": "AndroidHelp/androidtvbox_manual6"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual7"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual8_lampaandroid_2"
+      }
+    ]
+  },
+  {
+    "id": "install",
+    "name": "Installing the Lampa App",
+    "actions": [
+      {
+        "name": "As mentioned above, the downloaded files should be in the “Downloads” or “download” folder on your TV box.",
+        "img": "AndroidHelp/androidtvbox_manual8_lampaandroid_2"
+      },
+      {
+        "name": "You can install Vimu Player first by opening the Vimu+Media+Player.apk file."
+      },
+      {
+        "name": "Next, install the Lampa app and grant it all the required permissions during installation."
+      }
+    ]
+  },
+  {
+    "source": "./common/lampaSetup.json"
+  }
+]

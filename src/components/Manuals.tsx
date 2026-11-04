@@ -1,27 +1,11 @@
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode, Fragment } from "react";
 import { type Params, useParams } from "react-router-dom";
-import {
-  Box,
-  Card,
-  CardContent,
-  FormControlLabel,
-  Radio,
-  RadioGroup,
-} from "@mui/material";
+import { Box, Card, CardContent, FormControlLabel, Radio, RadioGroup, } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import {
-  sxButtonLinkOperator,
-  sxCardMain,
-  sxHeadMain,
-  sxManualText1,
-} from "../services/sxStyles.ts";
+import { sxButtonLinkOperator, sxCardMain, sxHeadMain, sxManualText1, } from "../services/sxStyles.ts";
 import { appColors } from "../services/appColors.ts";
 import type { ITranslate } from "../types/typesBox.ts";
 import ImageManual from "./ImageManual.tsx";
-
-// -------------------------------------
-// Types
-// -------------------------------------
 
 type ILink = {
   name: string;
@@ -72,28 +56,21 @@ type ManualEntry = Manual | ManualReference;
 
 const loadInstructions = async (url: string): Promise<Manual[]> => {
   const response = await fetch(url);
-
   if (!response.ok) {
     throw new Error(`HTTP ${response.status}`);
   }
-
   const instructions: ManualEntry[] = await response.json();
-
   return Promise.all(
     instructions.map(async (item): Promise<Manual> => {
       if (!("source" in item)) return item;
-
       const sourceUrl = new URL(
         item.source,
         response.url || new URL(url, window.location.origin).href
       );
-
       const external = await fetch(sourceUrl);
-
       if (!external.ok) {
         throw new Error(`HTTP ${external.status}: ${sourceUrl}`);
       }
-
       return external.json();
     })
   );
@@ -114,16 +91,10 @@ const loadManual = (
 
 export const Manuals = () => {
   const {t}: ITranslate = useTranslation();
-
   const params: Readonly<Params<string>> = useParams();
-
   const {language, operator, device, player} = params;
-
   const [manuals, setManuals] = useState<Manuals | null>(null);
-
-  const [selectedOptions, setSelectedOptions] = useState<
-    Record<string, string>
-  >({});
+  const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
 
   // -------------------------------------
   // Handlers
@@ -259,23 +230,21 @@ export const Manuals = () => {
         null;
 
       // Options
-      const options = action.options
-        ? Object.values(action.options)
-        : [];
+      const options = action.options ? Object.values(action.options) : [];
 
       const selectedOption = options.find(
         (option) => option.id === selectedOptions[optionKey]
       );
 
       return (
-        <div key={actionKey}>
+        <Fragment key={actionKey}>
           {manualName && (
             <CardContent sx={sxManualText1}>
               {manualName}
             </CardContent>
           )}
 
-          {links}
+          {links ? <CardContent sx={sxManualText1}>{links}</CardContent> : null}
 
           {manualImage && (
             <ImageManual image={manualImage}/>
@@ -290,7 +259,7 @@ export const Manuals = () => {
               }
               sx={{
                 alignItems: "center",
-                gap: 1,
+                gap: 1
               }}
             >
               {options.map((option) => {
@@ -300,7 +269,7 @@ export const Manuals = () => {
                   <FormControlLabel
                     key={option.id}
                     value={option.id}
-                    control={<Radio sx={{ display: "none" }} />}
+                    control={<Radio sx={{display: "none"}}/>}
                     label={option.name}
                     sx={{
                       m: 0,
@@ -308,20 +277,17 @@ export const Manuals = () => {
                       py: 1,
                       borderRadius: 2,
                       border: "1px solid",
-                      borderColor: selected ? "warning.main" : "divider",
+                      borderColor: selected ? appColors.mid2 : "divider",
                       backgroundColor: selected
                         ? "rgba(245, 158, 11, 0.12)"
                         : "transparent",
-                      color: selected ? "warning.main" : "text.primary",
+                      color: selected ? appColors.mid2 : appColors.light1,
                       fontWeight: selected ? 600 : 400,
                       transition: "all 0.2s ease",
                       cursor: "pointer",
                       "&:hover": {
-                        borderColor: "warning.main",
+                        borderColor: appColors.mid21,
                         backgroundColor: "rgba(245, 158, 11, 0.08)",
-                      },
-                      "& .MuiFormControlLabel-label": {
-                        fontSize: "0.95rem",
                       },
                     }}
                   />
@@ -339,7 +305,7 @@ export const Manuals = () => {
               )}
             </Box>
           )}
-        </div>
+        </Fragment>
       );
     });
   };
@@ -370,6 +336,7 @@ export const Manuals = () => {
 
       return (
         <Card
+          className="TTT"
           component="div"
           sx={sxCardMain}
           key={manualKey}
@@ -388,20 +355,11 @@ export const Manuals = () => {
   // Render manuals
   // -------------------------------------
 
-  const manualOperator = createManual(
-    manuals.operator,
-    "operator"
-  );
+  const manualOperator = createManual(manuals.operator, "operator");
 
-  const manualDevice = createManual(
-    manuals.device,
-    "device"
-  );
+  const manualDevice = createManual(manuals.device, "device");
 
-  const manualPlayer = createManual(
-    manuals.player,
-    "player"
-  );
+  const manualPlayer = createManual(manuals.player, "player");
 
   // -------------------------------------
   // JSX

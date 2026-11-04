@@ -1,0 +1,80 @@
+{
+  "id": "setupLampa",
+  "name": "Setting Up the Lampa App",
+  "actions": [
+    {
+      "name": "Launch Lampa and select your preferred language.",
+      "img": "Lampa/lampa_manual_01"
+    },
+    {
+      "name": "Open Settings.",
+      "img": "Lampa/lampa_manual_02"
+    },
+    {
+      "name": "Select Extensions.",
+      "img": "Lampa/lampa_manual_03"
+    },
+    {
+      "name": "Select “Add plugin”.",
+      "img": "Lampa/lampa_manual_04"
+    },
+    {
+      "name": "Enter the plugin URLs listed below, one at a time:"
+    },
+    {
+      "name": "https://cub.red/plugin/tmdb-proxy",
+      "img": "Lampa/lampa_manual_05"
+    },
+    {
+      "name": "https://nb557.github.io/plugins/online_mod.js",
+      "img": "Lampa/lampa_manual_06"
+    },
+    {
+      "name": "https://bwa.to/plugins/prestige.js",
+      "img": "Lampa/lampa_manual_07"
+    },
+    {
+      "name": "Restart the player. You should now see all the added plugins.",
+      "img": "Lampa/lampa_manual_08"
+    },
+    {
+      "name": "NOTES:\n1. These plugins may occasionally stop working. Without them, video playback may not be available. If this happens, you will need to find new links. Check our website for updates.\n2. If the second and third plugins do not work at the same time, especially on older SMART TVs when running Lampa in a browser, try entering the following plugin URL instead: http://lampa.stream/modss.\nIf the first three plugins are working, you do not need to add this plugin. In general, avoid adding too many extensions, as this may cause the Lampa app to freeze or become unresponsive."
+    },
+    {
+      "name": "How do you play a video? Let's look at an example."
+    },
+    {
+      "name": "Go to the main menu and use the search to find the movie you want.",
+      "img": "Lampa/lampa_manual_09"
+    },
+    {
+      "name": "On the selected movie's page, choose “Watch”.",
+      "img": "Lampa/lampa_manual_10"
+    },
+    {
+      "name": "Choose any of the main sources.",
+      "img": "Lampa/lampa_manual_11"
+    },
+    {
+      "name": "Next, select the “Balancer” tab.",
+      "img": "Lampa/lampa_manual_12"
+    },
+    {
+      "name": "For example, select “Rezka”.",
+      "img": "Lampa/lampa_manual_13"
+    },
+    {
+      "name": "Choose a version with your preferred audio translation and start playback.",
+      "img": "Lampa/lampa_manual_14"
+    },
+    {
+      "img": "Lampa/lampa_manual_15"
+    },
+    {
+      "img": "Lampa/lampa_manual_16"
+    },
+    {
+      "name": "Enjoy watching!"
+    }
+  ]
+}

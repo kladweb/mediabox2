@@ -23,7 +23,7 @@ export const CardsCinemas = () => {
           textAlign: 'center',
         }}
       >
-        {t('headApplication')}
+        {t('shared:headApplication')}
       </Box>
       <Box component='div' sx={{
         margin: '0 auto',
