@@ -1,75 +1,97 @@
-# React + TypeScript + Vite
+# 📺 MEDIABOX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MediaBox 2** is a web application that provides step-by-step guides for setting up devices and applications to watch TV and other media content.
 
-Currently, two official plugins are available:
+The project aims to make device configuration easier with clear instructions, illustrations, and a simple user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 **Live Demo:** [mediabox2.kladpav.workers.dev](https://mediabox2.kladpav.workers.dev/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Step-by-step guides** — easy-to-follow instructions for configuring devices and applications.
+- **Illustrated tutorials** — visual guides to make setup easier.
+- **Multilingual interface** — English and Russian language support.
+- **Responsive design** — comfortable to use on different screen sizes.
+- **Simple navigation** — find the instructions you need without unnecessary steps.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Frontend:** React 19, TypeScript
+- **Routing:** React Router v7
+- **UI:** Material UI (MUI)
+- **Internationalization:** i18next, react-i18next
+- **Build tool:** Vite
+- **Hosting & Deployment:** Cloudflare Workers
+- **Version control:** Git & GitHub
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- [Git](https://git-scm.com/)
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/kladweb/mediabox2.git
+cd mediabox2
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
 ```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Vite will start the local development server. Open the URL displayed in your terminal (usually `http://localhost:5173`).
+
+---
+
+## 📦 Available Commands
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Start the development server |
+| `npm run build` | Build the application for production |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+| `npx wrangler dev` | Run the application locally using Cloudflare Workers |
+| `npx wrangler deploy` | Deploy the application to Cloudflare Workers |
+
+---
+
+## ☁️ Deployment
+
+The project is configured for deployment on **Cloudflare Workers** using Static Assets.
+
+Deployment is integrated with GitHub:
+
+1. Push changes to the `main` branch.
+2. Cloudflare automatically builds the application.
+3. The production version is deployed to Cloudflare Workers.
+
+Pull Requests can also trigger preview deployments, allowing changes to be tested before merging.
+
+---
+
+## 🤝 Contributing
+
+Suggestions, bug reports, and contributions are welcome. Feel free to open an issue or submit a pull request.
+
+---
+
+*Built with React, TypeScript, and Cloudflare.*
