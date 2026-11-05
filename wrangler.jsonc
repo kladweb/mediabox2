@@ -3,11 +3,12 @@
   "name": "mediabox2",
   "compatibility_date": "2026-11-05",
   "observability": {
-    "enabled": false
+    "enabled": true,
+    "head_sampling_rate": 1
   },
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "single-page-application",
-
-  }
+    "not_found_handling": "single-page-application"
+  },
+  "previews": {}
 }
