@@ -16,5 +16,6 @@
   "lampasmarttv-note": "Application for SMART TVs that support Media Station X installation (LG, Samsung, etc.)",
   "lampabrowser-note": "Application for browsers (on PC, SMART TV, etc.)",
   "headApplication": "Choose an application for an online cinema",
-  "blank": "This page is under development ...\nWe apologize."
+  "blank": "This page is under development ...\nWe apologize.",
+  "loadManual": "Making the manual..."
 }
