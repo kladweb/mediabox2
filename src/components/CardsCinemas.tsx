@@ -13,7 +13,7 @@ export const CardsCinemas = () => {
   return (
     <>
       <Box
-        component='h3'
+        component='h1'
         sx={{
           m: {xs: '4.5em auto 0.75em', md: '3.5em auto 0.5em'},
           width: '100%',
