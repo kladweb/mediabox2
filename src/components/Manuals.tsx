@@ -6,6 +6,7 @@ import { sxButtonLinkOperator, sxCardMain, sxHeadMain, sxManualText1, } from "..
 import { appColors } from "../services/appColors.ts";
 import type { ITranslate } from "../types/typesBox.ts";
 import ImageManual from "./ImageManual.tsx";
+import { LoaderLinear } from "./LoaderLinear.tsx";
 
 type ILink = {
   name: string;
@@ -95,6 +96,7 @@ export const Manuals = () => {
   const {language, operator, device, player} = params;
   const [manuals, setManuals] = useState<Manuals | null>(null);
   const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
+  const [isOpenLoader, setIsOpenLoader] = useState<boolean>(true);
 
   // -------------------------------------
   // Handlers
@@ -114,9 +116,16 @@ export const Manuals = () => {
     }));
   };
 
+  useEffect((): void => {
+    setTimeout(() => {
+      setIsOpenLoader(false);
+    }, 1500);
+  }, [isOpenLoader]);
+
   // -------------------------------------
   // Load manuals
   // -------------------------------------
+
 
   useEffect(() => {
     if (!language || (!operator && !device && !player)) return;
@@ -251,49 +260,51 @@ export const Manuals = () => {
           )}
 
           {options.length > 0 && (
-            <RadioGroup
-              name={optionKey}
-              value={selectedOptions[optionKey] ?? ""}
-              onChange={(_event, value) =>
-                handleOptionChange(optionKey, value)
-              }
-              sx={{
-                alignItems: "center",
-                gap: 1
-              }}
-            >
-              {options.map((option) => {
-                const selected = selectedOptions[optionKey] === option.id;
+            <CardContent sx={sxManualText1}>
+              <RadioGroup
+                name={optionKey}
+                value={selectedOptions[optionKey] ?? ""}
+                onChange={(_event, value) =>
+                  handleOptionChange(optionKey, value)
+                }
+                sx={{
+                  alignItems: "center",
+                  gap: 1
+                }}
+              >
+                {options.map((option) => {
+                  const selected = selectedOptions[optionKey] === option.id;
 
-                return (
-                  <FormControlLabel
-                    key={option.id}
-                    value={option.id}
-                    control={<Radio sx={{display: "none"}}/>}
-                    label={option.name}
-                    sx={{
-                      m: 0,
-                      px: 2,
-                      py: 1,
-                      borderRadius: 2,
-                      border: "1px solid",
-                      borderColor: selected ? appColors.mid2 : "divider",
-                      backgroundColor: selected
-                        ? "rgba(245, 158, 11, 0.12)"
-                        : "transparent",
-                      color: selected ? appColors.mid2 : appColors.light1,
-                      fontWeight: selected ? 600 : 400,
-                      transition: "all 0.2s ease",
-                      cursor: "pointer",
-                      "&:hover": {
-                        borderColor: appColors.mid21,
-                        backgroundColor: "rgba(245, 158, 11, 0.08)",
-                      },
-                    }}
-                  />
-                );
-              })}
-            </RadioGroup>
+                  return (
+                    <FormControlLabel
+                      key={option.id}
+                      value={option.id}
+                      control={<Radio sx={{display: "none"}}/>}
+                      label={option.name}
+                      sx={{
+                        m: 0,
+                        px: 2,
+                        py: 1,
+                        borderRadius: 2,
+                        border: "1px solid",
+                        borderColor: selected ? appColors.mid2 : "divider",
+                        backgroundColor: selected
+                          ? "rgba(245, 158, 11, 0.12)"
+                          : "transparent",
+                        color: selected ? appColors.mid2 : appColors.light1,
+                        fontWeight: selected ? 600 : 400,
+                        transition: "all 0.2s ease",
+                        cursor: "pointer",
+                        "&:hover": {
+                          borderColor: appColors.mid21,
+                          backgroundColor: "rgba(245, 158, 11, 0.08)",
+                        },
+                      }}
+                    />
+                  );
+                })}
+              </RadioGroup>
+            </CardContent>
           )}
 
           {selectedOption && (
@@ -364,6 +375,8 @@ export const Manuals = () => {
   // -------------------------------------
   // JSX
   // -------------------------------------
+
+  if (isOpenLoader) return <LoaderLinear isOpenLoader={isOpenLoader}/>
 
   return (
     <Box

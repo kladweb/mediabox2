@@ -1,0 +1,5 @@
+.MuiBackdrop-root {
+  background-color: #84285b;
+  opacity: 0;
+  z-index: 100;
+}

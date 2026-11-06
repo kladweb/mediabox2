@@ -59,31 +59,27 @@
             "actions": [
               {
                 "name": "In the “HTTP Server” field, enter “msxplayer.ru” and tap the checkmark.",
-                "img": "Lampa/lampa_manual_10"
+                "img": "Mediastation/mediastation_10"
               },
               {
                 "name": "Next, tap “Yes”.",
-                "img": "Lampa/lampa_manual_11"
+                "img": "Mediastation/mediastation_11"
               },
               {
                 "name": "The app will restart and open the Launcher. Tap the “+” button.",
-                "img": "Lampa/lampa_manual_12"
+                "img": "Mediastation/mediastation_12"
               },
               {
                 "name": "Next, select “From Store”.",
-                "img": "Lampa/lampa_manual_13"
+                "img": "Mediastation/mediastation_13_ottplayfoss"
               },
               {
                 "name": "Find the “Lampa” app in the store, select it, and tap “Install”.",
-                "img": "Lampa/lampa_manual_14"
-              },
-              {
-                "name": "Find the “Lampa” app in the store, select it, and tap “Install”.",
-                "img": "Lampa/lampa_manual_15"
+                "img": "Lampa/lampa_manual_18"
               },
               {
                 "name": "A new item, “Lampa”, should appear in the list.",
-                "img": "Lampa/lampa_manual_16"
+                "img": "Lampa/lampa_manual_19"
               },
               {
                 "name": "You can now add any other apps you need here."

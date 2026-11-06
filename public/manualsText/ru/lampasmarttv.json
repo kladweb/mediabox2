@@ -59,31 +59,27 @@
             "actions": [
               {
                 "name": "В поле \"HTTP Server\" вводим адрес: \"msxplayer.ru\" и нажимаем на галочку.",
-                "img": "Lampa/lampa_manual_10"
+                "img": "Mediastation/mediastation_10"
               },
               {
                 "name": "Далее нажимаем \"Yes\".",
-                "img": "Lampa/lampa_manual_11"
+                "img": "Mediastation/mediastation_11"
               },
               {
                 "name": "Приложение перезагрузится и вы попадете в так называемый Лаунчер. В нем нажимаем на \"+\".",
-                "img": "Lampa/lampa_manual_12"
+                "img": "Mediastation/mediastation_12"
               },
               {
                 "name": "Далее выбираем \"Из Магазина\".",
-                "img": "Lampa/lampa_manual_13"
+                "img": "Mediastation/mediastation_13_ottplayfoss"
               },
               {
                 "name": "В магазине выбираем приложение \"Lampa\". Выбираем его и нажимаем \"Установить\".",
-                "img": "Lampa/lampa_manual_14"
-              },
-              {
-                "name": "В магазине выбираем приложение \"Lampa\". Выбираем его и нажимаем \"Установить\".",
-                "img": "Lampa/lampa_manual_15"
+                "img": "Lampa/lampa_manual_18"
               },
               {
                 "name": "В списке должен появиться новый элемент - Lampa.",
-                "img": "Lampa/lampa_manual_16"
+                "img": "Lampa/lampa_manual_19"
               },
               {
                 "name": "Теперь здесь есть возможность при желании добавлять нужные Вам дополнительные приложения."

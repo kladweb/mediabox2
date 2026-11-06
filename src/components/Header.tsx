@@ -2,14 +2,11 @@ import React, { useState } from 'react';
 import { NavLink, useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import { AppBar, Box, Menu, Container, Toolbar, Button, IconButton, MenuItem, Typography } from '@mui/material';
+import MenuIcon from "@mui/icons-material/Menu";
 import { nameApp } from "../data/dataIPTV";
 import type { ILocale, ILocales, ITranslateI18n } from "../types/typesBox";
 import { appColors } from "../styles/appColors.ts";
 import './header.css';
-
-function MenuIcon() {
-  return null;
-}
 
 export const Header = () => {
   const navigate = useNavigate();
@@ -32,8 +29,6 @@ export const Header = () => {
     ru: {title: "Русский"},
   }
 
-  // const lang = i18n.language;
-
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>): void => {
     setAnchorElNav(event.currentTarget);
   };
@@ -48,13 +43,6 @@ export const Header = () => {
   const handleCloseUserMenu = (): void => {
     setAnchorElUser(null);
   };
-
-  // const changeLanguage = (locale: string): void => {
-  //   setAnchorElUser(null);
-  //   if (locale && locale !== i18n.language) {
-  //     i18n.changeLanguage(locale);
-  //   }
-  // };
 
   const changeLanguage = (newLanguage: ILocale) => {
     const newPath = location.pathname.replace(
@@ -133,7 +121,7 @@ export const Header = () => {
             >
               {pages.map((page: string, index: number) => (
                 <NavLink
-                  to={`/ru/${navigation[index]}`}
+                  to={`/${lang}/${navigation[index]}`}
                   key={index}
                   className={`navPages-links navPages-links-${navigation[index]}`}
                 >
@@ -167,7 +155,7 @@ export const Header = () => {
               textDecoration: 'none',
             }}
           >
-            <NavLink to={'/'} key={0} className='navPages-links navPages-links-first'>
+            <NavLink to={`/${lang}`} key={0} className='navPages-links navPages-links-first'>
               {nameApp}
             </NavLink>
           </Typography>
@@ -213,7 +201,7 @@ export const Header = () => {
             </Button>
             <Menu
               sx={{mt: '45px'}}
-              id="menu-appbar"
+              id="language-menu"
               anchorEl={anchorElUser}
               anchorOrigin={{vertical: 'top', horizontal: 'right',}}
               keepMounted
