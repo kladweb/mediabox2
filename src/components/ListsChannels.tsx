@@ -26,7 +26,7 @@ export const ListsChannels = () => {
   return (
     <>
       <Box
-        component='h3'
+        component='h1'
         sx={{
           m: {xs: '2em auto 0.5em', md: '3em auto 0.5em'},
           width: '100%',

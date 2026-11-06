@@ -14,7 +14,7 @@ export const CardsOperators = () => {
   return (
     <>
       <Box
-        component='h3'
+        component='h1'
         sx={{
           m: {xs: '3.5em auto 0.5em', md: '3em auto 0.5em'},
           width: '100%',
@@ -40,7 +40,7 @@ export const CardsOperators = () => {
         }
       </Box>
       <Box
-        component='h3'
+        component='h2'
         sx={{
           m: '0.5em auto 2em',
           width: '100%',

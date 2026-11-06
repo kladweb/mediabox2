@@ -11,10 +11,18 @@ import { appColors } from "../services/appColors";
 import { ListChannel } from "./ListChannel";
 import type { ITranslate } from "../types/typesBox";
 
+interface IChannel {
+  src?: string;
+  name: string;
+  group: string;
+}
+
+type IChannelsData = Record<string, IChannel[]>;
+
 export const CategoriesOperator = () => {
   const {t}: ITranslate = useTranslation();
   const params: Readonly<Params<string>> = useParams();
-  const [channelsList, setChannelsList] = useState<object[]>([]);
+  const [channelsList, setChannelsList] = useState<IChannel[]>([]);
   const [isListLoaded, setIsListLoaded] = useState<boolean>(false);
   const [categoriesList, setCategoriesList] = useState<string[]>([]);
   const [expandedAccordions, setExpandedAccordions] = useState<number[]>([]);
@@ -33,21 +41,24 @@ export const CategoriesOperator = () => {
         'Accept': 'application/json'
       }
     })
-      .then((response) => response.json())
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error: ${response.status}`);
+        }
+
+        return response.json() as Promise<IChannelsData>;
+      })
       .then((data) => {
-        setChannelsList(data[operator]);
+        const channels = data[operator] ?? [];
+
+        setChannelsList(channels);
         setIsListLoaded(true);
-        const catList: string[] = [];
-        data[operator].forEach((_item: object, index: number) => {
-          if (!catList.includes(data[operator][index]['group'])) {
-            catList.push(data[operator][index]['group']);
-          }
-        });
+
+        const catList = [...new Set(channels.map((channel) => channel.group))];
+
         setCategoriesList(catList);
       })
-      .catch((error) => {
-        console.log(error);
-      });
+
   }, [operator]);
 
   const handlerOperator = (link: string): void => {
@@ -141,27 +152,19 @@ export const CategoriesOperator = () => {
                     <AccordionDetails
                       sx={{display: 'flex', justifyContent: 'center', flexWrap: 'wrap'}}
                     >
-                      {
-                        channelsList.map((channelObj: object, i: number) => {
-                          let srcImgChannel: string = channelObj['src' as keyof (typeof channelObj)];
-                          const altImgChannel: string = channelObj['name' as keyof (typeof channelObj)];
-                          const nameImgChannel: string = channelObj['name' as keyof (typeof channelObj)];
-                          if (!srcImgChannel) {
-                            srcImgChannel = '/img/channels/noimage.webp';
-                          }
-                          if (channelObj['group' as keyof (typeof channelObj)] === element) {
-                            return (
-                              <ListChannel
-                                key={`${operator}${i}`}
-                                index={i}
-                                srcImgChannel={srcImgChannel}
-                                altImgChannel={altImgChannel}
-                                nameImgChannel={nameImgChannel}
-                              />
-                            );
-                          }
-                        })
-                      }
+                      {channelsList.map((channel, i) => {
+                        if (channel.group !== element) return null;
+
+                        return (
+                          <ListChannel
+                            key={`${operator}${i}`}
+                            index={i}
+                            srcImgChannel={channel.src || '/img/channels/noimage.webp'}
+                            altImgChannel={channel.name}
+                            nameImgChannel={channel.name}
+                          />
+                        );
+                      })}
                     </AccordionDetails>
                   </Accordion>
                 );

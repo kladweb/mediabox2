@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "mediabox",
+  "main": "./src/index.ts",
   "compatibility_date": "2026-11-05",
   "observability": {
     "enabled": true,
@@ -8,7 +9,15 @@
   },
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "single-page-application"
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": [
+      "/",
+      "/ru",
+      "/ru/*",
+      "/en",
+      "/en/*"
+    ]
   },
   "previews": {}
 }

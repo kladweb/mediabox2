@@ -29,3 +29,6 @@ env
 
 # Local Netlify folder
 .netlify
+
+# Cloudflare Wrangler
+.wrangler/
