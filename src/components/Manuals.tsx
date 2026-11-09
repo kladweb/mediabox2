@@ -13,9 +13,16 @@ type ILink = {
   link: string;
 };
 
-type ManualOption = {
+type ManualAppliesTo = {
+  player?: string[];
+  device?: string[];
+  operator?: string[];
+};
+
+type Manual = {
   id: string;
   name: string;
+  appliesTo?: ManualAppliesTo;
   actions: Instruction[];
 };
 
@@ -23,15 +30,9 @@ type Instruction = {
   name?: string;
   img?: string;
   links?: ILink[];
-  options?: Record<string, ManualOption>;
+  options?: Record<string, Manual>;
   [key: `name${string}`]: string | undefined;
   [key: `img${string}`]: string | undefined;
-};
-
-type Manual = {
-  id: string;
-  name: string;
-  actions: Instruction[];
 };
 
 interface Manuals {
@@ -334,12 +335,17 @@ export const Manuals = () => {
     if (!manualItem || manualItem.length === 0) return null;
 
     return manualItem.map((manual: Manual) => {
-      if (
-        player === "ottplayer" &&
-        manual.id === "prepareBox"
-      ) {
-        return null;
-      }
+
+      if (manual.appliesTo && player && manual.appliesTo.player && !manual.appliesTo.player.includes(player)) return null;
+      if (manual.appliesTo && device && manual.appliesTo.device && !manual.appliesTo.device.includes(device)) return null;
+      if (manual.appliesTo && operator && manual.appliesTo.operator && !manual.appliesTo.operator.includes(operator)) return null;
+
+      // if (
+      //   player === "ottplayer" &&
+      //   manual.id === "prepareBox"
+      // ) {
+      //   return null;
+      // }
 
       actionNumber++;
 

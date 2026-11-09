@@ -2,6 +2,14 @@
   {
     "id": "prepareBox",
     "name": "Preparing your TV box for setup",
+    "appliesTo": {
+      "player": [
+        "televizo",
+        "ottnavigator",
+        "ottplayfoss",
+        "ottplaybyalex"
+      ]
+    },
     "actions": [
       {
         "name": "If you can connect a wired or Bluetooth keyboard to your TV box, we recommend doing so. It will make the setup process easier and more convenient."
