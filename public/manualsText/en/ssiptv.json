@@ -1,0 +1,154 @@
+[
+  {
+    "id": "installSsiptv",
+    "name": "Installing the SS IPTV app on an LG SMART TV",
+    "appliesTo": {
+      "device": [
+        "lgsmarttv"
+      ]
+    },
+    "actions": [
+      {
+        "name": "Open the TV's Smart menu. Go to \"LG Store\" and search for \"SS IPTV\"."
+      },
+      {
+        "name": "Click \"Install\". The app will be installed on your LG SMART TV."
+      }
+    ]
+  },
+  {
+    "id": "installSsiptv",
+    "name": "Installing the SS IPTV app on a SAMSUNG SMART TV",
+    "appliesTo": {
+      "device": [
+        "samsungsmarttv"
+      ]
+    },
+    "actions": [
+      {
+        "name": "On your Samsung Smart TV, you will need a USB flash drive to launch the SS-IPTV player. The flash drive must remain connected to the TV."
+      },
+      {
+        "name": "Select your SAMSUNG SMART TV model type:"
+      },
+      {
+        "options": {
+          "option1": {
+            "id": "option1",
+            "name": "Installation on Tizen TVs (modern TV models)",
+            "actions": [
+              {
+                "name": "Download the archive:",
+                "links": [
+                  {
+                    "name": "ssiptv_tizen_usb.zip",
+                    "link": "https://ss-iptv.com/files/ssiptv_tizen_usb.zip"
+                  }
+                ]
+              },
+              {
+                "name": "Extract the contents to the root directory of the USB flash drive."
+              },
+              {
+                "name": "Connect the USB flash drive to the TV while the TV is turned off."
+              },
+              {
+                "name": "Important: File paths matter. Make sure you extract the archive contents to the root folder of the USB flash drive."
+              },
+              {
+                "name": "For example, in Windows, the USB flash drive may be assigned the letter \"D\" (your drive may have a different letter). The D:\\userwidget folder should contain:",
+                "img": "SsIptv/ssiptv_manual11"
+              },
+              {
+                "name": "After turning on the TV, wait one minute. The app will install automatically."
+              }
+            ]
+          },
+          "option2": {
+            "id": "option2",
+            "name": "Installation on Non-Tizen TVs (models released in 2011–2015)",
+            "actions": [
+              {
+                "name": "Download the archive:",
+                "links": [
+                  {
+                    "name": "ssiptv_orsay_usb.zip",
+                    "link": "https://ss-iptv.com/files/ssiptv_orsay_usb.zip"
+                  }
+                ]
+              },
+              {
+                "name": "Extract the contents to the root directory of the USB flash drive."
+              },
+              {
+                "name": "Connect the USB flash drive to the TV while the TV is turned off."
+              },
+              {
+                "name": "Important: File paths matter. Make sure you extract the archive contents to the root folder of the USB flash drive."
+              },
+              {
+                "name": "For example, in Windows, the USB flash drive may be assigned the letter \"D\" (your drive may have a different letter). The D:\\ssiptv\\ folder should contain:",
+                "img": "SsIptv/ssiptv_manual12"
+              },
+              {
+                "name": "After turning on the TV, wait one minute and then open SmartHub. The player should appear there. The USB flash drive must remain connected to the TV for the player to work."
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "setupSsiptv",
+    "name": "Setting up and launching the SS IPTV app on a SMART TV",
+    "actions": [
+      {
+        "name": "Open the installed \"SS IPTV\" app on your TV and go to its settings.",
+        "img": "SsIptv/ssiptv_manual03"
+      },
+      {
+        "name": "In the settings, select \"Get code\".",
+        "img": "SsIptv/ssiptv_manual04"
+      },
+      {
+        "name": "On your computer, go to the player's website:",
+        "links": [
+          {
+            "name": "SS IPTV website",
+            "link": "https://ss-iptv.com/ru/users/playlist"
+          }
+        ]
+      },
+      {
+        "name": "Enter the connection code displayed on your TV and click \"ADD DEVICE\".",
+        "img": "SsIptv/ssiptv_manual05"
+      },
+      {
+        "name": "Then click \"ADD ITEM\".",
+        "img": "SsIptv/ssiptv_manual06"
+      },
+      {
+        "name": "In the window that appears, enter the following settings:",
+        "img": "SsIptv/ssiptv_manual07"
+      },
+      {
+        "name": "After entering all the details, click OK to confirm. Then return to the home page and be sure to click the Save button.",
+        "img": "SsIptv/ssiptv_manual08"
+      },
+      {
+        "name": "Return to your TV.\nIn the SS IPTV app, select the Refresh button in the upper-right corner.\nIf everything is set up correctly, a section with your playlist will appear on the start page.",
+        "img": "SsIptv/ssiptv_manual09"
+      },
+      {
+        "img": "SsIptv/ssiptv_manual10"
+      },
+      {
+        "name": "NOTE: The channel list shown in the screenshots may differ from yours. It depends on the provider (playlist) you have selected."
+      },
+      {
+        "name": "Enjoy watching!"
+      }
+    ]
+  }
+]
