@@ -1,9 +1,5 @@
 import { useTranslation } from "react-i18next";
 
-export type PropsStep = {
-  step: number;
-}
-
 export type PropsImg = {
   image: string;
 }

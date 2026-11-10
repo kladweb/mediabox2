@@ -59,7 +59,11 @@
     "name": "Copying the playlist to your device's media player",
     "actions": [
       {
-        "name": "In your account area, open the \"PLAYLIST\" tab and go to \"CHANNEL GROUPS\". Select the playlist type: either \"Standard\" or \"Thematic\" (recommended), depending on which channel groups you need. You can also untick any channels you don't want to include."
+        "name": "In your account area, open the \"PLAYLIST\" tab and go to \"CHANNEL GROUPS\". Select the playlist type: either \"Standard\" or \"Thematic\" (recommended), depending on which channel groups you need. You can also untick any channels you don't want to include.",
+        "img": "Ilooktv/ilooktv_manual5"
+      },
+      {
+        "img": "Ilooktv/ilooktv_manual51"
       },
       {
         "name": "Next, go to the \"DOWNLOAD\" section, select the playlist in m3u8 format, and save its URL. You can save the URL in a text file or simply take a screenshot."

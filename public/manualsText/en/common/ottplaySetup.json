@@ -1,0 +1,56 @@
+{
+  "id": "setup",
+  "name": "Set up the OTT-play app",
+  "actions": [
+    {
+      "name": "Launch the app and select your preferred language.",
+      "img": "OttPlay/ottplayfoss_manual4"
+    },
+    {
+      "name": "Next, select \"Manual setup\".",
+      "img": "OttPlay/ottplayfoss_manual5"
+    },
+    {
+      "name": "Go to \"Select playlist\".",
+      "img": "OttPlay/ottplayfoss_manual6"
+    },
+    {
+      "img": "OttPlay/ottplayfoss_manual7"
+    },
+    {
+      "name": "Tap \"Playlist name\" and enter any name you like for your playlist.",
+      "img": "OttPlay/ottplayfoss_manual8"
+    },
+    {
+      "img": "OttPlay/ottplayfoss_manual9"
+    },
+    {
+      "img": "OttPlay/ottplayfoss_manual10"
+    },
+    {
+      "name": "Go to \"Playlist URL\".",
+      "img": "OttPlay/ottplayfoss_manual11"
+    },
+    {
+      "name": "Enter the full URL of your playlist, which you saved in the step \"Copy the playlist URL for your device's player\". If you are setting up a TV box, you can paste the URL from the clipboard after copying it from the text file. If you are setting up a non-Android Smart TV, you will need to enter the URL manually. Fortunately, you only need to do this once.",
+      "img": "OttPlay/ottplayfoss_manual12"
+    },
+    {
+      "name": "Set the archive duration to 168 hours (the screenshot shows the outdated value of 72), then tap \"Load playlist\".",
+      "img": "OttPlay/ottplayfoss_manual13"
+    },
+    {
+      "name": "Your selected channel groups should now load!",
+      "img": "OttPlay/ottplayfoss_manual14"
+    },
+    {
+      "img": "OttPlay/ottplayfoss_manual15"
+    },
+    {
+      "name": "NOTE: The channel lineup in the screenshots may differ from yours. It depends on the provider (playlist) you selected."
+    },
+    {
+      "name": "Enjoy watching!"
+    }
+  ]
+}

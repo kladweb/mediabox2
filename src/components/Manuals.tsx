@@ -16,6 +16,7 @@ type ILink = {
 type ManualAppliesTo = {
   player?: string[];
   device?: string[];
+  devices?: string[];
   operator?: string[];
 };
 
@@ -94,7 +95,7 @@ const loadManual = (
 export const Manuals = () => {
   const {t}: ITranslate = useTranslation();
   const params: Readonly<Params<string>> = useParams();
-  const {language, operator, device, player} = params;
+  const {language, operator, devices, device, player} = params;
   const [manuals, setManuals] = useState<Manuals | null>(null);
   const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
   const [isOpenLoader, setIsOpenLoader] = useState<boolean>(true);
@@ -140,13 +141,6 @@ export const Manuals = () => {
         requests.push({
           key: "operator",
           promise: loadManual(operator, language),
-        });
-      }
-
-      if (device) {
-        requests.push({
-          key: "device",
-          promise: loadManual(device, language),
         });
       }
 
@@ -336,9 +330,25 @@ export const Manuals = () => {
 
     return manualItem.map((manual: Manual) => {
 
-      if (manual.appliesTo && player && manual.appliesTo.player && !manual.appliesTo.player.includes(player)) return null;
-      if (manual.appliesTo && device && manual.appliesTo.device && !manual.appliesTo.device.includes(device)) return null;
-      if (manual.appliesTo && operator && manual.appliesTo.operator && !manual.appliesTo.operator.includes(operator)) return null;
+      if (manual.appliesTo
+        && player
+        && manual.appliesTo.player
+        && !manual.appliesTo.player.includes(player)) return null;
+
+      if (manual.appliesTo
+        && devices
+        && manual.appliesTo.devices
+        && !manual.appliesTo.devices.includes(devices)) return null;
+
+      if (manual.appliesTo
+        && device
+        && manual.appliesTo.device
+        && !manual.appliesTo.device.includes(device)) return null;
+
+      if (manual.appliesTo
+        && operator
+        && manual.appliesTo.operator
+        && !manual.appliesTo.operator.includes(operator)) return null;
 
       // if (
       //   player === "ottplayer" &&

@@ -1,5 +1,8 @@
 [
   {
+    "source": "./common/androidtvbox.json"
+  },
+  {
     "id": "download",
     "name": "Downloading the Televizo app",
     "actions": [

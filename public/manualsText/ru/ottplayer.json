@@ -41,7 +41,12 @@
   },
   {
     "id": "installOttPlayer",
-    "name": "установка и настройка приложения OttPlayer",
+    "name": "установка приложения OttPlayer",
+    "appliesTo": {
+      "devices": [
+        "boxes"
+      ]
+    },
     "actions": [
       {
         "name": "Переходим в нашу ТВ приставку. Заходим в \"Google Play\" или в \"App Store\" и вбиваем в поиск \"OttPlayer\".",
@@ -50,7 +55,32 @@
       {
         "name": "Нажимаем \"Установить\".",
         "img": "Ottplayer/ottplayer_manual_13"
+      }
+    ]
+  },
+  {
+    "id": "installOttPlayer",
+    "name": "установка приложения OttPlayer",
+    "appliesTo": {
+      "devices": [
+        "smarttv"
+      ]
+    },
+    "actions": [
+      {
+        "name": "Переходим в смарт меню телевизора. Заходим в магазин приложений (LG Store, Samsung Apps или Google Play, в зависимости от типа Вашего SMART TV) и вбиваем в поиск \"OttPlayer\".",
+        "img": "Ottplayer/ottplayer_manual_12"
       },
+      {
+        "name": "Нажимаем \"Установить\".",
+        "img": "Ottplayer/ottplayer_manual_13"
+      }
+    ]
+  },
+  {
+    "id": "setupOttPlayer",
+    "name": "настройка приложения OttPlayer",
+    "actions": [
       {
         "name": "После установки запускаем приложение и нажимаем \"Начать\".",
         "img": "Ottplayer/ottplayer_manual_14"
