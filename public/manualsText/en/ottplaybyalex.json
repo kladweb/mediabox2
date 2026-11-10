@@ -1,7 +1,15 @@
 [
   {
+    "source": "./common/androidtvbox.json"
+  },
+  {
     "id": "download",
     "name": "Downloading the Ott-Play by Alex app",
+    "appliesTo": {
+      "devices": [
+        "boxes"
+      ]
+    },
     "actions": [
       {
         "name": "NOTES:\n1) Please note that this player blocks Russian public-service channels included in playlists.\n2) If you have already installed the \"OTT-play FOSS\" player, you won't be able to install \"Ott-Play by Alex\" alongside it. You must first uninstall \"OTT-play FOSS\". However, if you want to have both players installed on your device at the same time, one of them must be installed and launched through \"Media Station X\". We'll cover this setup in a separate guide later."
@@ -31,6 +39,11 @@
   {
     "id": "transferFiles",
     "name": "Transferring files to your TV box",
+    "appliesTo": {
+      "devices": [
+        "boxes"
+      ]
+    },
     "actions": [
       {
         "name": "On your TV box, open the Play Store and install File Manager. You can use any file manager that supports FTP file transfers.",
@@ -70,53 +83,116 @@
   {
     "id": "install",
     "name": "Installing the Ott-Play by Alex app",
+    "appliesTo": {
+      "devices": [
+        "boxes"
+      ]
+    },
     "actions": [
       {
-        "name": "Install the \"Ott-Play by Alex\" app and grant all the permissions requested during installation. Then open the app and select your preferred language.",
+        "name": "Install the \"Ott-Play by Alex\" app and grant all the permissions requested during installation.",
         "img": "OttPlay/ottplayfoss_manual4"
-      },
-      {
-        "name": "Next, select \"Manual setup\".",
-        "img": "OttPlay/ottplayfoss_manual5"
-      },
-      {
-        "name": "Go to \"Select playlist\".",
-        "img": "OttPlay/ottplayfoss_manual6"
-      },
-      {
-        "img": "OttPlay/ottplayfoss_manual7"
-      },
-      {
-        "name": "Tap \"Playlist name\" and enter any name you like for the playlist.",
-        "img": "OttPlay/ottplayfoss_manual8"
-      },
-      {
-        "img": "OttPlay/ottplayfoss_manual9"
-      },
-      {
-        "img": "OttPlay/ottplayfoss_manual10"
-      },
-      {
-        "name": "Go to \"Playlist URL\".",
-        "img": "OttPlay/ottplayfoss_manual11"
-      },
-      {
-        "name": "Set the archive duration to 168 hours and tap \"Load playlist\".",
-        "img": "OttPlay/ottplayfoss_manual12"
-      },
-      {
-        "name": "The selected channel groups should now load automatically!",
-        "img": "OttPlay/ottplayfoss_manual14"
-      },
-      {
-        "img": "OttPlay/ottplayfoss_manual15"
-      },
-      {
-        "name": "NOTE: The channel lineup shown in the screenshots may differ from yours. It depends on the IPTV provider (playlist) you have selected."
-      },
-      {
-        "name": "Enjoy watching!"
       }
     ]
+  },
+  {
+    "id": "install",
+    "name": "Install OTT-play on a Smart TV",
+    "appliesTo": {
+      "devices": [
+        "smarttv"
+      ]
+    },
+    "actions": [
+      {
+        "name": "On your Smart TV, open the app store, find Media Station X, and install it."
+      },
+      {
+        "name": "Open the Media Station X. Open \"Start Parameter\".",
+        "img": "Mediastation/mediastation_02"
+      },
+      {
+        "name": "Open \"Setup\".",
+        "img": "Mediastation/mediastation_03"
+      },
+      {
+        "name": "Next, choose how you want to use the Media Station X app:"
+      },
+      {
+        "name": "1) To launch the OTT-play app only. This means that whenever you open \"Media Station X\", OTT-play will launch automatically.\n2) To launch an app launcher. Choose this option if you want to add several apps to \"Media Station X\", for example, different players, or if you already have an IPTV app installed there."
+      },
+      {
+        "name": "Choose the option you prefer:"
+      },
+      {
+        "options": {
+          "option1": {
+            "id": "option1",
+            "name": "1. Launch the OTT-play app only",
+            "actions": [
+              {
+                "name": "In the \"HTTP Server\" field, enter \"ottp.eu.org\" and tap the checkmark.",
+                "img": "Mediastation/mediastation_04_ottplayfoss"
+              },
+              {
+                "name": "Next, tap \"Yes\".",
+                "img": "Mediastation/mediastation_05_ottplayfoss"
+              },
+              {
+                "name": "Open settings.",
+                "img": "Mediastation/mediastation_01"
+              },
+              {
+                "name": "Go to \"Link confirmation\" and change the setting to \"No\".",
+                "img": "Mediastation/mediastation_06"
+              },
+              {
+                "name": "or",
+                "img": "Mediastation/mediastation_07"
+              },
+              {
+                "name": "The next time you launch \"Media Station X\", select the \"OTT-play\" app."
+              }
+            ]
+          },
+          "option2": {
+            "id": "option2",
+            "name": "2. Launch the app launcher",
+            "actions": [
+              {
+                "name": "In the \"HTTP Server\" field, enter \"msxplayer.ru\" and tap the checkmark.",
+                "img": "Mediastation/mediastation_10"
+              },
+              {
+                "name": "Next, tap \"Yes\".",
+                "img": "Mediastation/mediastation_11"
+              },
+              {
+                "name": "The app will restart and open the Launcher. In the Launcher, tap \"+\".",
+                "img": "Mediastation/mediastation_12"
+              },
+              {
+                "name": "Next, select \"MSX Playlist\".",
+                "img": "Mediastation/mediastation_13_ottplayfoss"
+              },
+              {
+                "name": "In the \"HTTP Server\" field, enter \"ottp.eu.org\" and tap the checkmark.",
+                "img": "Mediastation/mediastation_14_ottplayfoss"
+              },
+              {
+                "name": "A new item should appear in the list. This is OTT-play FOSS.",
+                "img": "Mediastation/mediastation_15_ottplayfoss"
+              },
+              {
+                "name": "You can now add other apps here, such as Lampa, ottplayer, Kodi, and more."
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "source": "./common/ottplaySetup.json"
   }
 ]

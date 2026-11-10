@@ -24,7 +24,7 @@ export const CardsDevices = () => {
   return (
     <>
       <Box
-        component='h3'
+        component='h1'
         sx={{
           mt: 12,
           mx: 'auto',

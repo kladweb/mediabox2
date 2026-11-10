@@ -8,6 +8,8 @@
   "smarttv": "Телевизор с функцией SMART-TV (без приставки)",
   "androidtvbox": "ANDROID ТВ приставка",
   "appletv": "Apple TV приставка",
+  "lgsmarttv": "LG Smart TV",
+  "samsungsmarttv": "SAMSUNG Smart TV",
   "ottplaybyalex-Note": "не работают общественные каналы РФ",
   "headPlayer": "Выберите плеер для просмотра IPTV",
   "step": "ШАГ",

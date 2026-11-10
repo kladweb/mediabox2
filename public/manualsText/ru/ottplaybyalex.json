@@ -1,10 +1,18 @@
 [
   {
+    "source": "./common/androidtvbox.json"
+  },
+  {
     "id": "download",
     "name": "скачивание приложения Ott-Play by Alex",
+    "appliesTo": {
+      "devices": [
+        "boxes"
+      ]
+    },
     "actions": [
       {
-        "name": "ПРИМЕЧАНИЯ:\n1) Следует помнить, что этот плеер блокирует российские общественные каналы плейлистов.\n2) Если Вы уже установили плеер \"OTT-play FOSS\", то плеер \"Ott-Play by Alex\" установить не получится. Нужно сначала удалить \"OTT-play FOSS\". Но если Вы хотите, чтобы на Вашем устройстве было два этих плеера одновременно, то один из них нужно установить и запускать через \"Media Station X\". Эту инструкцию сделаем позже."
+        "name": "ПРИМЕЧАНИЯ:\n1) Следует помнить, что этот плеер блокирует российские общественные каналы плейлистов.\n2) Если Вы уже установили плеер \"OTT-play FOSS\", то плеер \"Ott-Play by Alex\" установить не получится. Нужно сначала удалить \"OTT-play FOSS\". Но если Вы хотите, чтобы на Вашем устройстве было два этих плеера одновременно, то один из них нужно установить и запускать через \"Media Station X\"."
       },
       {
         "name": "Итак, скачиваем приложение \"Ott-Play by Alex\":",
@@ -31,6 +39,11 @@
   {
     "id": "transferFiles",
     "name": "перенос файлов на ТВ-приставку",
+    "appliesTo": {
+      "devices": [
+        "boxes"
+      ]
+    },
     "actions": [
       {
         "name": "Переходим к приставке и открываем в ней PlayMarket. Скачиваем приложение File Manager. Можно скачать любой файловый менеджер, поддерживающий передачу данных по FTP.",
@@ -70,53 +83,116 @@
   {
     "id": "install",
     "name": "установка приложения Ott-Play by Alex",
+    "appliesTo": {
+      "devices": [
+        "boxes"
+      ]
+    },
     "actions": [
       {
-        "name": "Устанавливаем приложение \"Ott-Play by Alex\", предоставив ему все разрешения в процессе установки. Затем запускаем приложение и выбираем нужный Вам язык.",
+        "name": "Устанавливаем приложение \"Ott-Play by Alex\", предоставив ему все разрешения в процессе установки.",
         "img": "OttPlay/ottplayfoss_manual4"
-      },
-      {
-        "name": "Далее выбираем \"Ручная настройка\".",
-        "img": "OttPlay/ottplayfoss_manual5"
-      },
-      {
-        "name": "Переходим на \"Выберите плейлист\".",
-        "img": "OttPlay/ottplayfoss_manual6"
-      },
-      {
-        "img": "OttPlay/ottplayfoss_manual7"
-      },
-      {
-        "name": "Кликаем на \"Название плейлиста\" и вводим любое название плейлиста, какое Вам нравится.",
-        "img": "OttPlay/ottplayfoss_manual8"
-      },
-      {
-        "img": "OttPlay/ottplayfoss_manual9"
-      },
-      {
-        "img": "OttPlay/ottplayfoss_manual10"
-      },
-      {
-        "name": "Переходим на пункт \"Адрес плейлиста\".",
-        "img": "OttPlay/ottplayfoss_manual11"
-      },
-      {
-        "name": "Устанавливаем количество часов архива 168 и нажимаем \"Загрузить плейлист\".",
-        "img": "OttPlay/ottplayfoss_manual12"
-      },
-      {
-        "name": "И сразу же наши выбранные группы каналов должны загрузиться!",
-        "img": "OttPlay/ottplayfoss_manual14"
-      },
-      {
-        "img": "OttPlay/ottplayfoss_manual15"
-      },
-      {
-        "name": "ПРИМЕЧАНИЕ: набор каналов на скриншотах может отличаться от Ваших. Это зависит от выбранного Вами оператора (плейлиста)."
-      },
-      {
-        "name": "Приятного просмотра!"
       }
     ]
+  },
+  {
+    "id": "install",
+    "name": "установка приложения OTT-play на SMART TV",
+    "appliesTo": {
+      "devices": [
+        "smarttv"
+      ]
+    },
+    "actions": [
+      {
+        "name": "Переходим в телевизор SMART TV. В магазине приложений ищем и устанавливаем приложение Media Station X."
+      },
+      {
+        "name": "Открываем приложение Media Station X. Открываем Start Parameter.",
+        "img": "Mediastation/mediastation_02"
+      },
+      {
+        "name": "Открываем Setup.",
+        "img": "Mediastation/mediastation_03"
+      },
+      {
+        "name": "Далее нужно выбрать вариант, как Вы будете использовать приложение Media Station X:"
+      },
+      {
+        "name": "1) Только для запуска приложения OTT-play by Alex. Т.е. по запуску \"Media Station X\" будет сразу же автоматически запускаться OTT-play.\n2) Для запуска лаунчера приложений. Используется когда Вам нужно установить в \"Media Station X\" сразу несколько приложений, например, разные виды плееров или у Вас уже здесь установлено приложение для IPTV."
+      },
+      {
+        "name": "Выберите желаемый вариант:"
+      },
+      {
+        "options": {
+          "option1": {
+            "id": "option1",
+            "name": "1. Только для запуска приложения OTT-play by Alex",
+            "actions": [
+              {
+                "name": "В поле \"HTTP Server\" вводим адрес: \"ottp.eu.org\" и нажимаем на галочку.",
+                "img": "Mediastation/mediastation_04_ottplayfoss"
+              },
+              {
+                "name": "Далее нажимаем \"Yes\".",
+                "img": "Mediastation/mediastation_05_ottplayfoss"
+              },
+              {
+                "name": "Заходим в настройки (Settings).",
+                "img": "Mediastation/mediastation_01"
+              },
+              {
+                "name": "Переходим в пункт \"Подтверждение ссылок\". Меняем значение на \"Нет\" или \"No\".",
+                "img": "Mediastation/mediastation_06"
+              },
+              {
+                "name": "или",
+                "img": "Mediastation/mediastation_07"
+              },
+              {
+                "name": "Теперь, при следующем запуске приложения \"Media Station X\", нужно выбрать приложение \"OTT-play\"."
+              }
+            ]
+          },
+          "option2": {
+            "id": "option2",
+            "name": "2. Для запуска лаунчера приложений",
+            "actions": [
+              {
+                "name": "В поле \"HTTP Server\" вводим адрес: \"msxplayer.ru\" и нажимаем на галочку.",
+                "img": "Mediastation/mediastation_10"
+              },
+              {
+                "name": "Далее нажимаем \"Yes\".",
+                "img": "Mediastation/mediastation_11"
+              },
+              {
+                "name": "Приложение перезагрузится и вы попадете в так называемый Лаунчер. В нем нажимаем на \"+\".",
+                "img": "Mediastation/mediastation_12"
+              },
+              {
+                "name": "Далее выбираем \"Из Магазина\".",
+                "img": "Mediastation/mediastation_13_ottplaybyalex"
+              },
+              {
+                "name": "В магазине выбираем приложение \"OTT-Play\". Выбираем его и нажимаем \"Установить\".",
+                "img": "Mediastation/mediastation_14_ottplaybyalex"
+              },
+              {
+                "name": "В списке должен появиться новый элемент, это и есть OTT-play FOSS.",
+                "img": "Mediastation/mediastation_15_ottplaybyalex"
+              },
+              {
+                "name": "Теперь здесь есть возможность добавлять нужные Вам приложения (Lampa, ottplayer, Kodi и т.д.)."
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "source": "./common/ottplaySetup.json"
   }
 ]

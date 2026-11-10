@@ -1,0 +1,194 @@
+[
+  {
+    "source": "./common/androidtvbox.json"
+  },
+  {
+    "id": "download",
+    "name": "Download the OTT-play FOSS app",
+    "appliesTo": {
+      "devices": [
+        "boxes"
+      ]
+    },
+    "actions": [
+      {
+        "name": "NOTE: If you have already installed the \"Ott-Play by Alex\" player, you will not be able to install \"OTT-play FOSS\". You must first uninstall \"Ott-Play by Alex\". However, if you want to have both players installed on your device at the same time, one of them must be installed and launched through \"Media Station X\"."
+      },
+      {
+        "name": "Now, let’s download the \"OTT-play FOSS\" app:",
+        "links": [
+          {
+            "name": "Official website",
+            "link": "https://ottp.eu.org/www/install/android/"
+          },
+          {
+            "name": "Direct download",
+            "link": "https://github.com/prog4food/ottplay-foss-android/releases/download/v1.54-bin/ott-play_1.54-foss.apk"
+          }
+        ]
+      },
+      {
+        "name": "Next, we need to transfer this APK file to the TV box. If you saved your playlist URL in a text file, transfer that file as well. If your TV box has a USB port, you can simply copy these files using a USB flash drive. However, many popular compact TV boxes come in the form of streaming sticks without a USB port. So, we’ll look at a simple and convenient way to transfer files to an ANDROID TV box without using a USB flash drive."
+      }
+    ]
+  },
+  {
+    "id": "transferFiles",
+    "name": "Transfer files to the TV box",
+    "appliesTo": {
+      "devices": [
+        "boxes"
+      ]
+    },
+    "actions": [
+      {
+        "name": "On your TV box, open the Play Store and download the File Manager app. You can use any file manager that supports FTP file transfers.",
+        "img": "AndroidHelp/androidtvbox_manual1"
+      },
+      {
+        "name": "Download, install and open it. Select \"Network access\".",
+        "img": "AndroidHelp/androidtvbox_manual2"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual3"
+      },
+      {
+        "name": "Start the file access service over the network. Your computer and TV box must be connected to the same router, meaning they must be on the same network.",
+        "img": "AndroidHelp/androidtvbox_manual4"
+      },
+      {
+        "name": "Return to your computer. Open \"This PC\" and enter the address shown in the app on your TV box in the address bar. (In the previous screenshot, the address is \"ftp://192.168.1.97:3740\". Your address will be different.) Then enter the username and password shown in the app. (Use your own credentials; the screenshot is only an example.)"
+      },
+      {
+        "name": "A folder named \"device\" will then open on your computer (it may have a different name on your device). You now have access to the files on your TV box from your computer. Open \"device/download/\" and drag the files you downloaded earlier into this folder.",
+        "img": "AndroidHelp/androidtvbox_manual5_ottplayfoss_2"
+      },
+      {
+        "name": "Return to your TV box and use any file manager to find and open the \"download\" folder. You should now see your files there.",
+        "img": "AndroidHelp/androidtvbox_manual6"
+      },
+      {
+        "img": "AndroidHelp/androidtvbox_manual7"
+      },
+      {
+        "name": "The main app we need here is OTT-play FOSS. As mentioned earlier, the other apps are optional and are only intended to make it easier to enter the long playlist URL. We won't cover these helper apps in detail here.",
+        "img": "AndroidHelp/androidtvbox_manual8_ottplayfoss_2"
+      }
+    ]
+  },
+  {
+    "id": "install",
+    "name": "Install the OTT-play FOSS app",
+    "appliesTo": {
+      "devices": [
+        "boxes"
+      ]
+    },
+    "actions": [
+      {
+        "name": "Install the \"OTT-play FOSS\" app, granting all the permissions requested during installation.",
+        "img": "OttPlay/ottplayfoss_manual4"
+      }
+    ]
+  },
+  {
+    "id": "install",
+    "name": "Install OTT-play on a Smart TV",
+    "appliesTo": {
+      "devices": [
+        "smarttv"
+      ]
+    },
+    "actions": [
+      {
+        "name": "On your Smart TV, open the app store, find Media Station X, and install it."
+      },
+      {
+        "name": "Open the Media Station X. Open \"Start Parameter\".",
+        "img": "Mediastation/mediastation_02"
+      },
+      {
+        "name": "Open \"Setup\".",
+        "img": "Mediastation/mediastation_03"
+      },
+      {
+        "name": "Next, choose how you want to use the Media Station X app:"
+      },
+      {
+        "name": "1) To launch the OTT-play app only. This means that whenever you open \"Media Station X\", OTT-play will launch automatically.\n2) To launch an app launcher. Choose this option if you want to add several apps to \"Media Station X\", for example, different players, or if you already have an IPTV app installed there."
+      },
+      {
+        "name": "Choose the option you prefer:"
+      },
+      {
+        "options": {
+          "option1": {
+            "id": "option1",
+            "name": "1. Launch the OTT-play app only",
+            "actions": [
+              {
+                "name": "In the \"HTTP Server\" field, enter \"ottp.eu.org\" and tap the checkmark.",
+                "img": "Mediastation/mediastation_04_ottplayfoss"
+              },
+              {
+                "name": "Next, tap \"Yes\".",
+                "img": "Mediastation/mediastation_05_ottplayfoss"
+              },
+              {
+                "name": "Open settings.",
+                "img": "Mediastation/mediastation_01"
+              },
+              {
+                "name": "Go to \"Link confirmation\" and change the setting to \"No\".",
+                "img": "Mediastation/mediastation_06"
+              },
+              {
+                "name": "or",
+                "img": "Mediastation/mediastation_07"
+              },
+              {
+                "name": "The next time you launch \"Media Station X\", select the \"OTT-play\" app."
+              }
+            ]
+          },
+          "option2": {
+            "id": "option2",
+            "name": "2. Launch the app launcher",
+            "actions": [
+              {
+                "name": "In the \"HTTP Server\" field, enter \"msxplayer.ru\" and tap the checkmark.",
+                "img": "Mediastation/mediastation_10"
+              },
+              {
+                "name": "Next, tap \"Yes\".",
+                "img": "Mediastation/mediastation_11"
+              },
+              {
+                "name": "The app will restart and open the Launcher. In the Launcher, tap \"+\".",
+                "img": "Mediastation/mediastation_12"
+              },
+              {
+                "name": "Next, select \"MSX Playlist\".",
+                "img": "Mediastation/mediastation_13_ottplayfoss"
+              },
+              {
+                "name": "In the \"HTTP Server\" field, enter \"ottp.eu.org\" and tap the checkmark.",
+                "img": "Mediastation/mediastation_14_ottplayfoss"
+              },
+              {
+                "name": "A new item should appear in the list. This is OTT-play FOSS.",
+                "img": "Mediastation/mediastation_15_ottplayfoss"
+              },
+              {
+                "name": "You can now add other apps here, such as Lampa, ottplayer, Kodi, and more."
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "source": "./common/ottplaySetup.json"
+  }
+]
