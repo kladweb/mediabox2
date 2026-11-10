@@ -1,4 +1,4 @@
-import { getSeoData, OG_IMAGE, SITE_NAME } from './seo/seo';
+import { getSeoData, SITE_NAME } from './seo/seo';
 
 interface Env {
   ASSETS: {
@@ -92,7 +92,7 @@ export default {
       })
       .on('meta[property="og:image"]', {
         element(element) {
-          element.setAttribute('content', OG_IMAGE);
+          element.setAttribute('content', seo.ogImage);
         },
       })
 
@@ -109,7 +109,7 @@ export default {
       })
       .on('meta[name="twitter:image"]', {
         element(element) {
-          element.setAttribute('content', OG_IMAGE);
+          element.setAttribute('content', seo.ogImage);
         },
       })
       .on('meta[name="twitter:card"]', {
