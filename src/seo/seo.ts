@@ -1,7 +1,9 @@
-
 const SITE_URL = 'https://mediabox.mov';
 const SITE_NAME = 'MEDIABOX';
-const OG_IMAGE = `${SITE_URL}/open.webp`;
+const OG_IMAGES: Record<Language, string> = {
+  ru: `${SITE_URL}/open.webp`,
+  en: `${SITE_URL}/open-en.webp`,
+};
 
 type Language = 'ru' | 'en';
 
@@ -20,6 +22,7 @@ type SeoResult = SeoData & {
   alternateEn: string;
   defaultUrl: string;
   ogLocale: string;
+  ogImage: string;
   hreflang: boolean;
 };
 
@@ -164,8 +167,9 @@ export const getSeoData = (pathname: string): SeoResult => {
     alternateEn: `${SITE_URL}${buildPath('en', suffix)}`,
     defaultUrl: `${SITE_URL}${buildPath('ru', suffix)}`,
     ogLocale: language === 'ru' ? 'ru_RU' : 'en_US',
+    ogImage: OG_IMAGES[language],
     hreflang: ['home', 'iptv', 'media', 'about'].includes(pageType),
   };
 };
 
-export { SITE_URL, SITE_NAME, OG_IMAGE };
+export { SITE_URL, SITE_NAME };
