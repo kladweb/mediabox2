@@ -16,7 +16,7 @@ export const CardsOperators = () => {
       <Box
         component='h1'
         sx={{
-          m: {xs: '3.5em auto 0.5em', md: '3em auto 0.5em'},
+          m: {xs: '3.5em auto 0.5em', md: '2.6em auto 0.5em'},
           width: '100%',
           fontSize: {xs: '1.5rem', md: '2rem'},
           fontWeight: '400',

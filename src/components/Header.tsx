@@ -171,7 +171,8 @@ export const Header = () => {
                   key={page}
                   onClick={handleCloseNavMenu}
                   sx={{
-                    mx: 2,
+                    mx: {md: 1.2, lg: 2},
+                    fontSize: {md: '0.94em', lg: '1em'},
                     color: appColors.light1,
                     display: 'block',
                     textTransform: 'uppercase',
@@ -189,7 +190,8 @@ export const Header = () => {
             <Button
               onClick={handleOpenUserMenu}
               sx={{
-                my: {xs: 1, md: 1.5},
+                my: {xs: 1, md: 1.4},
+                fontSize: {md: '0.9em', lg: '0.96em'},
                 color: appColors.light1,
                 display: 'block',
                 ':hover': {
