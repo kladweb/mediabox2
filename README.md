@@ -4,7 +4,7 @@
 
 The project aims to make device configuration easier with clear instructions, illustrations, and a simple user interface.
 
-🌐 **Live Demo:** [mediabox2.kladpav.workers.dev](https://mediabox2.kladpav.workers.dev/)
+🌐 **Live Demo:** [mediabox.mov](https://mediabox.mov)
 
 ---
 
