@@ -1,18 +1,18 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 import { MainLayout } from "../layouts/MainLayout.tsx";
 import { PageMain } from "../pages/PageMain.tsx";
-import { useTranslation } from "react-i18next";
-import type { ITranslateI18n } from "../types/typesBox.ts";
 import { PageChoosingOperator } from "../pages/PageChoosingOperator.tsx";
 import { PageChannels } from "../pages/PageChannels";
-import { CategoriesOperator } from "../components/CategoriesOperator.tsx";
 import { PageOperators } from '../pages/PageOperators';
 import { PageDevices } from '../pages/PageDevices';
 import { PagePlayers } from "../pages/PagePlayers";
 import { PageManual } from "../pages/PageManual";
 import { PageCinemas } from "../pages/PageCinemas";
-import { Blank } from "../components/Blank";
 import { PageAbout } from "../pages/PageAbout";
+import { CategoriesOperator } from "../components/CategoriesOperator.tsx";
+import { Blank } from "../components/Blank";
+import type { ITranslateI18n } from "../types/typesBox.ts";
 
 export const PagesRouter = () => {
   const {i18n}: ITranslateI18n = useTranslation();
