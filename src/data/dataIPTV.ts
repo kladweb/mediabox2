@@ -145,7 +145,7 @@ const smartTvPlayers = [
   'OttPlayer',
 ];
 
-export const mediabox = {
+export const manualsTree = {
   iptv: {
     boxes: {
       androidtvbox: androidPlayers,
