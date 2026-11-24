@@ -68,7 +68,8 @@ export const operators: Ioperators = {
   sharavoz: {
     name: 'Sharavoz',
     links: [
-      'https://ztempz.xyz/YZoaV4m2wgp-qvc0IYnwHb4TgHBqZaaFgzY8AoVUr2zQJ8fB-w4elw=='
+      // 'https://ztempz.xyz/YZoaV4m2wgp-qvc0IYnwHb4TgHBqZaaFgzY8AoVUr2zQJ8fB-w4elw==',
+      'https://ztempz.xyz/YZoaV4m2wgp-qvc0IYnwHb4TgHBqZaaF1T08okKH4Es=',
     ],
 
     epg: 'http://iptv-content.webhop.net/guide.xml'
