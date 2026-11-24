@@ -32,8 +32,13 @@ export const PagesRouter = () => {
         <Route path='iptv/:operator/:devices' element={<PageDevices/>}/>
         <Route path='iptv/:operator/:devices/:device' element={<PagePlayers/>}/>
         <Route path='iptv/:operator/:devices/:device/:player' element={<PageManual/>}/>
-        <Route path='media' element={<PageCinemas/>}/>
-        <Route path='media/:player' element={<PageManual/>}/>
+
+        <Route path='media' element={<PageDevices/>}/>
+        <Route path='media/:devices' element={<PageCinemas/>}/>
+        <Route path='media/:devices/:player' element={<PageManual/>}/>
+
+        {/*<Route path='media' element={<PageCinemas/>}/>*/}
+        {/*<Route path='media/:player' element={<PageManual/>}/>*/}
         <Route path='faq' element={<Blank/>}/>
         <Route path='about' element={<PageAbout/>}/>
       </Route>

@@ -55,6 +55,7 @@ export const CardsDevices = () => {
                 <>
                   {devices[devicesPage as keyof (typeof devices)].map((device: string, i: number) => {
                     device = device.replace(/[\s]/g, '').toLowerCase();
+                    console.log(device);
                     return (<CardDevice key={i} device={device}/>);
                   })}
                 </>

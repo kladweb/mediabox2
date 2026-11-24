@@ -91,10 +91,16 @@ export interface Iplayers {
 }
 
 export interface Icinemas {
-  hdvideobox: string,
-  lampaandroid: string,
-  lampasmarttv: string,
-  lampabrowser: string
+  androidtvbox: {
+    lampaandroid: string,
+    hdvideobox: string,
+  },
+  smarttv: {
+    lampasmarttv: string,
+  },
+  browser: {
+    lampabrowser: string
+  }
 }
 
 type IOperator = {
@@ -114,5 +120,6 @@ export interface Ioperators {
   tvteam: IOperator,
   russkoetv: IOperator,
 }
+
 
 // export type ContextCategoriesType = { [index: string]: any };
