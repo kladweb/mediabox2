@@ -2,12 +2,15 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Card, CardContent, CardMedia, Typography, CardActionArea, Skeleton } from '@mui/material';
 import { appColors } from "../services/appColors";
-import { cinemas } from "../data/dataIPTV";
+import { manualsTree } from "../data/dataIPTV";
 import type { ITranslate, PropsCinema } from "../types/typesBox";
 
-export const CardCinema = ({cinema}: PropsCinema) => {
+export const CardCinema = ({cinema, devicesPage}: PropsCinema) => {
   const {t}: ITranslate = useTranslation();
   const [loaded, setLoaded] = useState<boolean>(false);
+  // console.log(manualsTree.media[devicesPage as keyof typeof manualsTree.media][cinema])
+  console.log(cinema);
+  // console.log(manualsTree.media[devicesPage as keyof typeof manualsTree.media])
 
   return (
     <Card sx={{
@@ -42,7 +45,8 @@ export const CardCinema = ({cinema}: PropsCinema) => {
         }
         <CardContent sx={{display: "block", width: '75%', color: `${appColors.mid1}`}}>
           <Typography gutterBottom component="div" sx={{mt: "0.25em", fontSize: '1.5em', lineHeight: '1em'}}>
-            {cinemas[cinema as keyof (typeof cinemas)]}
+            {/*{cinemas[cinema as keyof (typeof cinemas)]}*/}
+            {manualsTree.media[devicesPage as keyof typeof manualsTree.media][cinema]}
           </Typography>
           <Typography gutterBottom component="div" sx={{m: "0", fontSize: '1em', lineHeight: '1.25em'}}>
             {t(`shared:${cinema}-note`)}

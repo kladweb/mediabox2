@@ -1,4 +1,4 @@
-import type { Icinemas, Idevices, Ioperators, Iplayers, IplayersAll } from "../types/typesBox";
+import type { Icinemas, Idevices, IManualsTree, Ioperators, Iplayers, IplayersAll } from "../types/typesBox";
 
 export const nameApp: string
   = 'MEDIABOX';
@@ -145,7 +145,7 @@ const smartTvPlayers = [
   'OttPlayer',
 ];
 
-export const manualsTree = {
+export const manualsTree: IManualsTree = {
   iptv: {
     boxes: {
       androidtvbox: androidPlayers,
@@ -155,6 +155,18 @@ export const manualsTree = {
       lgsmarttv: smartTvPlayers,
       samsungsmarttv: smartTvPlayers,
       androidtv: androidPlayers,
+    }
+  },
+  media: {
+    androidtvbox: {
+      lampaandroid: 'Lampa for android',
+      hdvideobox: 'HD Videobox'
+    },
+    smarttv: {
+      lampasmarttv: 'Lampa for Smart TV'
+    },
+    browser: {
+      lampabrowser: 'Lampa for browser'
     }
   }
 }

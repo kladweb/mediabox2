@@ -5,7 +5,8 @@ export type PropsImg = {
 }
 
 export type PropsCinema = {
-  cinema: string
+  cinema: string;
+  devicesPage: string
 }
 
 export type PropsDevice = {
@@ -121,5 +122,22 @@ export interface Ioperators {
   russkoetv: IOperator,
 }
 
+export interface IManualsTree {
+  iptv: {
+    boxes: Record<string, string[]>;
+    smarttv: Record<string, string[]>;
+  };
+  media: {
+    androidtvbox: Record<string, string>;
+    smarttv: Record<string, string>;
+    browser: Record<string, string>;
+  };
+}
+
+export type TManualsSection = keyof IManualsTree;
+
+export type TDevicesPage = {
+  [K in keyof IManualsTree]: keyof IManualsTree[K]
+}[keyof IManualsTree];
 
 // export type ContextCategoriesType = { [index: string]: any };
