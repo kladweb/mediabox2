@@ -9,6 +9,7 @@
   "androidtvbox": "ANDROID ТВ приставка",
   "appletv": "Apple TV приставка",
   "lgsmarttv": "LG Smart TV",
+  "androidtv": "Android smart TV",
   "samsungsmarttv": "SAMSUNG Smart TV",
   "ottplaybyalex-Note": "не работают общественные каналы РФ",
   "headPlayer": "Выберите плеер для просмотра IPTV",
@@ -19,5 +20,6 @@
   "lampabrowser-note": "Приложение для браузеров (на PC, SMART TV и др.)",
   "headApplication": "Медиасервисы и приложения для просмотра фильмов",
   "blank": "Страница находится в разработке ...\nПриносим извинения.",
-  "loadManual": "Формируем инструкцию..."
+  "loadManual": "Формируем инструкцию...",
+  "browser": "Браузер"
 }

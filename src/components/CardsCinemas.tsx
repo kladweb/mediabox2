@@ -1,14 +1,20 @@
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+import { NavLink, type Params, useParams } from "react-router-dom";
 import { Box } from '@mui/material';
 import { appColors } from "../services/appColors";
-import { cinemas } from "../data/dataIPTV";
 import { CardCinema } from "./CardCinema";
 import type { ITranslate } from "../types/typesBox";
+import { manualsTree } from "../data/dataIPTV.ts";
 import './cards.css';
 
 export const CardsCinemas = () => {
   const {t}: ITranslate = useTranslation();
+  const params: Readonly<Params<string>> = useParams();
+  const devicesPage: string | undefined = params.devices;
+
+  if (!devicesPage) return null;
+
+  const cinemas = Object.keys(manualsTree.media[devicesPage as keyof typeof manualsTree.media]);
 
   return (
     <>
@@ -33,13 +39,13 @@ export const CardsCinemas = () => {
       }}
       >
         {
-          Object.keys(cinemas).map((cinema: string, i: number) =>
+          cinemas.map((cinema: string, i: number) =>
             <NavLink
               key={i}
               to={cinema}
               className='nav-cards'
             >
-              <CardCinema cinema={cinema}/>
+              <CardCinema cinema={cinema} devicesPage={devicesPage}/>
             </NavLink>
           )
         }

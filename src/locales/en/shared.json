@@ -8,6 +8,9 @@
   "smarttv": "TV with SMART-TV function (without TV BOX)",
   "androidtvbox": "ANDROID TV BOX",
   "appletv": "Apple TV",
+  "lgsmarttv": "LG Smart TV",
+  "androidtv": "Android smart TV",
+  "samsungsmarttv": "SAMSUNG Smart TV",
   "ottplaybyalex-Note": "Russian public channels do not work",
   "headPlayer": "Select a player to watch IPTV",
   "step": "STEP",
@@ -17,5 +20,6 @@
   "lampabrowser-note": "Application for browsers (on PC, SMART TV, etc.)",
   "headApplication": "Media Services and Apps for Watching Movies",
   "blank": "This page is under development ...\nWe apologize.",
-  "loadManual": "Making the manual..."
+  "loadManual": "Making the manual...",
+  "browser": "Browser"
 }

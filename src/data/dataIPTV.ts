@@ -1,4 +1,4 @@
-import type { Icinemas, Idevices, Ioperators, Iplayers, IplayersAll } from "../types/typesBox";
+import type { Icinemas, Idevices, IManualsTree, Ioperators, Iplayers, IplayersAll } from "../types/typesBox";
 
 export const nameApp: string
   = 'MEDIABOX';
@@ -28,7 +28,6 @@ export const players: Iplayers = {
     'OttPlayer',
   ],
   appletv: [
-    // 'rIPTV',
     'Flex IPTV',
     'OttPlayer',
   ],
@@ -115,8 +114,61 @@ export const operators: Ioperators = {
 }
 
 export const cinemas: Icinemas = {
-  hdvideobox: 'HD Videobox',
-  lampaandroid: 'Lampa for android',
-  lampasmarttv: 'Lampa for Smart TV',
-  lampabrowser: 'Lampa for browser'
+  androidtvbox: {
+    lampaandroid: 'Lampa for android',
+    hdvideobox: 'HD Videobox'
+  },
+  smarttv: {
+    lampasmarttv: 'Lampa for Smart TV'
+  },
+  browser: {
+    lampabrowser: 'Lampa for browser'
+  }
 }
+
+const androidPlayers = [
+  'Televizo',
+  'OTT Navigator',
+  'OTT-play FOSS',
+  'Ott-Play by Alex',
+  'OttPlayer',
+];
+
+const appletvPlayers = [
+  'Flex IPTV',
+  'OttPlayer',
+];
+
+const smartTvPlayers = [
+  'OTT-play FOSS',
+  'Ott-Play by Alex',
+  'SS IPTV',
+  'OttPlayer',
+];
+
+export const manualsTree: IManualsTree = {
+  iptv: {
+    boxes: {
+      androidtvbox: androidPlayers,
+      appletv: appletvPlayers,
+    },
+    smarttv: {
+      lgsmarttv: smartTvPlayers,
+      samsungsmarttv: smartTvPlayers,
+      androidtv: androidPlayers,
+    }
+  },
+  media: {
+    androidtvbox: {
+      lampaandroid: 'Lampa for android',
+      hdvideobox: 'HD Videobox'
+    },
+    smarttv: {
+      lampasmarttv: 'Lampa for Smart TV'
+    },
+    browser: {
+      lampabrowser: 'Lampa for browser'
+    }
+  }
+}
+
