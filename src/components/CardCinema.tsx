@@ -8,9 +8,6 @@ import type { ITranslate, PropsCinema } from "../types/typesBox";
 export const CardCinema = ({cinema, devicesPage}: PropsCinema) => {
   const {t}: ITranslate = useTranslation();
   const [loaded, setLoaded] = useState<boolean>(false);
-  // console.log(manualsTree.media[devicesPage as keyof typeof manualsTree.media][cinema])
-  console.log(cinema);
-  // console.log(manualsTree.media[devicesPage as keyof typeof manualsTree.media])
 
   return (
     <Card sx={{

@@ -2,7 +2,6 @@ import { useTranslation } from "react-i18next";
 import { NavLink, type Params, useParams } from "react-router-dom";
 import { Box } from '@mui/material';
 import { appColors } from "../services/appColors";
-// import { cinemas } from "../data/dataIPTV";
 import { CardCinema } from "./CardCinema";
 import type { ITranslate } from "../types/typesBox";
 import { manualsTree } from "../data/dataIPTV.ts";
@@ -16,7 +15,6 @@ export const CardsCinemas = () => {
   if (!devicesPage) return null;
 
   const cinemas = Object.keys(manualsTree.media[devicesPage as keyof typeof manualsTree.media]);
-  console.log(cinemas);
 
   return (
     <>
